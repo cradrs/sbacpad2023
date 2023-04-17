@@ -35,7 +35,7 @@ committees:
           - name: "Claude Tadonki"
             institution: "MINES ParisTech Institute, France"
           - name: "Daniele De Sensi"
-            instituion: "Sapienza University of Rome, Italy"
+            institution: "Sapienza University of Rome, Italy"
       - name: "Local Organization"
         people:
           - name: "Antonio C. S. Beck Filho"
