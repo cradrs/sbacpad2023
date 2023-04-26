@@ -56,7 +56,7 @@ title: "Home"
     </div>
     <section>
         <div class="row" id="about_host_city">
-            <div class="col-md-5 offset-md-1">
+            <div class="col-lg-5 col-offset-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1">
                 <h1 class="text-uppercase">Porto Alegre welcomes SBAC-PAD 2023</h1>
                 <p>
                     In 2023, SBAC-PAD will be held at the Pontifical Catholic University of Rio Grande do Sul (PUCRS) in
@@ -78,7 +78,7 @@ title: "Home"
                     >.
                 </p>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-5 d-none d-lg-block">
                 <img
                     src="assets/img/portoalegre.jpg"
                     alt="Porto Alegre city"
@@ -87,102 +87,27 @@ title: "Home"
             </div>
         </div>
     </section>
-    <div class="row" id="aims_and_scope">
-        <div class="col-md-10 offset-md-1">
-            <section>
-                <h1>Aims and Scope</h1>
-                <p>
-                    Authors are invited to submit manuscripts on a wide range of high-performance and distributed
-                    computing areas. Topics of interest include (but are not limited to):
-                </p>
-
-                <ul>
-                    <li>Application-specific systems</li>
-                    <li>
-                        Architecture and programming support for emerging domains (Big Data, Deep Learning, Machine
-                        learning, Cognitive Systems)
-                    </li>
-                    <li>Benchmarking, performance measurements, and analysis</li>
-                    <li>Cloud, cluster, and edge/fog computing systems</li>
-                    <li>Embedded and pervasive systems</li>
-                    <li>GPUs, FPGAs and accelerator architectures</li>
-                    <li>Languages, compilers, and tools for parallel and distributed programming</li>
-                    <li>Modeling and simulation methodology</li>
-                    <li>Operating systems and virtualization</li>
-                    <li>Parallel and distributed systems, algorithms, and applications</li>
-                    <li>Power and energy-efficient systems</li>
-                    <li>Processor, cache, memory, storage, and network architecture</li>
-                    <li>Real-world applications and case studies</li>
-                    <li>Reconfigurable, resilient and fault-tolerant systems</li>
-                </ul>
-            </section>
-            <span id="important_dates_section"></span>
-        </div>
-    </div>
-    <!-- <section>
-        <div class="row" id="important_dates">
-            <div class="col-md-5 offset-md-1">
-                <h1>Important Dates</h1>
-
-                <ul>
-                    <li><strong>Deadline for workshop proposal submission:</strong> April 17th, 2023</li>
-                    <li><strong>Deadline for abstract submission:</strong> June 5th, 2023</li>
-                    <li><strong>Deadline for paper submission:</strong> June 12th, 2023</li>
-                </ul>
-
-                <ul>
-                    <li><strong>Workshop proposal acceptance notification:</strong> April 24th, 2023</li>
-                    <li><strong>Paper acceptance notification:</strong> August 7th, 2023</li>
-                </ul>
-
-                <ul>
-                    <li><strong>Camera-ready submission:</strong> August 14th, 2023</li> -->
-<!--                    <li><strong>Author registration:</strong> TBD</li>
-                    <li><strong>Non-author registration (Early Fee):</strong> TBD</li>
-                    <li><strong>Non-author registration (Late Fee):</strong> TBD</li>-->
-                <!-- </ul>
-
-                <p>
-                    <span><b>Note:</b> All dates refer to AOE time, i.e. "Anywhere on Earth"</span>
-                </p>
-            </div>
-            <div class="col-md-5">
-                <img
-                    src="assets/img/schedule.jpg"
-                    alt="Porto Alegre city"
-                    class="img-fluid img-thumbnail float-start"
-                />
-            </div>
-            <span id="submission_instructions_section"></span>
-        </div>
-    </section> -->
-    <!--    <div class="row" id="keynote_speakers">
+    <div class="row" id="keynote_speakers">
         <section>
             <div class="col-md-10 offset-md-1">
-                <h1>Keynote Speakers</h1>
-
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. At necessitatibus ex, expedita quia in
-                    assumenda adipisci illo commodi rem sequi laboriosam atque quidem tempore quasi. Reprehenderit porro
-                    aliquid veniam sed? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-
+                <h1>Confirmed Keynote Speakers</h1>
                 <div class="container-fluid">
                     <div class="row">
                         {% for speaker in site.keynote_speakers %}
-                        <div class="col-md-4">
+                        <div class="col-md-6 col-sm-6 col-lg-4">
                             <div
                                 class="keynote_speaker"
                                 style="
-                                    background: url(assets/img/{{speaker.photo}});
+                                    background: url(assets/img/{{ speaker.photo }});
                                     background-size: cover;
                                     background-position: center;
                                     background-repeat: no-repeat;
                                     background-blend-mode: multiply;
-                                    background-color: #c9c9c9;
+                                    background-color: #999999;
                                 "
                             >
                                 <h2>{{ speaker.name }}</h2>
+                                <h4>{{ speaker.department }}</h4>
                                 <h3>{{ speaker.affiliation }}</h3>
                             </div>
                         </div>
@@ -191,5 +116,115 @@ title: "Home"
                 </div>
             </div>
         </section>
-    </div>-->
+    </div>
+    <section>
+        <div class="row" id="important_dates">
+            <div class="offset-lg-1 col-lg-6 col-md-11 offset-md-1">
+                <h1>Important Dates</h1>
+
+                <ul>
+                    <li><strong>Deadline for workshop proposal submission:</strong> April 30th, 2023</li>
+                    <li><strong>Deadline for abstract submission:</strong> June 2nd, 2023</li>
+                    <li><strong>Deadline for paper submission:</strong> June 9th, 2023</li>
+                </ul>
+
+                <ul>
+                    <li><strong>Rebuttal period:</strong> July 31th–August 2nd, 2023</li>
+                </ul>
+                
+                <ul>
+                    <li><strong>Workshop proposal acceptance notification:</strong> May 14th, 2023</li>
+                    <li><strong>Author notification:</strong> August 11th, 2023</li>
+                </ul>
+
+                <ul>
+                    <li><strong>Camera-ready submission:</strong> September 4th, 2023</li>
+                   <li><strong>Author registration:</strong> TBD</li>
+                    <li><strong>Non-author registration (Early Fee):</strong> TBD</li>
+                    <li><strong>Non-author registration (Late Fee):</strong> TBD</li>
+                </ul>
+
+                <p>
+                    <small><span><b>Note:</b> All dates refer to AOE time, i.e. "Anywhere on Earth"</span></small>
+                </p>
+            </div>
+            <div class="col-lg-4 d-none d-lg-block">
+                <img
+                    src="assets/img/schedule.jpg"
+                    alt="Porto Alegre city"
+                    class="img-fluid img-thumbnail float-start"
+                />
+            </div>
+            <span id="submission_instructions_section"></span>
+        </div>
+    </section>
+    <div id="sponsors_and_organization" class="row">
+        <div id="sponsors" class="col-lg-6 col-md-12">
+            <h2 class="text-center">Sponsors</h2>
+            
+            <h3 class="text-center">Diamond</h3>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <img src="assets/img/logo.png" alt="Logo" class="img-fluid">
+                    </div>
+                    <div class="col-3">
+                        <img src="assets/img/logo.png" alt="Logo" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <h3 class="text-center">Gold</h3>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <img src="assets/img/logo.png" alt="Logo" class="img-fluid">
+                    </div>
+                    <div class="col-3">
+                        <img src="assets/img/logo.png" alt="Logo" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <h3 class="text-center">Silver</h3>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <img src="assets/img/logo.png" alt="Logo" class="img-fluid">
+                    </div>
+                    <div class="col-3">
+                        <img src="assets/img/logo.png" alt="Logo" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="organization_and_promotion" class="col-lg-6 col-md-12">
+            <h2 class="text-center">Organized By</h2>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-5">
+                        <img src="assets/img/pucrs.png" alt="PUCRS" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <img src="assets/img/ufrgs.png" alt="UFRGS" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br><br><br>
+            <h2 class="text-center">Promoted By</h2>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <img src="assets/img/sbc_logo.png" alt="Brazilian Computing Society" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </div>

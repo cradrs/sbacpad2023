@@ -1,0 +1,39 @@
+---
+layout: default
+title: "Organizing Committee"
+permalink: /organizing_committee/
+---
+
+<div class="container-fluid" id="committees">
+    {% for committee in site.data.committee.committees %}
+        {% if committee.name == "Organizing Committee" %}
+            <h1 class="p-2 text-center">{{ committee.name }}</h1>
+            {% for subcommittee in committee.subcommittees %}
+                <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                        <h4>{{ subcommittee.name }}</h4>
+                        <ul>
+                            {% if subcommittee.people %}
+                                {% for person in subcommittee.people %}
+                                    {% if person.name %}
+                                        <li>{{ person.name }} ({{ person.institution }})</li>
+                                    {% else %}
+                                        <li>TBD</li>
+                                    {% endif %}
+                                {% endfor %}
+                            {% else %}
+                                {% for track in subcommittee.tracks %}
+                                    {% if track.responsible_name %}
+                                        <li>{{ track.name }}: {{ track.responsible_name }} ({{ track.responsible_institution }})</li>
+                                    {% else %}
+                                        <li>{{ track.name }}: TBD</li>
+                                    {% endif %}
+                                {% endfor %}
+                            {% endif %}
+                        </ul>
+                    </div>
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+</div>

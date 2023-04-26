@@ -1,8 +1,9 @@
 ---
-name: Incredibly Long Speaker Name 2
-order: 2
-affiliation: Extremely Large University Affiliation Name (UNI2)
-photo: speaker2.jpg
+name: Alba de Melo
+order: 1
+department: Department of Computer Science
+affiliation: University of Brasilia (UnB)
+photo: alba_melo.jpg
 keynote_date: 2023/05/25
 keynote_title: Lorem Ipsum Dolor Sit Amet 2
 keynote_abstract:

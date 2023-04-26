@@ -1,5 +1,5 @@
 # Website specifications
-title: "SBAC-PAD 2023" # Website's name
+title: "IEEE SBAC-PAD 2023" # Website's name
 description: 35th IEEE International Symposium on Computer Architecture and High Performance Computing
 url: "https://cradrs.github.io" # Website's base hostname and protocol (e.g.: http://example.com)
 baseurl: "/sbacpad2023" # Website's subpath (e.g.: /blog)

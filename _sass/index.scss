@@ -17,7 +17,7 @@
     h1 {
         margin-left: 1.5rem;
         font-size: 2rem;
-        font-weight: 700;
+        font-weight: 900;
     }
 
     blockquote {
@@ -106,13 +106,14 @@
 }
 
 #keynote_speakers {
+    background-color: $gray-200;
     padding-top: 3rem;
     padding-bottom: 3rem;
 
     h1 {
         font-weight: 900;
         font-size: 3rem;
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
     }
 
     p {
@@ -122,28 +123,78 @@
     .keynote_speaker {
         margin-left: 0.75rem;
         margin-right: 0.75rem;
+        margin-bottom: 2rem;
         padding-top: 15rem;
         padding-bottom: 4rem;
         padding-left: 1rem;
         padding-right: 1rem;
 
         color: white;
-
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-blend-mode: multiply;
-        background-color: #777777;
+        height: 400px;
+        
 
         border-radius: 1.25rem;
 
         h2 {
-            font-size: 1rem;
-            font-weight: 600;
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+        h4 {
+            font-size: 0.75rem;
+            font-weight: 500;
         }
         h3 {
-            font-size: 0.7rem;
-            font-weight: 300;
+            font-size: 0.9rem;
+            font-weight: 700;
         }
+    }
+}
+#sponsors_and_organization {
+    
+    #sponsors {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        background-color: $gray-100;
+        
+        h2 {
+            font-weight: 900;
+            margin-bottom: 4rem;
+        }
+        h3 {
+            font-weight: 900;
+            font-size: 1.5rem;
+        }
+        hr {
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            border-bottom: 1px solid #666;
+            margin-left: 5rem;
+            margin-right: 5rem;
+        }
+        img {
+            margin-bottom: 2rem;
+        }
+
+    }
+    #organization_and_promotion {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        background-color: $gray-300;
+        
+        h2 {
+            font-weight: 800;
+            margin-bottom: 2rem;
+        }
+    }
+}
+#committees {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    h1 {
+        font-weight: 900;
+        padding-bottom: 2rem;
+    }
+    h4 {
+        font-weight: 700;
     }
 }

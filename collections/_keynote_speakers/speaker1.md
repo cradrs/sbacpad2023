@@ -1,8 +1,9 @@
 ---
-name: Incredibly Long Speaker Name 1
-order: 1
-affiliation: Extremely Large University Affiliation Name (UNI1)
-photo: speaker1.jpg
+name: Ivona Brandić
+order: 2
+department: Institute of Information Systems Engineering
+affiliation: Vienna University of Technology (TU Wien)
+photo: ivona_brandic.jpg
 keynote_date: 2023/05/25
 keynote_title: Lorem Ipsum Dolor Sit Amet 1
 keynote_abstract:

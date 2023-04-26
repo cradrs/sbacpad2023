@@ -7,87 +7,70 @@
         <title>{{ page.title }} - {{ site.title }}</title>
         <meta name="google-site-verification" content="UYn1Gam_kaJvOGsN3LnEZtExxqNbPosiIzX8x4Wa3YU" />
         <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}"> {% seo %}
+        <link rel="icon" type="image/x-icon" href="{{ site.final_url }}/assets/img/sbac_logo.ico">
     </head>
     <body>
         <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-            <div class="container">
-                <a class="navbar-brand" href="{{ site.final_url }}">
-                    <img
-                        src="{{ site.final_url }}/assets/img/sbc_logo.png"
-                        class="img-fluid"
-                        alt="Brazilian Computer Society Promotion"
-                        id="sbc_logo"
-                    />
-                    <img
-                        src="{{ site.final_url }}/assets/img/sbac_logo.png"
-                        class="img-fluid"
-                        alt="SBAC-PAD 2023 Logo"
-                        id="sbac_logo"
-                    />
-                </a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav text-center">
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="{{ site.final_url }}">Home</a>
-                        </li> -->
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="{{ site.final_url }}/#important_dates_section">Important Dates</a>
-                        </li> -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Submission
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="{{ site.final_url }}/cfp/">Call For Papers</a></li>
-                                <li><a class="dropdown-item" href="{{ site.final_url }}/cfwp/">Call For Workshop Proposals</a></li>
-                                <!-- <li><a class="dropdown-item" href="/eradrs2023/artigos_aceitos">Artigos Aceitos</a></li> -->
-                            </ul>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="{{ site.final_url }}/#submission_instructions_section"
-                                >Submission Instructions</a
-                            >
-                        </li> -->
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="{{ site.final_url }}/program/">Program</a>
-                        </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ site.final_url }}/committee/">Committees</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Co-located events
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://www.inf.pucrs.br/wscad2023">WSCAD 2023</a></li>
-<!--                                 <li><a class="dropdown-item" href="{{ site.final_url }}/cfp_wic/">WSCAD-WIC</a></li>
-                                <li><a class="dropdown-item" href="{{ site.final_url }}/cfp_ctd/">WSCAD-CTD</a></li>
-                                <li><a class="dropdown-item" href="{{ site.final_url }}/cfp_weac/">WEAC</a></li>
-                                <li><a class="dropdown-item" href="{{ site.final_url }}/cfp_minicursos/">Minicursos</a></li> -->
-                                <!-- <li><a class="dropdown-item" href="{{ site.final_url }}/cfwp/">Call For Workshop Proposals</a></li> -->
-                                <!-- <li><a class="dropdown-item" href="/eradrs2023/artigos_aceitos">Artigos Aceitos</a></li> -->
-                            </ul>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="{{ site.final_url }}/travel_info/">Travel Info</a>
-                        </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link" target="_blank" href="http://www2.sbc.org.br/sbac/">Past Editions</a>
-                        </li>
+            <a class="navbar-brand" href="{{ site.final_url }}/">
+                <img
+                    src="{{ site.final_url }}/assets/img/sbac_logo.png"
+                    class="img-fluid"
+                    alt="SBAC-PAD 2023 Logo"
+                    id="sbac_logo"
+                />
+            </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            SUBMISSION
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="{{ site.final_url }}/cfp/">Call For Papers</a></li>
+                            <li><a class="dropdown-item" href="{{ site.final_url }}/cfwp/">Call For Workshop Proposals</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            COMMITTEES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="{{ site.final_url }}/organizing_committee/">Organizing Committee</a></li>
+                            <li><a class="dropdown-item" href="{{ site.final_url }}/program_committee/">Program Committee</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            CONFERENCE
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="{{ site.final_url }}/#keynote_speakers">Keynotes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            CO-LOCATED EVENTS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://www.inf.pucrs.br/wscad2023">WSCAD 2023</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="http://www2.sbc.org.br/sbac/">PAST EDITIONS</a>
+                    </li>
 
-                    </ul>
-                </div>
+                </ul>
             </div>
         </nav>
         <header class="text-center">
@@ -98,6 +81,7 @@
                         <h2>
                             35th IEEE International Symposium on Computer Architecture and High Performance Computing
                         </h2>
+                        <br>
                         <h3><span>October 17-20, 2023 — Porto Alegre, Brazil</span></h3>
                     </div>
                 </div>
