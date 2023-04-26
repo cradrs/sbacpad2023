@@ -32,6 +32,8 @@ committees:
         people:
           - name: "Carla Osthofd"
             institution: "LNCC, Brazil"
+          - name: "Carlos Jaime Barrios Hernández"
+            institution: "Universidad Industrial de Santander, Colombia "
           - name: "Claude Tadonki"
             institution: "MINES ParisTech Institute, France"
           - name: "Daniele De Sensi"
