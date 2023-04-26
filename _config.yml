@@ -20,3 +20,4 @@ sass:
 # Jekyll plugins
 plugins:
     - jekyll-seo-tag
+    - jekyll-sitemap # https://github.com/jekyll/jekyll-sitemap
