@@ -1,9 +1,9 @@
 # Website specifications
 title: "IEEE SBAC-PAD 2023" # Website's name
 description: 35th IEEE International Symposium on Computer Architecture and High Performance Computing
-url: "https://www.inf.pucrs.br/sbacpad2023" # Website's base hostname and protocol (e.g.: http://example.com)
+url: "https://cradrs.github.io/sbacpad2023" # Website's base hostname and protocol (e.g.: http://example.com)
 baseurl: "/sbacpad2023" # Website's subpath (e.g.: /blog)
-final_url: https://www.inf.pucrs.br/sbacpad2023
+final_url: https://cradrs.github.io/sbacpad2023
 
 # Website collections
 collections_dir: collections
