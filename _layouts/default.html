@@ -7,13 +7,13 @@
         <title>{{ page.title }} - {{ site.title }}</title>
         <meta name="google-site-verification" content="UYn1Gam_kaJvOGsN3LnEZtExxqNbPosiIzX8x4Wa3YU" />
         <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}"> {% seo %}
-        <link rel="icon" type="image/x-icon" href="assets/img/sbac_logo.ico">
+        <link rel="icon" type="image/x-icon" href="{{ site.final_url }}/assets/img/sbac_logo.ico">
     </head>
     <body>
         <nav class="navbar fixed-top navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="{{ site.final_url }}/">
                 <img
-                    src="assets/img/sbac_logo.png"
+                    src="{{ site.final_url }}/assets/img/sbac_logo.png"
                     class="img-fluid"
                     alt="SBAC-PAD 2023 Logo"
                     id="sbac_logo"
