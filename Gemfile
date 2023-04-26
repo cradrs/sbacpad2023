@@ -9,3 +9,6 @@ gem 'jekyll-watch'
 
 # Improves the website's SEO
 gem 'jekyll-seo-tag'
+
+# Jekyll Sitemap Generator Plugin
+gem 'jekyll-sitemap'
