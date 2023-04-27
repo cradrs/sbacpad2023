@@ -1,6 +1,5 @@
 ---
 name: Alba de Melo
-order: 1
 department: Department of Computer Science
 affiliation: University of Brasilia (UnB)
 photo: alba_melo.jpg

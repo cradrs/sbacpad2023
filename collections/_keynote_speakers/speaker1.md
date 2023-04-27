@@ -1,6 +1,5 @@
 ---
 name: Ivona Brandić
-order: 2
 department: Institute of Information Systems Engineering
 affiliation: Vienna University of Technology (TU Wien)
 photo: ivona_brandic.jpg

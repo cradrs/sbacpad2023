@@ -56,7 +56,7 @@ title: "Home"
     </div>
     <section>
         <div class="row" id="about_host_city">
-            <div class="col-lg-5 col-offset-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1">
+            <div class="col-lg-6 col-offset-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1">
                 <h1 class="text-uppercase">Porto Alegre welcomes SBAC-PAD 2023</h1>
                 <p>
                     In 2023, SBAC-PAD will be held at the Technical School of the Pontifical Catholic University of Rio Grande do Sul (PUCRS) in
@@ -76,7 +76,8 @@ title: "Home"
                         amenities, such as bank agencies</strong>.
                 </p>
             </div>
-            <div class="col-md-5 d-none d-lg-block">
+            <div id="photo_author" class="col-md-4 d-none d-lg-block">
+                <span>Photographer Zé Carlos de Andrade</span>
                 <img
                     src="assets/img/portoalegre.jpg"
                     alt="Porto Alegre city"
@@ -91,7 +92,8 @@ title: "Home"
                 <h1>Confirmed Keynote Speakers</h1>
                 <div class="container-fluid">
                     <div class="row">
-                        {% for speaker in site.keynote_speakers %}
+                        {% assign keynote_speakers = site.keynote_speakers | sort: 'name' %}
+                        {% for speaker in keynote_speakers %}
                         <div class="col-md-6 col-sm-6 col-lg-4">
                             <div
                                 class="keynote_speaker"
@@ -208,7 +210,7 @@ title: "Home"
                     <div class="col-5">
                         <img src="assets/img/pucrs.png" alt="PUCRS" class="img-fluid">
                     </div>
-                    <div class="col-4">
+                    <div class="col-3">
                         <img src="assets/img/ufrgs.png" alt="UFRGS" class="img-fluid">
                     </div>
                 </div>
