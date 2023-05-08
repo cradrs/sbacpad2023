@@ -4,7 +4,53 @@ title: "Keynotes"
 permalink: /keynotes/
 ---
 
+<!-- Delete this  -->
 <div class="container-fluid" id="keynotes">
   <h1 class="p-2 text-center">Keynotes</h1>
   <br /><br /><br /><br />
 </div>
+
+<!-- Uncomment this -->
+<!-- <section id="light-card">
+  <div class="p-2 container col-sm-12 col-lg-8 text-justify">
+    <h2 class="p-4 text-center">Keynotes</h2>
+    <p class="lead">
+      Below are details about the keynotes.
+    </p>
+    <div class="tab-content">
+
+      {% for speaker in site.keynote_speakers %}
+
+      <div id="{{ speaker.id }}" class="keynote_talk">
+        <h3>{{ speaker.keynote_title }}</h3>
+        <p class="lead keynote-date">
+          <b>Time</b>: {{ speaker.keynote_date }}
+        </p>
+        <p class="lead">
+          <b>Abstract</b>: {{ speaker.keynote_abstract }}
+        </p>
+
+        <br>
+
+        <h4>Speaker</h4>
+        <div class="row">
+          <div class col-md-12>
+
+            {% if speaker.photo != "" %}
+            <img id="speaker_photo" class="float-start" src="{{ site.final_url }}/assets/img/{{ speaker.photo }}"
+              alt="{{ speaker.name }}">
+            {% endif %}
+
+            <p class="lead speaker-bio">
+              <b>{{ speaker.name }}</b> {{ speaker.bio }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {% endfor %}
+
+    </div>
+  </div>
+  <br><br>
+</section> -->
