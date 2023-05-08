@@ -1,0 +1,48 @@
+pucrs:
+  - building: "5"
+    name: "Casa 5 Bar e Café"
+    info:
+      text: "@casa5barecafe"
+      url: "https://www.instagram.com/casa5barecafe/"
+  - building: "6"
+    name: "Garten Bistrô"
+    info:
+      text: "@gartenbistro"
+      url: "https://www.instagram.com/gartenbistro/"
+  - building: "12"
+    name: "Bar Doze"
+    info:
+      text: "@bar12pucrs"
+      url: "https://www.instagram.com/bar12pucrs/"
+  - building: "15"
+    name: "Fifteen Sports Bar"
+    info:
+      text: "@fifteensportsbar"
+      url: "https://www.instagram.com/fifteensportsbar/"
+  - building: "19"
+    name: "Palatu's"
+    info:
+      text: "@palatuspuc"
+      url: "https://www.instagram.com/palatuspuc/"
+  - building: "32"
+    name: "Espaço 32"
+    info:
+      text: "@espaco32"
+      url: "https://www.instagram.com/espaco32/"
+  - building: "50"
+    name: "Intervalo 50"
+    info:
+      text: "@intervalo50"
+      url: "https://www.instagram.com/intervalo50/"
+
+nearby:
+  - address: "Av. Bento Gonçalves, 4301"
+    name: "Silva Lanches"
+    info:
+      text: "Cardápio digital"
+      url: "https://www.cardapiodigital.io/silvalanches/catalog"
+  - address: "Av. Bento Gonçalves, 1843"
+    name: "Cantare Restaurante"
+    info:
+      text: "@cantarerestaurante"
+      url: "https://www.instagram.com/cantarerestaurante/"

@@ -1,0 +1,55 @@
+#venue {
+  h1, h2, h3, h4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .accordion {
+      margin-bottom: 1rem;
+  }
+
+  .table th {
+      height: 5rem;
+      text-align: center;
+      vertical-align: middle;
+  }
+
+  .table td {
+      height: 7rem;
+      vertical-align: middle;
+  }
+
+  .table td .td-color {
+      background-color: #f0f0f0;
+  }
+
+  .col-sm.gallery {
+      padding-left: 0;
+      padding-right: 0;
+  }
+
+  .row.gallery {
+      padding-left: calc(var(--bs-gutter-x) * 0.5);
+      padding-right: calc(var(--bs-gutter-x) * 0.5);
+  }
+
+  img {
+      margin-bottom: 1.5rem;
+  }
+
+  .accordion {
+      margin-bottom: 1rem;
+  }
+
+  @media (max-width: 768px) {
+      .mapa {
+          width: 100%;
+      }
+  }
+
+  @media (min-width: 769px) {
+      .mapa {
+          width: 75%;
+      }
+  }
+}
