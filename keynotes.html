@@ -4,14 +4,7 @@ title: "Keynotes"
 permalink: /keynotes/
 ---
 
-<!-- Delete this  -->
-<div class="container-fluid" id="keynotes">
-  <h1 class="p-2 text-center">Keynotes</h1>
-  <br /><br /><br /><br />
-</div>
-
-<!-- Uncomment this -->
-<!-- <section id="light-card">
+<section id="light-card">
   <div class="p-2 container col-sm-12 col-lg-8 text-justify">
     <h2 class="p-4 text-center">Keynotes</h2>
     <p class="lead">
@@ -19,17 +12,22 @@ permalink: /keynotes/
     </p>
     <div class="tab-content">
 
-      {% for speaker in site.keynote_speakers %}
+      {% assign keynote_speakers = site.keynote_speakers | sort: 'name' %}
+      {% for speaker in keynote_speakers %}
 
       <div id="{{ speaker.id }}" class="keynote_talk">
-        <h3>{{ speaker.keynote_title }}</h3>
+        <h3>Title: {{ speaker.keynote_title }}</h3>
+        <br>
+
+        {% if speaker.keynote_date %}
         <p class="lead keynote-date">
           <b>Time</b>: {{ speaker.keynote_date }}
         </p>
+        {% endif %}
+
         <p class="lead">
           <b>Abstract</b>: {{ speaker.keynote_abstract }}
         </p>
-
         <br>
 
         <h4>Speaker</h4>
@@ -53,4 +51,4 @@ permalink: /keynotes/
     </div>
   </div>
   <br><br>
-</section> -->
+</section>
