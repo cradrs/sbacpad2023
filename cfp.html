@@ -20,8 +20,8 @@ permalink: /cfp/
 <h3>Important dates</h3>
 <figure><table>
 <thead>
-<tr><td><strong>Abstract submission deadline&nbsp;&nbsp;</strong></td><td>June 2nd, 2023</td></tr></thead>
-<tbody><tr><td><strong>Paper submission deadline</strong></td><td>June 9th, 2023</td></tr><tr><td><strong>Rebuttal period</strong></td><td>July 31st — August 2nd, 2023</td></tr><tr><td><strong>Author notification</strong></td><td>August 11th, 2023</td></tr><tr><td><strong>Camera-ready submission</strong></td><td>September 4th, 2023</td></tr></tbody>
+<tr><td><strong>Abstract submission deadline&nbsp;&nbsp;</strong></td><td><s>June 2nd, 2023</s><FONT COLOR = #FF0000> June 9th, 2023 (POSTPONED)</FONT></td></tr></thead>
+<tbody><tr><td><strong>Paper submission deadline</strong></td><td><s>June 9th, 2023</s><FONT COLOR = #FF0000> June 16th, 2023 (POSTPONED)</FONT></td></tr><tr><td><strong>Rebuttal period</strong></td><td>July 31st — August 2nd, 2023</td></tr><tr><td><strong>Author notification</strong></td><td>August 11th, 2023</td></tr><tr><td><strong>Camera-ready submission</strong></td><td>September 4th, 2023</td></tr></tbody>
 </table></figure>
 
 <p>The program committee will select the top-ranked papers as finalists, and one paper will be selected during the conference as the Best Paper. Selected papers will also be invited to submit an extended version to a special issue of the <strong>Journal of Parallel and Distributed Computing</strong>.</p>
@@ -33,11 +33,10 @@ permalink: /cfp/
 
 <ul>
     <li>Application-specific systems;</li>
-    <li>Architecture and programming support for emerging domains:
-    (Big Data, Deep Learning, Machine learning, Cognitive Systems);</li>
+    <li>Architecture and programming support for emerging domains: Big Data, Deep Learning, Machine learning, Cognitive Systems;</li>
     <li>Artificial intelligence and machine learning methods for CA and HPDC, and CA and HPDC for Artificial intelligence applications;</li>
     <li>Benchmarking, performance modeling, analysis, and evaluation; </li>
-    <li>Blockchain and distributed ledgers</li>
+    <li>Blockchain and distributed ledgers;</li>
     <li>Cloud, cluster, and edge/fog computing systems;</li>
     <li>Data-intensive workloads and tools;</li>
     <li>Data management, storage, and I/O;</li>
@@ -51,6 +50,7 @@ permalink: /cfp/
     <li>Predictive models to improve performance of scientific applications</li>
     <li>Processing-in-memory or near-data processing technologies</li>
     <li>Processor, cache, memory, storage, and network architecture;</li>
+    <li>Quantum computing in CA and HPDC;</li>
     <li>Real-world applications and case studies;</li>
     <li>Reconfigurable, resilient, and fault-tolerant systems;</li>
     <li>Security and privacy in CA and HPDC;</li>
@@ -64,11 +64,11 @@ permalink: /cfp/
 <p> </p>
 <p>Paper submissions must be in English, have 10 pages maximum (excluding the references), and follow the IEEE conference manuscript formatting guidelines for double-column text using a single-spaced 10-point font on 8.5 × 11-inch pages. Templates are available from <a href='http://www.ieee.org/conferences_events/conferences/publishing/templates.html'>http://www.ieee.org/conferences/publishing/templates.html</a>. Papers that do not meet these requirements might be rejected without a review. To be published in the conference proceedings and to be eligible for publication at the IEEE Xplore, one of the authors must register at the full rate and present his/her work at the conference.</p>
 <p> </p>
-<p>The SBAC-PAD 2023 submissions will undergo a double-anonymized review process, where reviewers will not know the authors&#39; identities, and vice-versa. Therefore, authors should “anonymize” their submission by adopting the following guidelines, otherwise papers will be rejected without review:</p>
+<p>The SBAC-PAD 2023 submissions will undergo a <b>double-anonymized review process</b>, where reviewers will not know the authors&#39; identities, and vice-versa. Therefore, authors should “anonymize” their submission by adopting the following guidelines, otherwise papers will be rejected without review:</p>
 <ul>
 <li>The authors cannot include their names, affiliations, funding sources, or acknowledgments in any part of the for-review version of their paper;</li>
 <li>Self-references that are relevant to the work are allowed, but they should not appear in the text in the first person. Instead, they should be referenced in the third person, like “Smith et al. found that… [4].”, and;</li>
-<li>For the authors’ own unpublished work, they need to use anonymous citations.</li>
+<li>For the authors' own unpublished work, they need to use anonymous citations.</li>
 </ul>
 
 <h3>CONFERENCE ORGANISATION</h3>
@@ -85,14 +85,27 @@ permalink: /cfp/
 <li>Vinod Rebello (Universidade Federal Fluminense, Brazil)</li>
 <li>Jay Lofstead (Sandia National Laboratories, USA)</li>
 </ul>
-<!-- 
-<h3>Track Chairs</h3>
-<figure><table>
-<thead>
-<tr><th style='text-align:center;' >Tracks</th><th style='text-align:center;' >Track Chairs</th></tr></thead>
-<tbody><tr><td style='text-align:center;' ><strong>Computer Architecture</strong></td><td style='text-align:center;' >Murali Annavaram (University of Southern California, USA)</td></tr><tr><td style='text-align:center;' ><strong>Networking and Distributed Systems</strong></td><td style='text-align:center;' >Eirini Eleni Tsiropoulou, (University of New Mexico, USA)</td></tr><tr><td style='text-align:center;' ><strong>Parallel Applications and Algorithms</strong></td><td style='text-align:center;' >Alba Melo (University of Brasilia, Brazil)</td></tr><tr><td style='text-align:center;' ><strong>Performance Evaluation</strong></td><td style='text-align:center;' >Jay Lofstead (Sandia National Laboratories, USA)</td></tr><tr><td style='text-align:center;' ><strong>System Software</strong></td><td style='text-align:center;' >Jidong Zhai (Tsinghua University, China)</td></tr></tbody>
-</table></figure> -->
+
+<h4>Track Chairs</h4>
+<ul>
+    {% for program in site.data.cfp.program_committee %}
+    <li><strong>{{ program.track }}</strong>: {{program.chair.name}} {% if program.chair.institution != "" %}({{program.chair.institution}}){% endif %}</li>
+    {% endfor %}
+</ul>
+
+<h4>Program Committee Members</h4>
+{% for program in site.data.cfp.program_committee %}
+
+<h5>{{ program.track }}</h5>
+<p><b>Chair</b>: {{program.chair.name}} {% if program.chair.institution != "" %}({{program.chair.institution}}){% endif %}</p>
+<ul>
+    {% for member in program.members %}
+    <li>{{ member.name }} ({{ member.institution }})</li>
+    {% endfor %}
+</ul>
+{% endfor %}
 
 </div>
 </div>
 </div>
+<br>
