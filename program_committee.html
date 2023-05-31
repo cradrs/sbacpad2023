@@ -5,35 +5,46 @@ permalink: /program_committee/
 ---
 
 <div class="container-fluid" id="committees">
-    {% for committee in site.data.committee.committees %}
-        {% if committee.name == "Program Committee" %}
-            <h1 class="p-2 text-center">{{ committee.name }}</h1>
-            {% for subcommittee in committee.subcommittees %}
-                <div class="row">
-                    <div class="col-md-10 offset-md-1">
-                        <h4>{{ subcommittee.name }}</h4>
-                        <ul>
-                            {% if subcommittee.people %}
-                                {% for person in subcommittee.people %}
-                                    {% if person.name %}
-                                        <li>{{ person.name }} ({{ person.institution }})</li>
-                                    {% else %}
-                                        <li>TBD</li>
-                                    {% endif %}
-                                {% endfor %}
-                            {% else %}
-                                {% for track in subcommittee.tracks %}
-                                    {% if track.responsible_name %}
-                                        <li>{{ track.name }}: {{ track.responsible_name }} ({{ track.responsible_institution }})</li>
-                                    {% else %}
-                                        <li>{{ track.name }}: TBD</li>
-                                    {% endif %}
-                                {% endfor %}
-                            {% endif %}
-                        </ul>
-                    </div>
-                </div>
-            {% endfor %}
-        {% endif %}
+    {% assign committee = site.data.committee.program_committee %}
+    <h1 class="p-2 text-center">{{ committee.name }}</h1>
+    {% for subcommittee in committee.subcommittees %}
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <h4>{{ subcommittee.name }}</h4>
+                <ul>
+                    {% for member in subcommittee.members %}
+                        {% if member.name %}
+                            <li>{{ member.name }} ({{ member.institution }})</li>
+                        {% else %}
+                            <li>TBD</li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
     {% endfor %}
+    <div class="row">
+        <div class="col-md-10 offset-md-1">
+            <h4>Track Chairs</h4>
+            <ul>
+                {% for program in site.data.committee.program_committee.program_committee_members %}
+                <li><strong>{{ program.track }}</strong>: {{program.chair.name}} {% if program.chair.institution != "" %}({{program.chair.institution}}){% endif %}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-10 offset-md-1">
+            <h4>Program Committee Members</h4>
+            {% for program in site.data.committee.program_committee.program_committee_members %}
+                <h5>{{ program.track }}</h5>
+                <p><b>Chair</b>: {{program.chair.name}} {% if program.chair.institution != "" %}({{program.chair.institution}}){% endif %}</p>
+                <ul>
+                    {% for member in program.members %}
+                        <li>{{ member.name }} ({{ member.institution }})</li>
+                    {% endfor %}
+                </ul>
+            {% endfor %}
+        </div>
+    </div>
 </div>
