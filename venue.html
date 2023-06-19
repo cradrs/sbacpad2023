@@ -8,8 +8,9 @@ permalink: /venue/
     <div class="p-2 container col-sm-12 col-lg-8 text-justify" id="venue">
         <h2 class="p-4 text-center">Venue</h2>
 
+        <h4>PUCRS</h4>
         <p class="lead">
-            The <strong>35th IEEE International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD 2023)</strong> will be held at the Polytechnic School of the Pontifical Catholic University of Rio Grande do Sul (PUCRS), in Porto Alegre/RS.
+            The <strong>35th IEEE International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD 2023)</strong> will be held at the Pontifical Catholic University of Rio Grande do Sul (PUCRS), in Porto Alegre/RS.
         </p>
         <p class="lead">
             The PUCRS campus is located at <strong>6681 Ipiranga Avenue, Partenon, Porto Alegre, RS, Brazil</strong>.
@@ -17,115 +18,19 @@ permalink: /venue/
         <div class="row">
             <div class="col-sm">
                 <figure>
-                    <img src="{{ site.final_url }}/assets/img/pucrs_poli.jpg" alt="PUCRS Polytechnic School" width="100%">
+                    <img src="{{ site.final_url }}/assets/img/teatro40.jpg" alt="PUCRS Theater" width="100%">
                 </figure>
             </div>
             <div class="col-sm">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13812.614138763249!2d-51.18260683244027!3d-30.061133239012822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95199d56020fa221%3A0xb8e054515bb82463!2sEscola%20Polit%C3%A9cnica%20da%20PUCRS%20-%20Pr%C3%A9dio%2032!5e0!3m2!1spt-BR!2sbr!4v1677720618600!5m2!1spt-BR!2sbr" width="100%" height="95%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4624.56606306399!2d-51.17546695772367!3d-30.059767748080453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951977fefa922b7b%3A0x27941470ee280ee6!2sPr%C3%A9dio%2040%20-%20PUCRS!5e0!3m2!1spt-BR!2sbr!4v1687198107206!5m2!1spt-BR!2sbr" width="100%" height="90%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
         <p class="lead">
             For more details about the location within the campus and the access points to PUCRS, please visit the <a href="https://www.pucrs.br/campus/#mapa" target="_blank">map of the campus</a>.
         </p>
 
-        <h4>Accommodation</h4>
         <p class="lead">
-            Due to the limited number of accommodation options around the PUCRS campus, we suggest that the participants of SBAC-PAD 2023 look for hotels in the following neighborhoods: Bom Fim, Centro Histórico, Cidade Baixa, Moinhos de Vento, Petrópolis, Praia de Belas and Santana. These regions are preferred due to the ease of access to the campus, either by public or private transportation, and the higher concentration of hotels and hostels.
-        </p>
-        <p class="lead">
-            Click <a href="https://www.google.com/maps/search/Hot%C3%A9is/@-30.0368254,-51.2177814,14z/data=!3m1!4b1!4m8!2m7!3m6!1zSG90w6lpcw!2sPontifical+Catholic+University+of+Rio+Grande+do+Sul+-+Av.+Ipiranga,+6681+-+Partenon,+Porto+Alegre+-+RS,+90619-900!3s0x951977fea1504897:0x1e20a65cc662a5c2!4m2!1d-51.1729965!2d-30.0592974" target="_blank">here</a> to view some options for accommodation in Porto Alegre and the routes from PUCRS.
-        </p>
-
-        <h4>Restaurants</h4>
-        <p class="lead">
-            The PUCRS campus offers several food options for each meal of the day. On the PUCRS <a href="https://www.pucrs.br/servicos/" target="_blank">services page</a>, you can filter by restaurants and cafeterias to find contact information, location, and business hours.
-        </p>
-
-        <!-- <p class="lead">
-            Below, we provide a map with the main options for eating at PUCRS and in the surroundings of building 32. In addition to assisting in locating the establishments, the map contains information regarding the types of meals available at each location.
-        </p>
-        <figure class="d-flex justify-content-center">
-            <img class="mapa" src="{{ site.final_url }}/assets/img/mapa_restaurantes.png" alt="Restaurantes e lancherias na PUCRS">
-        </figure>
-        <p class="lead">
-            Além do mapa, disponibilizamos as redes sociais e cardápios digitais dos estabelecimentos que dispõem dessas informações. Confira abaixo:
-        </p>
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        Principais restaurantes na PUCRS
-                    </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th scope="col">Nome</th>
-                                    <th scope="col">Prédio</th>
-                                    <th scope="col">Informações Adicionais</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {% for restaurant in site.data.restaurants.pucrs %}
-                                <tr>
-                                    <th scope="row">{{ restaurant.name }}</th>
-                                    <td class="text-center">{{ restaurant.building }}</td>
-                                    <td class="text-center">
-                                        {% if restaurant.info.url %}
-                                        <a href="{{ restaurant.informacoes.url }}" target="_blank">{{ restaurant.info.text }}</a>
-                                        {% else %}
-                                        {{ restaurant.info.text }}
-                                        {% endif %}
-                                        
-                                    </td>
-                                </tr>
-                                {% endfor %}
-                        </table>
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        Principais restaurantes nas redondezas da PUCRS
-                    </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th scope="col">Nome</th>
-                                    <th scope="col">Endereço</th>
-                                    <th scope="col">Informações Adicionais</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {% for restaurant in site.data.restaurants.nearby %}
-                                <tr>
-                                    <th scope="row">{{ restaurant.name }}</th>
-                                    <td class="text-center">{{ restaurant.address }}</td>
-                                    <td class="text-center">
-                                        {% if restaurant.info.url %}
-                                        <a href="{{ restaurant.info.url }}" target="_blank">{{ restaurant.info.text }}</a>
-                                        {% else %}
-                                        {{ restaurant.info.text }}
-                                        {% endif %}
-                                        
-                                    </td>
-                                </tr>
-                                {% endfor %}
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-        <h4>PUCRS</h4>
-        <p class="lead">
-            Besides the various food options, the PUCRS' infrastructure offers some options for leisure and services. Below we list some of these options available to visitors, with the link to more information:
+            The PUCRS' infrastructure offers some options for leisure and services. Below we list some of these options available to visitors, with the link to more information:
         </p>
         <ul>
             <li class="lead">Central Library (<a href="https://biblioteca.pucrs.br/english/" target="_blank">more information</a>)</li>
@@ -191,6 +96,11 @@ permalink: /venue/
         <br>
         <p class="lead">
             The Porto Alegre city hall provides more information about the city, as well as tourism options. To access the site, just click <a href="https://prefeitura.poa.br/maisturismo" target="_blank">here</a>.
+        </p>
+
+        <h4>Travel Info and Accommodation</h4>
+        <p class="lead">
+            TBD.
         </p>
 
         <br>
