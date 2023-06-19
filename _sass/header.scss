@@ -69,4 +69,36 @@ header {
             right: 10px;
         }
     }
+
+    #sbc_logo {
+        a {
+            color: white;
+            text-decoration: none;
+            text-align: left;
+
+            position: absolute;
+            left: 10px;
+            top: 80px;
+
+            img {
+                width: auto;
+            }
+
+            @media (max-width: 768px) {
+                span {
+                    font-size: 0.75rem
+                }
+
+                img {
+                    max-height: 90px;
+                }
+            }
+
+            @media (min-width: 769px) {
+                img {
+                    max-height: 120px;
+                }
+            }
+        }
+    }
 }
