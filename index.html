@@ -95,21 +95,23 @@ title: "Home"
                         {% assign keynote_speakers = site.keynote_speakers | sort: 'name' %}
                         {% for speaker in keynote_speakers %}
                         <div class="col-md-6 col-sm-6 col-lg-4">
-                            <div
-                                class="keynote_speaker"
-                                style="
-                                    background: url(assets/img/{{ speaker.photo }});
-                                    background-size: cover;
-                                    background-position: center;
-                                    background-repeat: no-repeat;
-                                    background-blend-mode: multiply;
-                                    background-color: #999999;
-                                "
-                            >
-                                <h2>{{ speaker.name }}</h2>
-                                <h4>{{ speaker.department }}</h4>
-                                <h3>{{ speaker.affiliation }}</h3>
-                            </div>
+                            <a href="{{ site.final_url }}/keynotes#{{ speaker.id }}" target="_blank" class="text-decoration-none">
+                                <div
+                                    class="keynote_speaker"
+                                    style="
+                                        background: url(assets/img/{{ speaker.photo }});
+                                        background-size: cover;
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        background-blend-mode: multiply;
+                                        background-color: #999999;
+                                    "
+                                >
+                                    <h2>{{ speaker.name }}</h2>
+                                    <h4>{{ speaker.department }}</h4>
+                                    <h3>{{ speaker.affiliation }}</h3>
+                                </div>
+                            </a>
                         </div>
                         {% endfor %}
                     </div>
