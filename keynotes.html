@@ -15,33 +15,41 @@ permalink: /keynotes/
       {% assign keynote_speakers = site.keynote_speakers | sort: 'name' %}
       {% for speaker in keynote_speakers %}
 
-      <div id="{{ speaker.id }}" class="keynote_talk">
-        <h3>Title: {{ speaker.keynote_title }}</h3>
-        <br>
+      <div id="{{ speaker.id }}" class="keynote-talk">
+        <h3 class="keynote-title">{{ speaker.keynote_title }}</h3>
 
-        {% if speaker.keynote_date %}
-        <p class="lead keynote-date">
-          <b>Time</b>: {{ speaker.keynote_date }}
-        </p>
-        {% endif %}
+        <div class="keynote-info">
+          {% if speaker.keynote_date %}
+          <p class="lead keynote-info">
+            <b>{{ speaker.keynote_date }}</b>
+          </p>
+          {% endif %}
 
-        <p class="lead">
-          <b>Abstract</b>: {{ speaker.keynote_abstract }}
-        </p>
-        <br>
+          {% if speaker.keynote_room %}
+          <p class="lead keynote-info">
+            <b>Room</b>: {{ speaker.keynote_room }}
+          </p>
+          {% endif %}
 
-        <h4>Speaker</h4>
-        <div class="row">
-          <div class col-md-12>
+          <p class="lead keynote-info">
+            <b>Abstract</b>: {{ speaker.keynote_abstract }}
+          </p>
+        </div>
 
-            {% if speaker.photo != "" %}
-            <img id="speaker_photo" class="float-start" src="{{ site.final_url }}/assets/img/{{ speaker.photo }}"
-              alt="{{ speaker.name }}">
-            {% endif %}
+        <div>
+          <h4>Speaker</h4>
+          <div class="row">
+            <div class col-md-12>
 
-            <p class="lead speaker-bio">
-              <b>{{ speaker.name }}</b> {{ speaker.bio }}
-            </p>
+              {% if speaker.photo != "" %}
+              <img id="speaker-photo" class="float-start" src="{{ site.final_url }}/assets/img/{{ speaker.photo }}"
+                alt="{{ speaker.name }}">
+              {% endif %}
+
+              <p class="lead speaker-bio">
+                <b>{{ speaker.name }}</b> {{ speaker.bio }}
+              </p>
+            </div>
           </div>
         </div>
       </div>

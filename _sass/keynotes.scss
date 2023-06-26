@@ -1,8 +1,17 @@
-.keynote_talk {
+.keynote-talk {
   padding: 30px 0;
   border-bottom: 1px solid #ddd;
 
-  #speaker_photo {
+  .keynote-title,
+  div.keynote-info {
+    margin-bottom: 1rem;
+  }
+
+  p.keynote-info {
+    margin-bottom: 0.5rem;
+  }
+
+  #speaker-photo {
     max-width: 128px;
     height: auto;
     margin: 0 1rem 0 0;
