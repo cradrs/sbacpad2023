@@ -15,7 +15,8 @@ permalink: /keynotes/
       {% assign keynote_speakers = site.keynote_speakers | sort: 'name' %}
       {% for speaker in keynote_speakers %}
 
-      <div id="{{ speaker.id }}" class="keynote-talk">
+      <div id="{{ speaker._id }}"></div><br><br>
+      <div class="keynote-talk">
         <h3 class="keynote-title">{{ speaker.keynote_title }}</h3>
 
         <div class="keynote-info">
