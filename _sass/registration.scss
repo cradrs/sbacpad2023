@@ -12,10 +12,11 @@
   }
 
   table th {
-    width: auto !important;
+    white-space: nowrap !important;
   }
 
   table td {
     vertical-align: middle;
+    white-space: nowrap !important;
   }
 }
