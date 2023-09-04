@@ -1,0 +1,25 @@
+---
+layout: default
+title: "Accepted Papers"
+permalink: /accepted-papers/
+---
+
+<section id="light-card">
+  <div class="p-2 container col-sm-12 col-lg-8 text-justify">
+    <h2 class="p-4 text-center">Accepted Papers</h2>
+    {% assign accepted_papers = site.data.accepted_papers.papers | sort: 'authors' %}
+    <div class="tab-content">
+      <ul>
+        {% for paper in accepted_papers %}
+        <li>
+          <p>
+            <b>{{ paper.title }}</b><br>
+            <i>{{ paper.authors }}</i><br>
+          </p>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <br><br>
+</section>
