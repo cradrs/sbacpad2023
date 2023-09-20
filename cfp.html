@@ -143,6 +143,9 @@ permalink: /cfp/
             <h4>Track Chairs</h4>
             <ul>
                 {% for program in site.data.committee.program_committee.program_committee_members %}
+                {% if program.chair == null %}
+                {% continue %}
+                {% endif %}
                 <li><strong>{{ program.track }}</strong>: {{program.chair.name}} {% if program.chair.institution != ""
                     %}({{program.chair.institution}}){% endif %}</li>
                 {% endfor %}
@@ -151,11 +154,13 @@ permalink: /cfp/
             <h4>Program Committee Members</h4>
             {% for program in site.data.committee.program_committee.program_committee_members %}
             <h5>{{ program.track }}</h5>
+            {% if program.chair %}
             <p><b>Chair</b>: {{program.chair.name}} {% if program.chair.institution != ""
                 %}({{program.chair.institution}}){% endif %}</p>
+            {% endif %}
             <ul>
                 {% for member in program.members %}
-                <li>{{ member.name }} ({{ member.institution }})</li>
+                <li>{{ member.name }} {% if member.institution%}({{ member.institution }}){% endif %}</li>
                 {% endfor %}
             </ul>
             {% endfor %}
