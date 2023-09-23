@@ -1,0 +1,28 @@
+---
+layout: default
+title: "Technical Sessions"
+permalink: /technical_sessions/
+---
+
+<section id="light-card">
+  <div class="p-2 container col-sm-12 col-lg-8 text-justify">
+    <h2 class="p-4 text-center">Technical Sessions</h2>
+    {% assign technical_sessions = site.data.technical_sessions %}
+    <div class="tab-content">
+      {% for session in technical_sessions %}
+      <h3>Session {{ session.id }} - {{ session.title }}</h3>
+      <b>{{ session.timeslot }}</b>
+      <p><b>Chair</b>: {{ session.chair }}</p>
+      <ul>
+        {% for paper in session.papers %}
+        <li>
+            <b>{{ paper.title }}</b><br>
+            <i>{{ paper.authors }}</i><br>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+    </div>
+  </div>
+  <br><br>
+</section>
