@@ -10,7 +10,7 @@ permalink: /program/
     <br><br>
 
     <section id="program_overview">
-        <div class="container-fluid">
+        <div class="container-fluid table-responsive">
             <table class="table program">
                 <thead>
                     <tr>
@@ -27,8 +27,13 @@ permalink: /program/
                             </td>
                             {% for event in slot.events %}
                                 <td class="program-slot {{ event.type }}" rowspan="{{ event.rowspan }}" colspan="{{ event.colspan }}">
-                                    {{ event.name }}
+                                    {% if event.url %}
+                                        <a href="{{ event.url }}" target="_blank">{{ event.name }}</a>
+                                    {% else %}
+                                        {{ event.name }}
+                                    {% endif %}
                                     {% if event.portuguese == true %}
+                                        <br>
                                         <img src="{{ site.final_url }}/assets/img/brazil.png" alt="Event in Portuguese">
                                     {% endif %}
                                 </td>

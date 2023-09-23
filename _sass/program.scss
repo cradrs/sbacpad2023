@@ -35,34 +35,31 @@
         background-color: rgb(221, 221, 221);
         height: 45px;
     }
-    .hpcdl {
-        background-color: rgb(159, 233, 255);
-    }
-    .wamca {
-        background-color: rgb(255, 255, 169);
-    }
+
     .wcc {
         background-color: rgb(243, 168, 255);
     }
     .keynote {
         background-color: rgb(255, 199, 162);
     }
-    .wscad {
-        background-color: rgb(144, 232, 168);
-
-        img {
-            position:absolute;
-            bottom: 5px;
-            right: 5px;
-            height: 25px;
-            width: 25px;
-        }
-    }
 }
 
 table.program {
     border-collapse: separate;
     border-spacing: 4px;
+
+    th:first-child,
+    td:first-child {
+        position: sticky;
+        left: 0;
+    }
+
+    th,
+    td:first-child {
+        background-color: white;
+        border: 2px solid #3c3c3c;
+        border-radius: 0.3rem;
+    }
 
     td.program-slot:not(.space) {
         border: 1px solid rgb(198, 198, 198);
@@ -72,9 +69,27 @@ table.program {
         vertical-align: top;
     }
 
+    td.program-slot.space {
+        border: none;
+        padding: 0;
+        background: repeating-linear-gradient(
+            45deg,
+            #ffffff,
+            #ffffff 10px,
+            #eeeeee 10px,
+            #eeeeee 20px
+        );
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+
     td.program-slot {
         img {
-            position:absolute;
+            //position:absolute;
             bottom: 5px;
             right: 5px;
             height: 25px;
@@ -103,16 +118,38 @@ table.program {
         background-color: #cbc3e3;
     }
 
-    td.program-slot.sbacpad {
-        background-color: #ffcccc;
+    td.program-slot.sbacpad,
+    td.program-slot.ceacpad {
+        background-color: #63c5da;
     }
 
     td.program-slot.sbacpad-main {
-        background-color: #0492c2;
+        background-color: #52e2bf;
     }
 
     td.program-slot.panel {
         background-color: #f89880;
+    }
+
+    td.program-slot.honorary {
+        background-color: #feba4f;
+    }
+
+    td.program-slot.wscad-wic,
+    td.program-slot.wscad-weac {
+        background-color: #fa8072;
+    }
+
+    td.program-slot.wamca {
+        background-color: #ffff99;
+    }
+
+    td.program-slot.wscad-ctd {
+        background-color: #f28500;
+    }
+
+    td.program-slot.wscad-main {
+        background-color: #cc645b
     }
 
  }
