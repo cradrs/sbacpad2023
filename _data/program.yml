@@ -335,7 +335,7 @@ timeslots:
         type: "panel"
         rowspan: 2
         colspan: 3
-        portuguese: false
+        portuguese: true
   - time: "18:00"
     events:
       - name: "Keynote - Philippe Navaux Honorary Researcher SBAC-PAD 2022"
