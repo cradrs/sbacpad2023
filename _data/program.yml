@@ -1,0 +1,369 @@
+dates:
+  - date: "Time"
+    colspan: 1
+  - date: "Tuesday, October 17"
+    colspan: 3
+  - date: "Wednesday, October 18"
+    colspan: 3
+  - date: "Thursday, October 19"
+    colspan: 3
+  - date: "Friday, October 20"
+    colspan: 2
+timeslots:
+  - time: "08:00"
+    events:
+      - name: "Registration"
+        type: "registration"
+        rowspan: 2
+        colspan: 3
+        portuguese: false
+      - name: "Registration"
+        type: "registration"
+        rowspan: 2
+        colspan: 3
+        portuguese: false
+      - name: "Registration"
+        type: "registration"
+        rowspan: 2
+        colspan: 3
+        portuguese: false
+      - name: "Registration"
+        type: "registration"
+        rowspan: 2
+        colspan: 2
+        portuguese: false
+  - time: "08:30"
+    events:
+  - time: "09:00"
+    events:
+      - name: "HPC/DL"
+        type: "hpcdl"
+        url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
+        rowspan: 3
+        colspan: 1
+        portuguese: false
+      - name: "WAMCA"
+        type: "wamca"
+        url: "https://www.cri.ensmp.fr/conf/wamca2023/"
+        rowspan: 3
+        colspan: 1
+        portuguese: false
+      - name: "WSCAD Tutorials (1, 2, and 3)"
+        type: "wscad-tutorial"
+        rowspan: 3
+        colspan: 1
+        portuguese: true
+      - name: "SBAC-PAD 1 Best Papers I"
+        type: "sbacpad-main"
+        rowspan: 3
+        colspan: 1
+        portuguese: false
+      - name: "WSCAD 1"
+        type: "wscad-main"
+        rowspan: 3
+        colspan: 1
+        portuguese: true
+      - name: "WSCAD WIC 1"
+        type: "wscad-wic"
+        rowspan: 3
+        colspan: 1
+        portuguese: true
+      - name: "SBAC-PAD 4 Best Papers II"
+        type: "sbacpad-main"
+        rowspan: 3
+        colspan: 1
+        portuguese: false
+      - name: "WSCAD 4"
+        type: "wscad-main"
+        rowspan: 3
+        colspan: 1
+        portuguese: true
+      - name: "WSCAD CTD 1"
+        type: "wscad-ctd"
+        rowspan: 3
+        colspan: 1
+        portuguese: true
+      - name: "SBAC-PAD 7 Parallel Applications"
+        type: "sbacpad-main"
+        rowspan: 3
+        colspan: 1
+        portuguese: false
+      - name: "WSCAD 7"
+        type: "wscad-main"
+        rowspan: 3
+        colspan: 1
+        portuguese: true
+  - time: "09:30"
+  - time: "10:00"
+  - time: "10:30"
+    events:
+      - name: "Coffee-break"
+        type: "meal"
+        rowspan: 1
+        colspan: 3
+        portuguese: false
+      - name: "Coffee-break"
+        type: "meal"
+        rowspan: 1
+        colspan: 3
+        portuguese: false
+      - name: "Coffee-break"
+        type: "meal"
+        rowspan: 1
+        colspan: 3
+        portuguese: false
+      - name: "Coffee-break"
+        type: "meal"
+        rowspan: 1
+        colspan: 2
+        portuguese: false
+  - time: "11:00"
+    events:
+      - name: "HPC/DL"
+        type: "hpcdl"
+        url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
+        rowspan: 2
+        colspan: 1
+        portuguese: false
+      - name: "WAMCA"
+        type: "wamca"
+        url: "https://www.cri.ensmp.fr/conf/wamca2023/"
+        rowspan: 2
+        colspan: 1
+        portuguese: false
+      - name: "WSCAD Tutorials (1, 2, and 3)"
+        type: "wscad-tutorial"
+        rowspan: 2
+        colspan: 1
+        portuguese: true
+      - name: "Keynote - Ivona Brandic"
+        type: "sbacpad"
+        rowspan: 2
+        colspan: 3
+        portuguese: false
+      - name: "Keynote - Bronson Messer"
+        type: "sbacpad"
+        rowspan: 2
+        colspan: 3
+        portuguese: false
+      - name: "Keynote - Alba Cristina Magalhaes Alves de Melo"
+        type: "sbacpad"
+        rowspan: 2
+        colspan: 2
+        portuguese: false
+  - time: "11:30"
+  - time: "12:00"
+    events:
+      - name: "Lunch"
+        type: "meal"
+        rowspan: 3
+        colspan: 3
+        portuguese: false
+      - name: "Lunch"
+        type: "meal"
+        rowspan: 3
+        colspan: 3
+        portuguese: false
+      - name: "Lunch"
+        type: "meal"
+        rowspan: 3
+        colspan: 3
+        portuguese: false
+      - name: "Lunch"
+        type: "meal"
+        rowspan: 3
+        colspan: 2
+        portuguese: false
+  - time: "12:30"
+  - time: "13:00"
+  - time: "13:30"
+    events:
+      - name: "HPC/DL"
+        type: "hpcdl"
+        url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
+        rowspan: 3
+        colspan: 1
+        portuguese: false
+      - name: "WCC"
+        type: "wcc"
+        url: "https://www.inf.ufrgs.br/gppd/wcc/2023/"
+        rowspan: 3
+        colspan: 1
+        portuguese: false
+      - name: "WSCAD Tutorials (4, 5, and 6)"
+        type: "wscad-tutorial"
+        rowspan: 3
+        colspan: 1
+        portuguese: true
+      - name: "SBAC-PAD 2 Architecture"
+        type: "sbacpad-main"
+        rowspan: 3
+        colspan: 1
+        portuguese: false
+      - name: "WSCAD 2"
+        type: "wscad-main"
+        rowspan: 3
+        colspan: 1
+        portuguese: true
+      - name: "WSCAD WIC 2"
+        type: "wscad-wic"
+        rowspan: 3
+        colspan: 1
+        portuguese: true
+      - name: "SBAC-PAD 5 Performance Engineering"
+        type: "sbacpad-main"
+        rowspan: 3
+        colspan: 1
+        portuguese: false
+      - name: "WSCAD 5"
+        type: "wscad-main"
+        rowspan: 3
+        colspan: 1
+        portuguese: true
+      - name: "WSCAD CTD 2"
+        type: "wscad-ctd"
+        rowspan: 3
+        colspan: 1
+        portuguese: true
+      - name: "SBAC-PAD 8 Cloud Computing"
+        type: "sbacpad-main"
+        rowspan: 2
+        colspan: 2
+        portuguese: false
+  - time: "14:00"
+  - time: "14:30"
+    events:
+      - name: "Closing Session"
+        type: "sbacpad"
+        rowspan: 2
+        colspan: 2
+        portuguese: false
+  - time: "15:00"
+    events:
+      - name: "Coffee-break"
+        type: "meal"
+        rowspan: 1
+        colspan: 3
+        portuguese: false
+      - name: "Coffee-break"
+        type: "meal"
+        rowspan: 1
+        colspan: 3
+        portuguese: false
+      - name: "Coffee-break"
+        type: "meal"
+        rowspan: 1
+        colspan: 3
+        portuguese: false
+  - time: "15:30"
+    events:
+      - name: "HPC/DL"
+        type: "hpcdl"
+        url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
+        rowspan: 3
+        colspan: 1
+        portuguese: false
+      - name: "WCC"
+        type: "wcc"
+        url: "https://www.inf.ufrgs.br/gppd/wcc/2023/"
+        rowspan: 3
+        colspan: 1
+        portuguese: false
+      - name: "WSCAD Tutorials (4, 5, and 6)"
+        type: "wscad-tutorial"
+        rowspan: 3
+        colspan: 1
+        portuguese: true
+      - name: "SBAC-PAD 3 Distributed Systems"
+        type: "sbacpad-main"
+        rowspan: 3
+        colspan: 1
+        portuguese: false
+      - name: "WSCAD 3"
+        type: "wscad-main"
+        rowspan: 3
+        colspan: 1
+        portuguese: true
+      - name: "WSCAD WEAC"
+        type: "wscad-weac"
+        rowspan: 3
+        colspan: 1
+        portuguese: true
+      - name: "Industrial Talk 2 (Lenovo)"
+        type: "sbacpad"
+        rowspan: 2
+        colspan: 3
+        portuguese: false
+      - name: ""
+        type: "space"
+        rowspan: 13
+        colspan: 2
+        portuguese: false
+  - time: "16:00"
+  - time: "16:30"
+    events:
+      - name: "SBAC-PAD 6 Systems Optimization"
+        type: "sbacpad-main"
+        rowspan: 3
+        colspan: 1
+        portuguese: false
+      - name: "WSCAD 6"
+        type: "wscad-main"
+        rowspan: 3
+        colspan: 1
+        portuguese: true
+      - name: "CEACPAD Meeting"
+        type: "ceacpad"
+        rowspan: 3
+        colspan: 1
+        portuguese: true
+  - time: "17:00"
+    events:
+      - name: "Opening Session"
+        type: "sbacpad"
+        rowspan: 2
+        colspan: 3
+        portuguese: false
+      - name: "Industrial Talk 1 (Dell)"
+        type: "sbacpad"
+        rowspan: 1
+        colspan: 3
+        portuguese: false
+  - time: "17:30"
+    events:
+      - name: "Panel: HPC Investments in Brazil"
+        type: "panel"
+        rowspan: 2
+        colspan: 3
+        portuguese: false
+  - time: "18:00"
+    events:
+      - name: "Keynote - Philippe Navaux Honorary Researcher SBAC-PAD 2022"
+        type: "honorary"
+        rowspan: 2
+        colspan: 3
+        portuguese: false
+  - time: "18:30"
+    events:
+      - name: ""
+        type: "space"
+        rowspan: 7
+        colspan: 3
+        portuguese: false
+  - time: "19:00"
+    events:
+      - name: "Cocktail"
+        type: " social"
+        rowspan: 6
+        colspan: 3
+        portuguese: false
+      - name: "Dinner"
+        type: " social"
+        rowspan: 6
+        colspan: 3
+        portuguese: false
+  - time: "19:30"
+  - time: "20:00"
+  - time: "20:30"
+  - time: "21:00"
+  - time: "21:30"

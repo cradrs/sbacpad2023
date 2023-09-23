@@ -25,6 +25,11 @@
         align-items: center;
         border: 1px solid rgb(198, 198, 198);
     }
+    .custom_program_field {
+        margin: 2rem;
+        border-radius: 0.5rem;
+        border: 1px solid #6c6c6c;
+    }
 
     .event_activities {
         background-color: rgb(221, 221, 221);
@@ -38,9 +43,6 @@
     }
     .wcc {
         background-color: rgb(243, 168, 255);
-    }
-    .sbacpad {
-        background-color: rgb(255, 190, 190);
     }
     .keynote {
         background-color: rgb(255, 199, 162);
@@ -57,3 +59,60 @@
         }
     }
 }
+
+table.program {
+    border-collapse: separate;
+    border-spacing: 4px;
+
+    td.program-slot:not(.space) {
+        border: 1px solid rgb(198, 198, 198);
+        border-radius: 0.3rem;
+        padding: 0.5rem;
+        text-align: center;
+        vertical-align: top;
+    }
+
+    td.program-slot {
+        img {
+            position:absolute;
+            bottom: 5px;
+            right: 5px;
+            height: 25px;
+            width: 25px;
+        }
+        
+    }
+    
+    td.program-slot.registration {
+        background-color: #eeeeee;
+    }
+
+    td.program-slot.meal {
+        background-color: #c6c6c6;
+    }
+
+    td.program-slot.social {
+        background-color: #5db863;
+    }
+
+    td.program-slot.hpcdl {
+        background-color: #ffcccc;
+    }
+
+    td.program-slot.wscad-tutorial {
+        background-color: #cbc3e3;
+    }
+
+    td.program-slot.sbacpad {
+        background-color: #ffcccc;
+    }
+
+    td.program-slot.sbacpad-main {
+        background-color: #0492c2;
+    }
+
+    td.program-slot.panel {
+        background-color: #f89880;
+    }
+
+ }
