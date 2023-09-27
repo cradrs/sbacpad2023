@@ -7,10 +7,11 @@ permalink: /program/
 <section id="program">
     <br><br>
     <h1 class="text-center">Program</h1>
-    <br><br>
-
+    <br>
+    <h2 class="text-center">Program Overview</h2>
+    <br>
     <section id="program_overview">
-        <div class="container-fluid table-responsive">
+        <div class="container-fluid table-responsive px-5">
             <table class="table program">
                 <thead>
                     <tr>
@@ -27,11 +28,8 @@ permalink: /program/
                             </td>
                             {% for event in slot.events %}
                                 <td class="program-slot {{ event.type }}" rowspan="{{ event.rowspan }}" colspan="{{ event.colspan }}">
-                                    {% if event.url %}
-                                        <a href="{{ event.url }}" target="_blank">{{ event.name }}</a>
-                                    {% else %}
-                                        {{ event.name }}
-                                    {% endif %}
+                                    <!-- TODO: add anchor tag to program details -->
+                                    {{ event.name }}
                                     {% if event.portuguese == true %}
                                         <br>
                                         <img src="{{ site.final_url }}/assets/img/brazil.png" alt="Event in Portuguese">
@@ -42,6 +40,83 @@ permalink: /program/
                     {% endfor %}
                 </tbody>
             </table>
+        </div>
+    </section>
+    <br>
+    <h2 class="text-center">Program Details</h2>
+    <br>
+    <section id="program_details">
+        <div class="container-fluid">
+            <div class="row px-5">
+                <ul class="nav nav-pills nav-fill justify-content-center black" id="program-tab" role="tablist">
+                    {% for date in site.data.program.dates %}
+                        {% if forloop.index == 1 %}
+                            {% continue %}
+                        {% endif %}
+                        <li class="nav-item" role="presentation">
+                            {% if forloop.index == 2 %}
+                                <button class="nav-link active" id="tab-{{ date.id }}" data-bs-toggle="tab" data-bs-target="#program-{{ date.id }}" type="button" role="tab" aria-controls="program-{{ date.id }}" aria-selected="true">
+                            {% else %}
+                                <button class="nav-link" id="tab-{{ date.id }}" data-bs-toggle="tab" data-bs-target="#program-{{ date.id }}" type="button" role="tab" aria-controls="program-{{ date.id }}" aria-selected="true">
+                            {% endif %}
+                            {{ date.date }}
+                            </button>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <hr>
+            <div class="tab-content">
+                {% for date in site.data.program.dates %}
+                    {% if forloop.index == 1 %}
+                        {% continue %}
+                    {% endif %}
+                    {% if forloop.index == 2 %}
+                        <div id="program-{{date.id}}" class="tab-pane show active" role="tabpanel">
+                    {% else %}
+                        <div id="program-{{date.id}}" class="tab-pane" role="tabpanel">
+                    {% endif %}
+                    {% for timeslot in site.data.program.timeslots %}
+                        {% assign events = (timeslot.events | where:"day",date.id) %}
+                        {% for event in events %}
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <b>{{ timeslot.time }}</b>
+                                    <p>Room: {{ event.room }}</p>
+                                </div>
+                                <div class="col-md-10">
+                                    <h4>
+                                        {% if event.url and event.url != "" %}
+                                            <a href="{{ event.url }}" target="_blank">{{ event.name }}</a>
+                                        {% else %}
+                                            {{ event.name }}
+                                        {% endif %}
+                                        {% if event.portuguese == true %}
+                                            <img src="{{ site.final_url }}/assets/img/brazil.png" alt="Event in Portuguese">
+                                        {% endif %}
+                                    </h4>
+                                    
+                                    {% if event.type == "sbacpad-main" %}
+                                        {% assign topic = event.name | split: '| ' %}
+                                        {% assign session = site.data.technical_sessions | where:"title",topic[1] | first %}
+                                        <p>
+                                            <b>Chair</b>: {{ session.chair }}
+                                        </p>
+                                        {% for paper in session.papers %}
+                                            <b>{{ paper.title }}</b>
+                                            <p>{{ paper.authors }}</p>
+                                        {% endfor %}
+                                    {% else %}
+                                        <p>{{ event.description }}</p>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <hr>
+                        {% endfor %}
+                    {% endfor %}
+                    </div>
+                {% endfor %}
+            </div>
         </div>
     </section>
     <br><br>

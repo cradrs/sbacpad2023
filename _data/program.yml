@@ -2,298 +2,472 @@ dates:
   - date: "Time"
     colspan: 1
   - date: "Tuesday, October 17"
+    id: "day1"
     colspan: 3
   - date: "Wednesday, October 18"
+    id: "day2"
     colspan: 3
   - date: "Thursday, October 19"
+    id: "day3"
     colspan: 3
   - date: "Friday, October 20"
+    id: "day4"
     colspan: 2
 timeslots:
   - time: "08:00"
     events:
       - name: "Registration"
         type: "registration"
+        day: "day1"
         rowspan: 1
         colspan: 3
         portuguese: false
+        room: "TBD"
+        description: ""
       - name: "Registration"
         type: "registration"
+        day: "day2"
         rowspan: 1
         colspan: 3
         portuguese: false
+        room: "TBD"
+        description: ""
       - name: "Registration"
         type: "registration"
+        day: "day3"
         rowspan: 1
         colspan: 3
         portuguese: false
+        room: "TBD"
+        description: ""
       - name: "Registration"
         type: "registration"
+        day: "day4"
         rowspan: 1
         colspan: 2
         portuguese: false
+        room: "TBD"
+        description: ""
   # - time: "08:30"
   #   events:
   - time: "09:00"
     events:
       - name: "HPC/DL"
         type: "hpcdl"
-        url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
+        day: "day1"
         rowspan: 1
         colspan: 1
         portuguese: false
+        room: "TBD"
+        description: ""
+        url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
       - name: "WAMCA"
         type: "wamca"
-        url: "https://www.cri.ensmp.fr/conf/wamca2023/"
+        day: "day1"
         rowspan: 1
         colspan: 1
         portuguese: false
+        room: "TBD"
+        description: ""
+        url: "https://www.cri.ensmp.fr/conf/wamca2023/"
       - name: "WSCAD Tutorials (1, 2, and 3)"
         type: "wscad-tutorial"
+        day: "day1"
         rowspan: 1
         colspan: 1
         portuguese: true
-      - name: "SBAC-PAD 1 Best Papers I"
+        room: "TBD"
+        description: ""
+        url: ""
+      - name: "SBAC-PAD 1 | Best Papers I"
         type: "sbacpad-main"
+        day: "day2"
         rowspan: 1
         colspan: 1
         portuguese: false
+        room: "TBD"
+        url: ""
       - name: "WSCAD 1"
         type: "wscad-main"
+        day: "day2"
         rowspan: 1
         colspan: 1
         portuguese: true
+        room: "TBD"
+        description: ""
+        url: ""
       - name: "WSCAD WIC 1"
         type: "wscad-wic"
+        day: "day2"
         rowspan: 1
         colspan: 1
         portuguese: true
-      - name: "SBAC-PAD 4 Best Papers II"
+        room: "TBD"
+        description: ""
+        url: ""
+      - name: "SBAC-PAD 4 | Best Papers II"
         type: "sbacpad-main"
+        day: "day3"
         rowspan: 1
         colspan: 1
         portuguese: false
+        room: "TBD"
+        url: ""
       - name: "WSCAD 4"
         type: "wscad-main"
+        day: "day3"
         rowspan: 1
         colspan: 1
         portuguese: true
+        room: "TBD"
+        description: ""
+        url: ""
       - name: "WSCAD CTD 1"
         type: "wscad-ctd"
+        day: "day3"
         rowspan: 1
         colspan: 1
         portuguese: true
-      - name: "SBAC-PAD 7 Parallel Applications"
+        room: "TBD"
+        description: ""
+        url: ""
+      - name: "SBAC-PAD 7 | Parallel Applications"
         type: "sbacpad-main"
+        day: "day4"
         rowspan: 1
         colspan: 1
         portuguese: false
+        room: "TBD"
+        url: ""
       - name: "WSCAD 7"
         type: "wscad-main"
+        day: "day4"
         rowspan: 1
         colspan: 1
         portuguese: true
+        room: "TBD"
+        description: ""
+        url: ""
   # - time: "09:30"
   # - time: "10:00"
   - time: "10:30"
     events:
       - name: "Coffee-break"
         type: "meal"
+        day: "day1"
         rowspan: 1
         colspan: 3
         portuguese: false
+        room: "TBD"
+        description: ""
       - name: "Coffee-break"
         type: "meal"
+        day: "day2"
         rowspan: 1
         colspan: 3
         portuguese: false
+        room: "TBD"
+        description: ""
       - name: "Coffee-break"
         type: "meal"
+        day: "day3"
         rowspan: 1
         colspan: 3
         portuguese: false
+        room: "TBD"
+        description: ""
       - name: "Coffee-break"
         type: "meal"
+        day: "day4"
         rowspan: 1
         colspan: 2
         portuguese: false
+        room: "TBD"
+        description: ""
   - time: "11:00"
     events:
       - name: "HPC/DL"
         type: "hpcdl"
-        url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
+        day: "day1"
         rowspan: 1
         colspan: 1
         portuguese: false
+        room: "TBD"
+        description: ""
+        url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
       - name: "WAMCA"
         type: "wamca"
-        url: "https://www.cri.ensmp.fr/conf/wamca2023/"
+        day: "day1"
         rowspan: 1
         colspan: 1
         portuguese: false
+        room: "TBD"
+        description: ""
+        url: "https://www.cri.ensmp.fr/conf/wamca2023/"
       - name: "WSCAD Tutorials (1, 2, and 3)"
         type: "wscad-tutorial"
+        day: "day1"
         rowspan: 1
         colspan: 1
         portuguese: true
+        room: "TBD"
+        description: ""
+        url: ""
       - name: "Keynote - Ivona Brandic"
         type: "sbacpad"
+        day: "day2"
         rowspan: 1
         colspan: 3
         portuguese: false
+        room: "TBD"
+        description: ""
+        url: ""
       - name: "Keynote - Bronson Messer"
         type: "sbacpad"
+        day: "day3"
         rowspan: 1
         colspan: 3
         portuguese: false
+        room: "TBD"
+        description: ""
+        url: ""
       - name: "Keynote - Alba Cristina Magalhaes Alves de Melo"
         type: "sbacpad"
+        day: "day4"
         rowspan: 1
         colspan: 2
         portuguese: false
+        room: "TBD"
+        description: ""
+        url: ""
   # - time: "11:30"
   - time: "12:00"
     events:
       - name: "Lunch"
         type: "meal"
+        day: "day1"
         rowspan: 1
         colspan: 3
         portuguese: false
+        room: "TBD"
+        description: ""
       - name: "Lunch"
         type: "meal"
+        day: "day2"
         rowspan: 1
         colspan: 3
         portuguese: false
+        room: "TBD"
+        description: ""
       - name: "Lunch"
         type: "meal"
+        day: "day3"
         rowspan: 1
         colspan: 3
         portuguese: false
+        room: "TBD"
+        description: ""
       - name: "Lunch"
         type: "meal"
+        day: "day4"
         rowspan: 1
         colspan: 2
         portuguese: false
+        room: "TBD"
+        description: ""
   # - time: "12:30"
   # - time: "13:00"
   - time: "13:30"
     events:
       - name: "HPC/DL"
         type: "hpcdl"
-        url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
+        day: "day1"
         rowspan: 2
         colspan: 1
         portuguese: false
+        room: "TBD"
+        description: ""
+        url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
       - name: "WCC"
         type: "wcc"
-        url: "https://www.inf.ufrgs.br/gppd/wcc/2023/"
+        day: "day1"
         rowspan: 2
         colspan: 1
         portuguese: false
+        room: "TBD"
+        description: ""
+        url: "https://www.inf.ufrgs.br/gppd/wcc/2023/"
       - name: "WSCAD Tutorials (4, 5, and 6)"
         type: "wscad-tutorial"
+        day: "day1"
         rowspan: 2
         colspan: 1
         portuguese: true
-      - name: "SBAC-PAD 2 Architecture"
+        room: "TBD"
+        description: ""
+        url: ""
+      - name: "SBAC-PAD 2 | Architecture"
         type: "sbacpad-main"
+        day: "day2"
         rowspan: 2
         colspan: 1
         portuguese: false
+        room: "TBD"
+        url: ""
       - name: "WSCAD 2"
         type: "wscad-main"
+        day: "day2"
         rowspan: 2
         colspan: 1
         portuguese: true
+        room: "TBD"
+        description: ""
+        url: ""
       - name: "WSCAD WIC 2"
         type: "wscad-wic"
+        day: "day2"
         rowspan: 2
         colspan: 1
         portuguese: true
-      - name: "SBAC-PAD 5 Performance Engineering"
+        room: "TBD"
+        description: ""
+        url: ""
+      - name: "SBAC-PAD 5 | Performance Engineering"
         type: "sbacpad-main"
+        day: "day3"
         rowspan: 2
         colspan: 1
         portuguese: false
+        room: "TBD"
+        url: ""
       - name: "WSCAD 5"
         type: "wscad-main"
+        day: "day3"
         rowspan: 2
         colspan: 1
         portuguese: true
+        room: "TBD"
+        description: ""
+        url: ""
       - name: "WSCAD CTD 2"
         type: "wscad-ctd"
+        day: "day3"
         rowspan: 2
         colspan: 1
         portuguese: true
-      - name: "SBAC-PAD 8 Cloud Computing"
+        room: "TBD"
+        description: ""
+        url: ""
+      - name: "SBAC-PAD 8 | Cloud Computing"
         type: "sbacpad-main"
+        day: "day4"
         rowspan: 1
         colspan: 2
         portuguese: false
+        room: "TBD"
+        url: ""
   # - time: "14:00"
   - time: "14:30"
     events:
       - name: "Closing Session"
         type: "sbacpad"
+        day: "day4"
         rowspan: 2
         colspan: 2
         portuguese: false
+        room: "TBD"
+        description: ""
+        url: ""
   - time: "15:00"
     events:
       - name: "Coffee-break"
         type: "meal"
+        day: "day1"
         rowspan: 1
         colspan: 3
         portuguese: false
+        room: "TBD"
+        description: ""
       - name: "Coffee-break"
         type: "meal"
+        day: "day2"
         rowspan: 1
         colspan: 3
         portuguese: false
+        room: "TBD"
+        description: ""
       - name: "Coffee-break"
         type: "meal"
+        day: "day3"
         rowspan: 1
         colspan: 3
         portuguese: false
+        room: "TBD"
+        description: ""
   - time: "15:30"
     events:
       - name: "HPC/DL"
         type: "hpcdl"
-        url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
+        day: "day1"
         rowspan: 2
         colspan: 1
         portuguese: false
+        room: "TBD"
+        description: ""
+        url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
       - name: "WCC"
         type: "wcc"
-        url: "https://www.inf.ufrgs.br/gppd/wcc/2023/"
+        day: "day1"
         rowspan: 2
         colspan: 1
         portuguese: false
+        room: "TBD"
+        description: ""
+        url: "https://www.inf.ufrgs.br/gppd/wcc/2023/"
       - name: "WSCAD Tutorials (4, 5, and 6)"
         type: "wscad-tutorial"
+        day: "day1"
         rowspan: 2
         colspan: 1
         portuguese: true
-      - name: "SBAC-PAD 3 Distributed Systems"
+        room: "TBD"
+        description: ""
+        url: ""
+      - name: "SBAC-PAD 3 | Distributed Systems"
         type: "sbacpad-main"
+        day: "day2"
         rowspan: 2
         colspan: 1
         portuguese: false
+        room: "TBD"
+        url: ""
       - name: "WSCAD 3"
         type: "wscad-main"
+        day: "day2"
         rowspan: 2
         colspan: 1
         portuguese: true
+        room: "TBD"
+        description: ""
+        url: ""
       - name: "WSCAD WEAC"
         type: "wscad-weac"
+        day: "day2"
         rowspan: 2
         colspan: 1
         portuguese: true
+        room: "TBD"
+        description: ""
+        url: ""
       - name: "Industrial Talk 2 (Lenovo)"
         type: "sbacpad"
+        day: "day3"
         rowspan: 1
         colspan: 3
         portuguese: false
+        room: "TBD"
+        description: ""
+        url: ""
       - name: ""
         type: "space"
         rowspan: 11
@@ -302,47 +476,74 @@ timeslots:
   # - time: "16:00"
   - time: "16:30"
     events:
-      - name: "SBAC-PAD 6 Systems Optimization"
+      - name: "SBAC-PAD 6 | Systems Optimization"
         type: "sbacpad-main"
+        day: "day3"
         rowspan: 3
         colspan: 1
         portuguese: false
+        room: "TBD"
+        url: ""
       - name: "WSCAD 6"
         type: "wscad-main"
+        day: "day3"
         rowspan: 3
         colspan: 1
         portuguese: true
+        room: "TBD"
+        description: ""
+        url: ""
       - name: "CEACPAD Meeting"
         type: "ceacpad"
+        day: "day3"
         rowspan: 3
         colspan: 1
         portuguese: true
+        room: "TBD"
+        description: ""
+        url: ""
   - time: "17:00"
     events:
       - name: "Opening Session"
         type: "sbacpad"
+        day: "day1"
         rowspan: 2
         colspan: 3
         portuguese: false
+        room: "TBD"
+        description: ""
+        url: ""
       - name: "Industrial Talk 1 (Dell)"
         type: "sbacpad"
+        day: "day2"
         rowspan: 1
         colspan: 3
         portuguese: false
+        room: "TBD"
+        description: ""
+        url: ""
   - time: "17:30"
     events:
       - name: "Panel: HPC Investments in Brazil"
         type: "panel"
+        day: "day2"
         rowspan: 2
         colspan: 3
         portuguese: true
+        room: "TBD"
+        description: ""
+        url: ""
   - time: "18:00"
     events:
       - name: "Keynote - Philippe Navaux Honorary Researcher SBAC-PAD 2022"
         type: "honorary"
+        day: "day1"
         rowspan: 2
         colspan: 3
         portuguese: false
+        room: "TBD"
+        description: ""
+        url: ""
       - name: ""
         type: "space"
         rowspan: 2
@@ -357,15 +558,23 @@ timeslots:
   - time: "19:30"
     events:
       - name: "Cocktail"
-        type: " social"
+        type: "social"
+        day: "day1"
         rowspan: 1
         colspan: 3
         portuguese: false
+        room: "TBD"
+        description: ""
+        url: ""
       - name: "Dinner"
-        type: " social"
+        type: "social"
+        day: "day3"
         rowspan: 1
         colspan: 3
         portuguese: false
+        room: "TBD"
+        description: ""
+        url: ""
   # - time: "19:30"
   # - time: "20:00"
   # - time: "20:30"

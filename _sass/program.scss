@@ -147,4 +147,45 @@ table.program {
         background-color: #cc645b
     }
 
- }
+}
+
+#program_details {
+    .nav-pills > .nav-item > .nav-link.active {
+        background-color: black;
+        color: white;
+    }
+        
+    .nav-pills > .nav-item > .nav-link:hover:not(.active) {
+        background-color: #ffcccb;
+        color: black;
+    }
+        
+    .nav-link,
+    .nav-pills > .nav-item > .nav-link:focus:not(.active) {
+        color: black;
+    }
+
+    .tab-content {
+        padding: 0 5rem;
+
+        img {
+            //position:absolute;
+            bottom: 5px;
+            right: 5px;
+            height: 25px;
+            width: 25px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        /*
+        .row:hover {
+            background-color: #ffcccb;
+            transition: background-color 0.5s ease;
+        }
+        */
+    }
+}
