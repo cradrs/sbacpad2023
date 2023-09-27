@@ -165,6 +165,10 @@ table.program {
         color: black;
     }
 
+    hr {
+        margin: 0;
+    }
+
     .tab-content {
         padding: 0 5rem;
 
@@ -181,11 +185,8 @@ table.program {
             color: black;
         }
 
-        /*
-        .row:hover {
-            background-color: #ffcccb;
-            transition: background-color 0.5s ease;
-        }
-        */
+        .row {
+            padding: 1rem 0;
+        }        
     }
 }

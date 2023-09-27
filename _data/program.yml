@@ -64,7 +64,7 @@ timeslots:
         colspan: 1
         portuguese: false
         room: "TBD"
-        description: ""
+        description: "The workshop aims at facilitating knowledge sharing, networking, and collaboration among participants in the field of HPC and Deep Learning. The workshop will also provide a platform for researchers and practitioners to showcase their latest research and discuss potential applications of HPC and deep learning in industry and governments. We hope that the workshop will inspire new ideas, collaborations, and research directions in the intersection of HPC and DL."
         url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
       - name: "WAMCA"
         id: "wamca-1"
@@ -74,7 +74,7 @@ timeslots:
         colspan: 1
         portuguese: false
         room: "TBD"
-        description: ""
+        description: "Since the advent of the multi-core concept, significant advances have been made on many of the related aspects. Multi-core has become a natural element in the HPC ecosystem, and its pervasiveness within the landscape of common computing devices has made it a standard. Therefore, hardware and software concerns related to multi-core are good targets for computer science investigations, with a high potential for a genuine contribution. Beside the plethora of applications for which more powerful solutions are still expected, efficient implementation techniques for many-core chip processors are of keen interest. WAMCA is aiming at providing an opportunity to address all aforementioned technical challenges and more, including reports on specific case studies. This workshop is an opportunity for application designers and computer architects to discuss new techniques and emerging applications as well as their implications on current and next-generation many-core architectures."
         url: "https://www.cri.ensmp.fr/conf/wamca2023/"
       - name: "WSCAD Tutorials (1, 2, and 3)"
         id: "wscad-tutorials-1"
@@ -213,7 +213,7 @@ timeslots:
         colspan: 1
         portuguese: false
         room: "TBD"
-        description: ""
+        description: "The workshop aims at facilitating knowledge sharing, networking, and collaboration among participants in the field of HPC and Deep Learning. The workshop will also provide a platform for researchers and practitioners to showcase their latest research and discuss potential applications of HPC and deep learning in industry and governments. We hope that the workshop will inspire new ideas, collaborations, and research directions in the intersection of HPC and DL."
         url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
       - name: "WAMCA"
         id: "wamca-2"
@@ -223,7 +223,7 @@ timeslots:
         colspan: 1
         portuguese: false
         room: "TBD"
-        description: ""
+        description: "Since the advent of the multi-core concept, significant advances have been made on many of the related aspects. Multi-core has become a natural element in the HPC ecosystem, and its pervasiveness within the landscape of common computing devices has made it a standard. Therefore, hardware and software concerns related to multi-core are good targets for computer science investigations, with a high potential for a genuine contribution. Beside the plethora of applications for which more powerful solutions are still expected, efficient implementation techniques for many-core chip processors are of keen interest. WAMCA is aiming at providing an opportunity to address all aforementioned technical challenges and more, including reports on specific case studies. This workshop is an opportunity for application designers and computer architects to discuss new techniques and emerging applications as well as their implications on current and next-generation many-core architectures."
         url: "https://www.cri.ensmp.fr/conf/wamca2023/"
       - name: "WSCAD Tutorials (1, 2, and 3)"
         id: "wscad-tutorials-2"
@@ -316,7 +316,7 @@ timeslots:
         colspan: 1
         portuguese: false
         room: "TBD"
-        description: ""
+        description: "The workshop aims at facilitating knowledge sharing, networking, and collaboration among participants in the field of HPC and Deep Learning. The workshop will also provide a platform for researchers and practitioners to showcase their latest research and discuss potential applications of HPC and deep learning in industry and governments. We hope that the workshop will inspire new ideas, collaborations, and research directions in the intersection of HPC and DL."
         url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
       - name: "WCC"
         id: "wcc-1"
@@ -326,7 +326,7 @@ timeslots:
         colspan: 1
         portuguese: false
         room: "TBD"
-        description: ""
+        description: "The Workshop on Cloud Computing (WCC 2023) is an international forum for both researchers and industry practitioners to exchange the fundamental advances in the state of the art and practice of cloud computing, identify emerging research topics and define the future of cloud computing."
         url: "https://www.inf.ufrgs.br/gppd/wcc/2023/"
       - name: "WSCAD Tutorials (4, 5, and 6)"
         id: "wscad-tutorials-3"
@@ -457,7 +457,7 @@ timeslots:
         colspan: 1
         portuguese: false
         room: "TBD"
-        description: ""
+        description: "The workshop aims at facilitating knowledge sharing, networking, and collaboration among participants in the field of HPC and Deep Learning. The workshop will also provide a platform for researchers and practitioners to showcase their latest research and discuss potential applications of HPC and deep learning in industry and governments. We hope that the workshop will inspire new ideas, collaborations, and research directions in the intersection of HPC and DL."
         url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
       - name: "WCC"
         id: "wcc-2"
@@ -467,7 +467,7 @@ timeslots:
         colspan: 1
         portuguese: false
         room: "TBD"
-        description: ""
+        description: "The Workshop on Cloud Computing (WCC 2023) is an international forum for both researchers and industry practitioners to exchange the fundamental advances in the state of the art and practice of cloud computing, identify emerging research topics and define the future of cloud computing."
         url: "https://www.inf.ufrgs.br/gppd/wcc/2023/"
       - name: "WSCAD Tutorials (4, 5, and 6)"
         id: "wscad-tutorials-4"
