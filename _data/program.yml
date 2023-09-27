@@ -17,6 +17,7 @@ timeslots:
   - time: "08:00"
     events:
       - name: "Registration"
+        id: "registration-1"
         type: "registration"
         day: "day1"
         rowspan: 1
@@ -25,6 +26,7 @@ timeslots:
         room: "TBD"
         description: ""
       - name: "Registration"
+        id: "registration-2"
         type: "registration"
         day: "day2"
         rowspan: 1
@@ -33,6 +35,7 @@ timeslots:
         room: "TBD"
         description: ""
       - name: "Registration"
+        id: "registration-3"
         type: "registration"
         day: "day3"
         rowspan: 1
@@ -41,6 +44,7 @@ timeslots:
         room: "TBD"
         description: ""
       - name: "Registration"
+        id: "registration-4"
         type: "registration"
         day: "day4"
         rowspan: 1
@@ -53,6 +57,7 @@ timeslots:
   - time: "09:00"
     events:
       - name: "HPC/DL"
+        id: "hpcdl-1"
         type: "hpcdl"
         day: "day1"
         rowspan: 1
@@ -62,6 +67,7 @@ timeslots:
         description: ""
         url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
       - name: "WAMCA"
+        id: "wamca-1"
         type: "wamca"
         day: "day1"
         rowspan: 1
@@ -71,6 +77,7 @@ timeslots:
         description: ""
         url: "https://www.cri.ensmp.fr/conf/wamca2023/"
       - name: "WSCAD Tutorials (1, 2, and 3)"
+        id: "wscad-tutorials-1"
         type: "wscad-tutorial"
         day: "day1"
         rowspan: 1
@@ -80,6 +87,7 @@ timeslots:
         description: ""
         url: ""
       - name: "SBAC-PAD 1 | Best Papers I"
+        id: "sbacpad-1"
         type: "sbacpad-main"
         day: "day2"
         rowspan: 1
@@ -88,6 +96,7 @@ timeslots:
         room: "TBD"
         url: ""
       - name: "WSCAD 1"
+        id: "wscad-1"
         type: "wscad-main"
         day: "day2"
         rowspan: 1
@@ -97,6 +106,7 @@ timeslots:
         description: ""
         url: ""
       - name: "WSCAD WIC 1"
+        id: "wscad-wic-1"
         type: "wscad-wic"
         day: "day2"
         rowspan: 1
@@ -106,6 +116,7 @@ timeslots:
         description: ""
         url: ""
       - name: "SBAC-PAD 4 | Best Papers II"
+        id: "sbacpad-4"
         type: "sbacpad-main"
         day: "day3"
         rowspan: 1
@@ -114,6 +125,7 @@ timeslots:
         room: "TBD"
         url: ""
       - name: "WSCAD 4"
+        id: "wscad-4"
         type: "wscad-main"
         day: "day3"
         rowspan: 1
@@ -123,6 +135,7 @@ timeslots:
         description: ""
         url: ""
       - name: "WSCAD CTD 1"
+        id: "wscad-ctd-1"
         type: "wscad-ctd"
         day: "day3"
         rowspan: 1
@@ -132,6 +145,7 @@ timeslots:
         description: ""
         url: ""
       - name: "SBAC-PAD 7 | Parallel Applications"
+        id: "sbacpad-7"
         type: "sbacpad-main"
         day: "day4"
         rowspan: 1
@@ -140,6 +154,7 @@ timeslots:
         room: "TBD"
         url: ""
       - name: "WSCAD 7"
+        id: "wscad-7"
         type: "wscad-main"
         day: "day4"
         rowspan: 1
@@ -153,6 +168,7 @@ timeslots:
   - time: "10:30"
     events:
       - name: "Coffee-break"
+        id: "coffee-break-morning-1"
         type: "meal"
         day: "day1"
         rowspan: 1
@@ -161,6 +177,7 @@ timeslots:
         room: "TBD"
         description: ""
       - name: "Coffee-break"
+        id: "coffee-break-morning-2"
         type: "meal"
         day: "day2"
         rowspan: 1
@@ -169,6 +186,7 @@ timeslots:
         room: "TBD"
         description: ""
       - name: "Coffee-break"
+        id: "coffee-break-morning-3"
         type: "meal"
         day: "day3"
         rowspan: 1
@@ -177,6 +195,7 @@ timeslots:
         room: "TBD"
         description: ""
       - name: "Coffee-break"
+        id: "coffee-break-morning-4"
         type: "meal"
         day: "day4"
         rowspan: 1
@@ -187,6 +206,7 @@ timeslots:
   - time: "11:00"
     events:
       - name: "HPC/DL"
+        id: "hpcdl-2"
         type: "hpcdl"
         day: "day1"
         rowspan: 1
@@ -196,6 +216,7 @@ timeslots:
         description: ""
         url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
       - name: "WAMCA"
+        id: "wamca-2"
         type: "wamca"
         day: "day1"
         rowspan: 1
@@ -205,6 +226,7 @@ timeslots:
         description: ""
         url: "https://www.cri.ensmp.fr/conf/wamca2023/"
       - name: "WSCAD Tutorials (1, 2, and 3)"
+        id: "wscad-tutorials-2"
         type: "wscad-tutorial"
         day: "day1"
         rowspan: 1
@@ -214,6 +236,7 @@ timeslots:
         description: ""
         url: ""
       - name: "Keynote - Ivona Brandic"
+        id: "keynote-ivona-brandic"
         type: "sbacpad"
         day: "day2"
         rowspan: 1
@@ -223,6 +246,7 @@ timeslots:
         description: ""
         url: ""
       - name: "Keynote - Bronson Messer"
+        id: "keynote-bronson-messer"
         type: "sbacpad"
         day: "day3"
         rowspan: 1
@@ -232,6 +256,7 @@ timeslots:
         description: ""
         url: ""
       - name: "Keynote - Alba Cristina Magalhaes Alves de Melo"
+        id: "keynote-alba-cristina-magalhaes-alves-de-melo"
         type: "sbacpad"
         day: "day4"
         rowspan: 1
@@ -244,6 +269,7 @@ timeslots:
   - time: "12:00"
     events:
       - name: "Lunch"
+        id: "lunch-1"
         type: "meal"
         day: "day1"
         rowspan: 1
@@ -252,6 +278,7 @@ timeslots:
         room: "TBD"
         description: ""
       - name: "Lunch"
+        id: "lunch-2"
         type: "meal"
         day: "day2"
         rowspan: 1
@@ -260,6 +287,7 @@ timeslots:
         room: "TBD"
         description: ""
       - name: "Lunch"
+        id: "lunch-3"
         type: "meal"
         day: "day3"
         rowspan: 1
@@ -268,6 +296,7 @@ timeslots:
         room: "TBD"
         description: ""
       - name: "Lunch"
+        id: "lunch-4"
         type: "meal"
         day: "day4"
         rowspan: 1
@@ -280,6 +309,7 @@ timeslots:
   - time: "13:30"
     events:
       - name: "HPC/DL"
+        id: "hpcdl-3"
         type: "hpcdl"
         day: "day1"
         rowspan: 2
@@ -289,6 +319,7 @@ timeslots:
         description: ""
         url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
       - name: "WCC"
+        id: "wcc-1"
         type: "wcc"
         day: "day1"
         rowspan: 2
@@ -298,6 +329,7 @@ timeslots:
         description: ""
         url: "https://www.inf.ufrgs.br/gppd/wcc/2023/"
       - name: "WSCAD Tutorials (4, 5, and 6)"
+        id: "wscad-tutorials-3"
         type: "wscad-tutorial"
         day: "day1"
         rowspan: 2
@@ -307,6 +339,7 @@ timeslots:
         description: ""
         url: ""
       - name: "SBAC-PAD 2 | Architecture"
+        id: "sbacpad-2"
         type: "sbacpad-main"
         day: "day2"
         rowspan: 2
@@ -315,6 +348,7 @@ timeslots:
         room: "TBD"
         url: ""
       - name: "WSCAD 2"
+        id: "wscad-2"
         type: "wscad-main"
         day: "day2"
         rowspan: 2
@@ -324,6 +358,7 @@ timeslots:
         description: ""
         url: ""
       - name: "WSCAD WIC 2"
+        id: "wscad-wic-2"
         type: "wscad-wic"
         day: "day2"
         rowspan: 2
@@ -333,6 +368,7 @@ timeslots:
         description: ""
         url: ""
       - name: "SBAC-PAD 5 | Performance Engineering"
+        id: "sbacpad-5"
         type: "sbacpad-main"
         day: "day3"
         rowspan: 2
@@ -341,6 +377,7 @@ timeslots:
         room: "TBD"
         url: ""
       - name: "WSCAD 5"
+        id: "wscad-5"
         type: "wscad-main"
         day: "day3"
         rowspan: 2
@@ -350,6 +387,7 @@ timeslots:
         description: ""
         url: ""
       - name: "WSCAD CTD 2"
+        id: "wscad-ctd-2"
         type: "wscad-ctd"
         day: "day3"
         rowspan: 2
@@ -359,6 +397,7 @@ timeslots:
         description: ""
         url: ""
       - name: "SBAC-PAD 8 | Cloud Computing"
+        id: "sbacpad-8"
         type: "sbacpad-main"
         day: "day4"
         rowspan: 1
@@ -370,6 +409,7 @@ timeslots:
   - time: "14:30"
     events:
       - name: "Closing Session"
+        id: "closing-session"
         type: "sbacpad"
         day: "day4"
         rowspan: 2
@@ -381,6 +421,7 @@ timeslots:
   - time: "15:00"
     events:
       - name: "Coffee-break"
+        id: "coffee-break-afternoon-1"
         type: "meal"
         day: "day1"
         rowspan: 1
@@ -389,6 +430,7 @@ timeslots:
         room: "TBD"
         description: ""
       - name: "Coffee-break"
+        id: "coffee-break-afternoon-2"
         type: "meal"
         day: "day2"
         rowspan: 1
@@ -397,6 +439,7 @@ timeslots:
         room: "TBD"
         description: ""
       - name: "Coffee-break"
+        id: "coffee-break-afternoon-3"
         type: "meal"
         day: "day3"
         rowspan: 1
@@ -407,6 +450,7 @@ timeslots:
   - time: "15:30"
     events:
       - name: "HPC/DL"
+        id: "hpcdl-4"
         type: "hpcdl"
         day: "day1"
         rowspan: 2
@@ -416,6 +460,7 @@ timeslots:
         description: ""
         url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
       - name: "WCC"
+        id: "wcc-2"
         type: "wcc"
         day: "day1"
         rowspan: 2
@@ -425,6 +470,7 @@ timeslots:
         description: ""
         url: "https://www.inf.ufrgs.br/gppd/wcc/2023/"
       - name: "WSCAD Tutorials (4, 5, and 6)"
+        id: "wscad-tutorials-4"
         type: "wscad-tutorial"
         day: "day1"
         rowspan: 2
@@ -434,6 +480,7 @@ timeslots:
         description: ""
         url: ""
       - name: "SBAC-PAD 3 | Distributed Systems"
+        id: "sbacpad-3"
         type: "sbacpad-main"
         day: "day2"
         rowspan: 2
@@ -442,6 +489,7 @@ timeslots:
         room: "TBD"
         url: ""
       - name: "WSCAD 3"
+        id: "wscad-3"
         type: "wscad-main"
         day: "day2"
         rowspan: 2
@@ -451,6 +499,7 @@ timeslots:
         description: ""
         url: ""
       - name: "WSCAD WEAC"
+        id: "wscad-weac"
         type: "wscad-weac"
         day: "day2"
         rowspan: 2
@@ -460,6 +509,7 @@ timeslots:
         description: ""
         url: ""
       - name: "Industrial Talk 2 (Lenovo)"
+        id: "industrial-talk-2"
         type: "sbacpad"
         day: "day3"
         rowspan: 1
@@ -477,6 +527,7 @@ timeslots:
   - time: "16:30"
     events:
       - name: "SBAC-PAD 6 | Systems Optimization"
+        id: "sbacpad-6"
         type: "sbacpad-main"
         day: "day3"
         rowspan: 3
@@ -485,6 +536,7 @@ timeslots:
         room: "TBD"
         url: ""
       - name: "WSCAD 6"
+        id: "wscad-6"
         type: "wscad-main"
         day: "day3"
         rowspan: 3
@@ -494,6 +546,7 @@ timeslots:
         description: ""
         url: ""
       - name: "CEACPAD Meeting"
+        id: "ceacpad-meeting"
         type: "ceacpad"
         day: "day3"
         rowspan: 3
@@ -505,6 +558,7 @@ timeslots:
   - time: "17:00"
     events:
       - name: "Opening Session"
+        id: "opening-session"
         type: "sbacpad"
         day: "day1"
         rowspan: 2
@@ -514,6 +568,7 @@ timeslots:
         description: ""
         url: ""
       - name: "Industrial Talk 1 (Dell)"
+        id: "industrial-talk-1"
         type: "sbacpad"
         day: "day2"
         rowspan: 1
@@ -525,6 +580,7 @@ timeslots:
   - time: "17:30"
     events:
       - name: "Panel: HPC Investments in Brazil"
+        id: "panel-hpc-investments-in-brazil"
         type: "panel"
         day: "day2"
         rowspan: 2
@@ -536,6 +592,7 @@ timeslots:
   - time: "18:00"
     events:
       - name: "Keynote - Philippe Navaux Honorary Researcher SBAC-PAD 2022"
+        id: "keynote-philippe-navaux"
         type: "honorary"
         day: "day1"
         rowspan: 2
@@ -558,6 +615,7 @@ timeslots:
   - time: "19:30"
     events:
       - name: "Cocktail"
+        id: "cocktail"
         type: "social"
         day: "day1"
         rowspan: 1
@@ -567,6 +625,7 @@ timeslots:
         description: ""
         url: ""
       - name: "Dinner"
+        id: "dinner"
         type: "social"
         day: "day3"
         rowspan: 1

@@ -28,8 +28,9 @@ permalink: /program/
                             </td>
                             {% for event in slot.events %}
                                 <td class="program-slot {{ event.type }}" rowspan="{{ event.rowspan }}" colspan="{{ event.colspan }}">
-                                    <!-- TODO: add anchor tag to program details -->
-                                    {{ event.name }}
+                                    <a href="#{{ event.id }}">
+                                        {{ event.name }}
+                                    </a>
                                     {% if event.portuguese == true %}
                                         <br>
                                         <img src="{{ site.final_url }}/assets/img/brazil.png" alt="Event in Portuguese">
@@ -47,39 +48,20 @@ permalink: /program/
     <br>
     <section id="program_details">
         <div class="container-fluid">
-            <div class="row px-5">
-                <ul class="nav nav-pills nav-fill justify-content-center black" id="program-tab" role="tablist">
-                    {% for date in site.data.program.dates %}
-                        {% if forloop.index == 1 %}
-                            {% continue %}
-                        {% endif %}
-                        <li class="nav-item" role="presentation">
-                            {% if forloop.index == 2 %}
-                                <button class="nav-link active" id="tab-{{ date.id }}" data-bs-toggle="tab" data-bs-target="#program-{{ date.id }}" type="button" role="tab" aria-controls="program-{{ date.id }}" aria-selected="true">
-                            {% else %}
-                                <button class="nav-link" id="tab-{{ date.id }}" data-bs-toggle="tab" data-bs-target="#program-{{ date.id }}" type="button" role="tab" aria-controls="program-{{ date.id }}" aria-selected="true">
-                            {% endif %}
-                            {{ date.date }}
-                            </button>
-                        </li>
-                    {% endfor %}
-                </ul>
-            </div>
-            <hr>
-            <div class="tab-content">
+            <br>
+            <div>
                 {% for date in site.data.program.dates %}
+                
                     {% if forloop.index == 1 %}
                         {% continue %}
                     {% endif %}
-                    {% if forloop.index == 2 %}
-                        <div id="program-{{date.id}}" class="tab-pane show active" role="tabpanel">
-                    {% else %}
-                        <div id="program-{{date.id}}" class="tab-pane" role="tabpanel">
-                    {% endif %}
+                    <h3 class="text-center">{{ date.date }}</h3>
+                    <hr>
+                    <div class="tab-content">
                     {% for timeslot in site.data.program.timeslots %}
                         {% assign events = (timeslot.events | where:"day",date.id) %}
                         {% for event in events %}
-                            <div class="row">
+                            <div id="{{ event.id }}" class="row">
                                 <div class="col-md-2">
                                     <b>{{ timeslot.time }}</b>
                                     <p>Room: {{ event.room }}</p>
@@ -115,6 +97,7 @@ permalink: /program/
                         {% endfor %}
                     {% endfor %}
                     </div>
+                    <br>
                 {% endfor %}
             </div>
         </div>
