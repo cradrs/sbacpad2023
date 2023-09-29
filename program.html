@@ -67,9 +67,19 @@ permalink: /program/
                                 <div class="col-md-10">
                                     <h4>
                                         {% if event.url and event.url != "" %}
-                                            <a href="{{ event.url }}" target="_blank">{{ event.name }}</a>
+                                            <a href="{{ event.url }}" target="_blank">
+                                                {% if event.detailed_name %}
+                                                    {{ event.detailed_name }}
+                                                {% else %}
+                                                    {{ event.name }}
+                                                {% endif %}
+                                            </a>
                                         {% else %}
-                                            {{ event.name }}
+                                            {% if event.detailed_name %}
+                                                {{ event.detailed_name }}
+                                            {% else %}
+                                                {{ event.name }}
+                                            {% endif %}
                                         {% endif %}
                                         {% if event.portuguese == true %}
                                             <img src="{{ site.final_url }}/assets/img/brazil.png" alt="Event in Portuguese">
@@ -78,7 +88,17 @@ permalink: /program/
                                     
                                     {% if event.type == "sbacpad-main" %}
                                         {% assign topic = event.name | split: '| ' %}
-                                        {% assign session = site.data.technical_sessions | where:"title",topic[1] | first %}
+                                        {% assign session = site.data.technical_sessions.sbacpad | where:"title",topic[1] | first %}
+                                        <p>
+                                            <b>Chair</b>: {{ session.chair }}
+                                        </p>
+                                        {% for paper in session.papers %}
+                                            <b>{{ paper.title }}</b>
+                                            <p>{{ paper.authors }}</p>
+                                        {% endfor %}
+                                    {% elsif event.type == "wcc" %}
+                                        {% assign id = event.id | split: '-' %}
+                                        {% assign session = site.data.technical_sessions.wcc | where:"id",id[1] | first %}
                                         <p>
                                             <b>Chair</b>: {{ session.chair }}
                                         </p>

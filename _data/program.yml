@@ -319,6 +319,7 @@ timeslots:
         description: "The workshop aims at facilitating knowledge sharing, networking, and collaboration among participants in the field of HPC and Deep Learning. The workshop will also provide a platform for researchers and practitioners to showcase their latest research and discuss potential applications of HPC and deep learning in industry and governments. We hope that the workshop will inspire new ideas, collaborations, and research directions in the intersection of HPC and DL."
         url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
       - name: "WCC"
+        detailed_name: "WCC - Opening Session, Keynote and Technical Session I"
         id: "wcc-1"
         type: "wcc"
         day: "day1"
@@ -326,7 +327,7 @@ timeslots:
         colspan: 1
         portuguese: false
         room: "TBD"
-        description: "The Workshop on Cloud Computing (WCC 2023) is an international forum for both researchers and industry practitioners to exchange the fundamental advances in the state of the art and practice of cloud computing, identify emerging research topics and define the future of cloud computing."
+        description: "Opening Session and Keynote"
         url: "https://www.inf.ufrgs.br/gppd/wcc/2023/"
       - name: "WSCAD Tutorials (4, 5, and 6)"
         id: "wscad-tutorials-3"
@@ -460,6 +461,7 @@ timeslots:
         description: "The workshop aims at facilitating knowledge sharing, networking, and collaboration among participants in the field of HPC and Deep Learning. The workshop will also provide a platform for researchers and practitioners to showcase their latest research and discuss potential applications of HPC and deep learning in industry and governments. We hope that the workshop will inspire new ideas, collaborations, and research directions in the intersection of HPC and DL."
         url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
       - name: "WCC"
+        detailed_name: "WCC - Technical Session 2"
         id: "wcc-2"
         type: "wcc"
         day: "day1"

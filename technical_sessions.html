@@ -7,7 +7,7 @@ permalink: /technical_sessions/
 <section id="light-card">
   <div class="p-2 container col-sm-12 col-lg-8 text-justify">
     <h2 class="p-4 text-center">Technical Sessions</h2>
-    {% assign technical_sessions = site.data.technical_sessions %}
+    {% assign technical_sessions = site.data.technical_sessions.sbacpad %}
     <div class="tab-content">
       {% for session in technical_sessions %}
       <h3>Session {{ session.id }} - {{ session.title }}</h3>

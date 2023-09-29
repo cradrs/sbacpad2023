@@ -1,86 +1,113 @@
-- id: 1
-  title: "Best Papers I"
-  timeslot: "Wednesday, Oct 18 (09:00 - 10:30)"
-  chair: "Jay Lofstead (Sandia National Laboratories, USA)"
-  papers:
-    - title: "Improved Computation of Database Operators via Vector Processing Near-Data"
-      authors: "Sairo Santos, Tiago Rodrigo Kepe and Marco Antonio Zanata Alves"
-    - title: "Decoupling Buffers Management from Routing in Low-diameter Networks"
-      authors: "Alejandro Cano Cos, Cristóbal Camarero Coterillo, Carmen Martínez Fernández and Ramón Beivide Palacio"
-    - title: "Dynasor: A Dynamic Memory Layout for Accelerating Sparse MTTKRP for Tensor Decomposition on Multi-core CPU"
-      authors: "Sasindu Wijeratne, Rajgopal Kannan and Viktor Prasanna"
-- id: 2
-  title: "Architecture"
-  timeslot: "Wednesday, Oct 18 (13:30 - 15:00)"
-  chair: "Krishna Kavi (University of North Texas, USA)"
-  papers:
-    - title: "Using Logging-on-Write to Improve Non-Volatile Memory Checkpoints via Processing-in-Memory"
-      authors: "Kleber Kruger, Ricardo Pannain and Rodolfo Azevedo"
-    - title: "A Practical Approach For Workload-Aware Data Movement in Disaggregated Memory Systems"
-      authors: "Amit Puri, Kartheek Bellamkonda, Kailash Narreddy, John Jose, Tamarapalli Venkatesh"
-    - title: "Performance Modeling and Estimation of a Configurable Output Stationary Neural Network Accelerator"
-      authors: "Ali Oudrhiri, Emilien Taly, Nathan Bain, Alix Munier, Roberto Guizzetti, and Pascal Urard"
-- id: 3
-  title: "Distributed Systems"
-  timeslot: "Wednesday, Oct 18 (15:30 - 17:00)"
-  chair: "TBD"
-  papers:
-    - title: "Improving Fault Tolerance in Blockchain Sharding using One-to-Many Block-to-Shard Mapping"
-      authors: "Tirathraj Ramburn and Dhrubajyoti Goswami"
-    - title: "A Distributed Algorithm for Identifying Strongly Connected Components on Incremental Graphs"
-      authors: "Sudharshan Srinivasan, Arindam Khanda, Sriram Srinivasan, Aashish Pandey, Sajal Das, Sanjukta Bhowmick and Boyana Norris"
-    - title: "Performance Modeling of MARE2DEM's Adaptive Mesh Refinement for Makespan Estimation"
-      authors: "Bruno da Silva Alves and Lucas Mello Schnorr"
-- id: 4
-  title: "Best Papers II"
-  timeslot: "Thursday, Oct 19 (09:00 - 10:30)"
-  chair: "Vinod Rebello (University of Campinas, Brazil)"
-  papers:
-    - title: "Exploiting the Potential of Flexible Processing Units"
-      authors: "Mateo Vazquez, Muhammad Waqar Azhar and Pedro Trancoso"
-    - title: "Trading Performance, Power, and Area on Low-Precision Posit MAC Units for CNN Training"
-      authors: "Luís Crespo, Pedro Tomás, Nuno Roma and Nuno Neves"
-    - title: "BEASY: Making EASY backfilling renewable-only"
-      authors: "Igor Fontana de Nardin, Patricia Stolf and Stephane Caux"
-- id: 5
-  title: "Performance Engineering"
-  timeslot: "Thursday, Oct 19 (13:30 - 15:00)"
-  chair: "TBD"
-  papers:
-    - title: "Performance Tuning for GPU-Embedded Systems: Machine-Learning-based and Analytical Model-driven Tuning Methodologies"
-      authors: "Adrián Perez Diéguez and Margarita Amor López"
-    - title: "Comparing Performance and Portability between CUDA and SYCL for Protein Database Search on NVIDIA, AMD, and Intel GPUs"
-      authors: "Manuel Costanzo, Enzo Rucci, Carlos García Sánchez, Marcelo Naiouf and Manuel Prieto-Mátias"
-    - title: "Achieving Enhanced Performance Combining Checkpointing and Dynamic State Partitioning"
-      authors: "Henrique dos Santos Goulart, João Gabriel Trombeta, Álvaro Junio Pereira Franco, and Odorico Machado Mendizabal"
-- id: 6
-  title: "Systems Optimization"
-  timeslot: "Thursday, Oct 19 (15:30 - 17:00)"
-  chair: "TBD"
-  papers:
-    - title: "Toward Open Repository of Performance Portability of Applications, Benchmarks and Models"
-      authors: "Ami Marowka"
-    - title: "NeurOPar, A Neural Network-driven EDP Optimization Strategy for Parallel Workloads"
-      authors: "Cristiano Alex Kunas, Fábio Rossi, Marcelo Caggiani Luizelli, Rodrigo Calheiros, Philippe Navaux and Arthur Lorenzon"
-    - title: "Forecasting file lifecycles for intelligent data placement in hierarchical storage"
-      authors: "Adrian Khelili, Sophie Robert Hayek and Soraya Zertal"
-- id: 7
-  title: "Parallel Applications"
-  timeslot: "Friday, Oct 20 (09:00 - 10:30)"
-  chair: "TBD"
-  papers:
-    - title: "Reverse Time Migration with Lossy and Lossless Wavefield Compression"
-      authors: "Carlos Henrique dos Santos Barbosa and Alvaro Luiz Gayoso de Azeredo Coutinho"
-    - title: "Improving the discovery and clustering of three-dimensional protein patterns with OpenMP"
-      authors: "Alejandro Valdés-Jiménez, Miguel Reyes-Parada, Gabriel Nuñez-Vivanco, Fabio Durán-Verdugo and Daniel Jiménez-González"
-    - title: "A Shared Memory SMC Sampler for Decision Trees"
-      authors: "Efthyvoulos Drousiotis, Alessandro Varsi, Paul Spirakis, and Simon Maskell"
-- id: 8
-  title: "Cloud Computing"
-  timeslot: "Friday, Oct 20 (13:30 - 14:30)"
-  chair: "TBD"
-  papers:
-    - title: "Kub: Elastic HPC Workloads on Containerized Environments"
-      authors: "Daniel Medeiros, Jacob Wahlgren, Gabin Schieffer and Ivy Peng"
-    - title: "WCSim: A Cloud Computing Simulator with Support for Bag of Tasks Workflows"
-      authors: "Maicon Santos, Gabriel Grabher, Matheus Kovaleski, Cláudio Geyer, and Gerson Cavalheiro"
+sbacpad:
+  - id: 1
+    title: "Best Papers I"
+    timeslot: "Wednesday, Oct 18 (09:00 - 10:30)"
+    chair: "Jay Lofstead (Sandia National Laboratories, USA)"
+    papers:
+      - title: "Improved Computation of Database Operators via Vector Processing Near-Data"
+        authors: "Sairo Santos, Tiago Rodrigo Kepe and Marco Antonio Zanata Alves"
+      - title: "Decoupling Buffers Management from Routing in Low-diameter Networks"
+        authors: "Alejandro Cano Cos, Cristóbal Camarero Coterillo, Carmen Martínez Fernández and Ramón Beivide Palacio"
+      - title: "Dynasor: A Dynamic Memory Layout for Accelerating Sparse MTTKRP for Tensor Decomposition on Multi-core CPU"
+        authors: "Sasindu Wijeratne, Rajgopal Kannan and Viktor Prasanna"
+  - id: 2
+    title: "Architecture"
+    timeslot: "Wednesday, Oct 18 (13:30 - 15:00)"
+    chair: "Krishna Kavi (University of North Texas, USA)"
+    papers:
+      - title: "Using Logging-on-Write to Improve Non-Volatile Memory Checkpoints via Processing-in-Memory"
+        authors: "Kleber Kruger, Ricardo Pannain and Rodolfo Azevedo"
+      - title: "A Practical Approach For Workload-Aware Data Movement in Disaggregated Memory Systems"
+        authors: "Amit Puri, Kartheek Bellamkonda, Kailash Narreddy, John Jose, Tamarapalli Venkatesh"
+      - title: "Performance Modeling and Estimation of a Configurable Output Stationary Neural Network Accelerator"
+        authors: "Ali Oudrhiri, Emilien Taly, Nathan Bain, Alix Munier, Roberto Guizzetti, and Pascal Urard"
+  - id: 3
+    title: "Distributed Systems"
+    timeslot: "Wednesday, Oct 18 (15:30 - 17:00)"
+    chair: "TBD"
+    papers:
+      - title: "Improving Fault Tolerance in Blockchain Sharding using One-to-Many Block-to-Shard Mapping"
+        authors: "Tirathraj Ramburn and Dhrubajyoti Goswami"
+      - title: "A Distributed Algorithm for Identifying Strongly Connected Components on Incremental Graphs"
+        authors: "Sudharshan Srinivasan, Arindam Khanda, Sriram Srinivasan, Aashish Pandey, Sajal Das, Sanjukta Bhowmick and Boyana Norris"
+      - title: "Performance Modeling of MARE2DEM's Adaptive Mesh Refinement for Makespan Estimation"
+        authors: "Bruno da Silva Alves and Lucas Mello Schnorr"
+  - id: 4
+    title: "Best Papers II"
+    timeslot: "Thursday, Oct 19 (09:00 - 10:30)"
+    chair: "Vinod Rebello (University of Campinas, Brazil)"
+    papers:
+      - title: "Exploiting the Potential of Flexible Processing Units"
+        authors: "Mateo Vazquez, Muhammad Waqar Azhar and Pedro Trancoso"
+      - title: "Trading Performance, Power, and Area on Low-Precision Posit MAC Units for CNN Training"
+        authors: "Luís Crespo, Pedro Tomás, Nuno Roma and Nuno Neves"
+      - title: "BEASY: Making EASY backfilling renewable-only"
+        authors: "Igor Fontana de Nardin, Patricia Stolf and Stephane Caux"
+  - id: 5
+    title: "Performance Engineering"
+    timeslot: "Thursday, Oct 19 (13:30 - 15:00)"
+    chair: "TBD"
+    papers:
+      - title: "Performance Tuning for GPU-Embedded Systems: Machine-Learning-based and Analytical Model-driven Tuning Methodologies"
+        authors: "Adrián Perez Diéguez and Margarita Amor López"
+      - title: "Comparing Performance and Portability between CUDA and SYCL for Protein Database Search on NVIDIA, AMD, and Intel GPUs"
+        authors: "Manuel Costanzo, Enzo Rucci, Carlos García Sánchez, Marcelo Naiouf and Manuel Prieto-Mátias"
+      - title: "Achieving Enhanced Performance Combining Checkpointing and Dynamic State Partitioning"
+        authors: "Henrique dos Santos Goulart, João Gabriel Trombeta, Álvaro Junio Pereira Franco, and Odorico Machado Mendizabal"
+  - id: 6
+    title: "Systems Optimization"
+    timeslot: "Thursday, Oct 19 (15:30 - 17:00)"
+    chair: "TBD"
+    papers:
+      - title: "Toward Open Repository of Performance Portability of Applications, Benchmarks and Models"
+        authors: "Ami Marowka"
+      - title: "NeurOPar, A Neural Network-driven EDP Optimization Strategy for Parallel Workloads"
+        authors: "Cristiano Alex Kunas, Fábio Rossi, Marcelo Caggiani Luizelli, Rodrigo Calheiros, Philippe Navaux and Arthur Lorenzon"
+      - title: "Forecasting file lifecycles for intelligent data placement in hierarchical storage"
+        authors: "Adrian Khelili, Sophie Robert Hayek and Soraya Zertal"
+  - id: 7
+    title: "Parallel Applications"
+    timeslot: "Friday, Oct 20 (09:00 - 10:30)"
+    chair: "TBD"
+    papers:
+      - title: "Reverse Time Migration with Lossy and Lossless Wavefield Compression"
+        authors: "Carlos Henrique dos Santos Barbosa and Alvaro Luiz Gayoso de Azeredo Coutinho"
+      - title: "Improving the discovery and clustering of three-dimensional protein patterns with OpenMP"
+        authors: "Alejandro Valdés-Jiménez, Miguel Reyes-Parada, Gabriel Nuñez-Vivanco, Fabio Durán-Verdugo and Daniel Jiménez-González"
+      - title: "A Shared Memory SMC Sampler for Decision Trees"
+        authors: "Efthyvoulos Drousiotis, Alessandro Varsi, Paul Spirakis, and Simon Maskell"
+  - id: 8
+    title: "Cloud Computing"
+    timeslot: "Friday, Oct 20 (13:30 - 14:30)"
+    chair: "TBD"
+    papers:
+      - title: "Kub: Elastic HPC Workloads on Containerized Environments"
+        authors: "Daniel Medeiros, Jacob Wahlgren, Gabin Schieffer and Ivy Peng"
+      - title: "WCSim: A Cloud Computing Simulator with Support for Bag of Tasks Workflows"
+        authors: "Maicon Santos, Gabriel Grabher, Matheus Kovaleski, Cláudio Geyer, and Gerson Cavalheiro"
+
+wcc:
+  - id: 1
+    title: "Technical Session 1"
+    timeslot: "Tuesday, Oct 17 (14:20 - 15:00)"
+    chair: "TBD"
+    papers:
+      - title: "Harnessing Cloud Computing for Geophysical Exploration"
+        authors: "Rodrigo C. Machado (UFRGS), Cristiano A. Kunas (UFRGS), Arthur F. Lorenzon (UFRGS), Philippe O. A. Navaux (UFRGS)"
+      - title: "Exploring the Serverless First Strategy in Cloud Application Development"
+        authors: "Adriano Prado Cavalheiro (UNIPAMPA), Claudio Schepke (UNIPAMPA)"
+  - id: 2
+    title: "Technical Session 2"
+    timeslot: "Tuesday, Oct 17 (15:00 - 17:00)"
+    chair: "TBD"
+    papers:
+      - title: "A Preliminary Review of Function as a Service Platform Running with AWS Spot Instances"
+        authors: "Luciana Marques (USP), Alfredo Goldman (USP)"
+      - title: "Evaluation Model and Performance Analysis of NIC Aggregations in Containerized Private Clouds"
+        authors: "Anderson Mattheus Maliszewski (UFRGS), Dalvan Griebler (PUCRS), Eduardo Roloff (UFRGS), Rodrigo Righi (UNISINOS), Philippe O. A. Navaux (UFRGS)"
+      - title: "A Performance Comparison of HPC Workloads on Traditional and Cloud-based HPC Clusters"
+        authors: "Vanderlei Munhoz (UFSC), Antoine Bonfils (Polytech Grenoble), Márcio Castro (UFSC), Odorico Mendizabal (UFSC)"
+      - title: "Optimizing Microservices Performance and Resource Utilization through Containerized Grouping: An Experimental Study"
+        authors: "Fernando Buzato (USP), Alfredo Goldman (USP)"
+      - title: "Conceptual and comparative analysis of application metrics in microservices"
+        authors: "Lucas Eduardo Pulcinelli (USP), Diego Pedroso (USP), Sarita Bruschi (USP)"
