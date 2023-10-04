@@ -591,7 +591,7 @@ timeslots:
         portuguese: true
         room: "TBD"
         description: "In the last TOP500, Brazil appears with 9 computers on the list. There are currently several investments in machines being prepared, including a call for 100 million reais for machines. The Panel will discuss upcoming investments in supercomputing centers and the country's needs in this area."
-        url: ""
+        url: "https://cradrs.github.io/sbacpad2023/panel/"
         panelists: "Dr. Luiz Monnerat, Pedro Leite da Silva Dias, Antônio Tadeu A. Gomes, Philippe Olivier Alexandre Navaux (Moderator)"
   - time: "18:00"
     events:
