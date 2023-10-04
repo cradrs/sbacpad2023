@@ -582,6 +582,7 @@ timeslots:
   - time: "17:30"
     events:
       - name: "Panel: HPC Investments in Brazil"
+        detailed_name: "Panel: Brazil HPC Investment needs for the coming years"
         id: "panel-hpc-investments-in-brazil"
         type: "panel"
         day: "day2"
@@ -589,8 +590,9 @@ timeslots:
         colspan: 3
         portuguese: true
         room: "TBD"
-        description: ""
+        description: "In the last TOP500, Brazil appears with 9 computers on the list. There are currently several investments in machines being prepared, including a call for 100 million reais for machines. The Panel will discuss upcoming investments in supercomputing centers and the country's needs in this area."
         url: ""
+        panelists: "Dr. Luiz Monnerat, Pedro Leite da Silva Dias, Antônio Tadeu A. Gomes, Philippe Olivier Alexandre Navaux (Moderator)"
   - time: "18:00"
     events:
       - name: "Keynote - Philippe Navaux (Honorary Researcher SBAC-PAD 2022)"

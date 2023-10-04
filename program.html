@@ -106,6 +106,11 @@ permalink: /program/
                                             <b>{{ paper.title }}</b>
                                             <p>{{ paper.authors }}</p>
                                         {% endfor %}
+                                    {% elsif event.type == "panel" %}
+                                        <p>
+                                            <b>Panelists</b>: {{ event.panelists }}
+                                        </p>
+                                        <p>{{ event.description }}</p>
                                     {% else %}
                                         <p>{{ event.description }}</p>
                                     {% endif %}
