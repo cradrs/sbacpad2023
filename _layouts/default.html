@@ -125,5 +125,26 @@
             integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
             crossorigin="anonymous"
         ></script>
+
+        <script>
+            var prevScrollpos = window.pageYOffset;
+        
+            window.onscroll = function () {
+                var currentScrollPos = window.pageYOffset;
+        
+                if (prevScrollpos > currentScrollPos) {
+                    // User is scrolling up, show the navbar
+                    document.querySelector(".navbar").classList.remove("navbar-scroll-hide");
+                    document.querySelector(".navbar").classList.add("navbar-scroll-show");
+                } else {
+                    // User is scrolling down, hide the navbar
+                    document.querySelector(".navbar").classList.remove("navbar-scroll-show");
+                    document.querySelector(".navbar").classList.add("navbar-scroll-hide");
+                }
+        
+                prevScrollpos = currentScrollPos;
+            };
+        </script>
+
     </body>
 </html>
