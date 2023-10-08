@@ -237,34 +237,37 @@ timeslots:
         url: ""
       - name: "Keynote - Ivona Brandic"
         id: "keynote-ivona-brandic"
+        detailed_name: "Benchmarking of Hybrid Computational Continuum"
         type: "sbacpad"
         day: "day2"
         rowspan: 1
         colspan: 3
         portuguese: false
         room: "TBD"
-        description: ""
-        url: ""
+        description: "Real life applications can be executed on devices that range in size from smartphones to warehouse size data centers. Meanwhile, architectures are becoming heterogeneous including various accelerators and even non von Neumann computers into the computational continuum. In this talk we discuss challenges when benchmarking different types of applications on a hybrid computational continuum. First, we present the methods for decomposition and execution of HPC applications on hybrid Classic/Quantum systems. Second, we discuss the benefits but also problems and challenges when executing applications of hybrid systems. Third, we revisit the current state of the art testbeds for the execution and benchmarking of hybrid classic/quantum."
+        url: "https://cradrs.github.io/sbacpad2023/keynotes/#1"
       - name: "Keynote - Bronson Messer"
         id: "keynote-bronson-messer"
+        detailed_name: "Frontier: The World’s Most Powerful Computer for Science"
         type: "sbacpad"
         day: "day3"
         rowspan: 1
         colspan: 3
         portuguese: false
         room: "TBD"
-        description: ""
-        url: ""
+        description: "The first exascale computer, called Frontier, has been delivered to Oak Ridge National Laboratory this past year. This unique scientific instrument is the culmination of more than a decade of concerted effort. I will relate a bit of the history of hybrid-node computing at the Oak Ridge Leadership Computing Facility (OLCF) and how Frontier represents the latest iteration of that approach. Some details of Frontier’s architecture will be discussed, including an overview of the new AMD GPUs that provide the bulk of the computational power for Frontier. Finally, we will take a look at some problems that will benefit from the increased capability at exascale and I will convey some lesson learned from trying to get the applications attacking these problems running on this machine."
+        url: "https://cradrs.github.io/sbacpad2023/keynotes/#3"
       - name: "Keynote - Alba Cristina Magalhaes Alves de Melo"
         id: "keynote-alba-cristina-magalhaes-alves-de-melo"
+        detailed_name: "Pairwise, Structural and Multiple Biological Sequence Comparison in HPC Platforms: the Quest for the Optimal Solution"
         type: "sbacpad"
         day: "day4"
         rowspan: 1
         colspan: 2
         portuguese: false
         room: "TBD"
-        description: ""
-        url: ""
+        description: "Biological sequence comparison is an important problem in Bioinformatics and its goal is to define how similar the sequences are, producing a score, and highlighting their similarities, producing an alignment. There are many ways to compare biological sequences and all of them require high performance computing solutions, when the optimal solution is needed. In this talk, we will deal with three types of sequence comparison. First, we discuss pairwise sequence comparison, which is often solved with dynamic programming using variants of the Smith-Waterman algorithm, producing the optimal solution with time complexity O(n^2), where n is the length of the sequences. We present our MASA tools, which can be used in CPU or GPU to pairwise compare long DNA sequences. The last version of MASA for GPUs (MASA-CUDAlign-MultiBP) attained the best performance in the literature in 2021. Then, we examine the structural RNA alignment problem, that is also solved with dynamic programming, using the Sankoff algorithm, with time complexity O(n^6). We present our CUDA-Sankoff tool and show that it has very good speedups. Next, we discuss the multiple sequence alignment (MSA) problem, which is proven NP-Complete. We present our PA-Star CPU-based tool, which executes a variant of the A-Star algorithm to compute the optimal MSA. We show that PA-Star is able to compare multiple sequences in reduced time, when compared to the literature. At the end of the talk, we will do a covid-19 case study, showing how our three tools are used to compare SARS-CoV-2 sequences."
+        url: "https://cradrs.github.io/sbacpad2023/keynotes/#2"
   # - time: "11:30"
   - time: "12:00"
     events:
