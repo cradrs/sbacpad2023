@@ -1,0 +1,58 @@
+---
+layout: default
+title: "Industrial Talks"
+permalink: /industrial_talks/
+---
+
+<section id="light-card">
+  <div class="p-2 container col-sm-12 col-lg-8 text-justify">
+    <h2 class="p-4 text-center">Industrial Talks</h2>
+    <p class="lead">
+      Below are details about the industrial talks.
+    </p>
+    <div class="tab-content">
+      {% assign talks = site.industrial_talks %}
+      {% for talk in talks %}
+      <div id="{{ talk.id }}" class="keynote-talk">
+        <h3 class="keynote-title">{{ talk.keynote_title }}</h3>
+
+        <div class="keynote-info">
+          {% if talk.keynote_date %}
+          <p class="lead keynote-info">
+            <b>{{ talk.keynote_date }}</b>
+          </p>
+          {% endif %}
+
+          {% if talk.keynote_room %}
+          <p class="lead keynote-info">
+            <b>Room</b>: {{ talk.keynote_room }}
+          </p>
+          {% endif %}
+
+          <p class="lead keynote-info">
+            <b>Abstract</b>: {{ talk.keynote_abstract }}
+          </p>
+        </div>
+
+        <div>
+          <h4>Speaker</h4>
+          <div class="row">
+            <div class col-md-12>
+
+              {% if talk.photo %}
+              <img id="speaker-photo" class="float-start" src="{{ site.final_url }}/assets/img/{{ talk.photo }}"
+                alt="{{ talk.name }}">
+              {% endif %}
+
+              <p class="lead speaker-bio">
+                <b>{{ talk.name }}</b> {{ talk.bio }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <br><br>
+</section>

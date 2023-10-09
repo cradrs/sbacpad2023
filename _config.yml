@@ -11,6 +11,8 @@ collections:
     news:
     keynote_speakers:
         sort_by: order
+    industrial_talks:
+        sort_by: order
 
 # Website SASS settings
 sass:
