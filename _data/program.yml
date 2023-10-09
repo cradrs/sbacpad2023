@@ -515,14 +515,14 @@ timeslots:
         url: ""
       - name: "Industrial Talk 2 (Lenovo)"
         id: "industrial-talk-2"
-        detailed_name: "Lenovo Neptune - conheça as soluções disruptivas de resfriamento líquido de servidores"
+        detailed_name: "Lenovo Neptune - learn about disruptive liquid cooling solutions for servers"
         type: "sbacpad"
         day: "day3"
         rowspan: 1
         colspan: 3
         portuguese: false
         room: "TBD"
-        description: "Conheça as soluções de HPC da Lenovo, #1 em fornecimento de supercomputadores da Top500. Surpreenda-se com o Lenovo Neptune, tecnologia de resfriamento líquido de servidores que garante melhor performance, economia e possibilita empresas e organizações à atingirem seus objetivos de ESG."
+        description: "Discover Lenovo's HPC solutions, #1 in supplying supercomputers in the Top500. Be surprised by Lenovo Neptune, liquid server cooling technology that guarantees better performance, savings and enables companies and organizations to achieve their ESG objectives."
         url: ""
       - name: ""
         type: "space"
