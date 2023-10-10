@@ -57,7 +57,7 @@ permalink: /program/
                     <hr>
                     <div class="tab-content">
                     {% for timeslot in site.data.program.timeslots %}
-                        {% assign events = (timeslot.events | where:"day",date.id) %}
+                        {% assign events = timeslot.events | where:"day",date.id %}
                         {% for event in events %}
                             <div id="{{ event.id }}" class="row">
                                 <div class="col-md-2">
@@ -106,12 +106,16 @@ permalink: /program/
                                                     <p>{{ subevent.description }}</p>
                                                 {% elsif subevent.papers %}
                                                         {% for paper in subevent.papers %}
-                                                            <b>{{ paper.title }}</b>
-                                                            <!-- TODO: add paper PDF -->
+                                                            <p class="paper-title">
+                                                                <b>{{ paper.title }}</b>
+                                                                {% if paper.pdf %}
+                                                                    <a href="{{ site.final_url }}/{{ paper.pdf }}.pdf" target="_blank">
+                                                                        <img src="{{ site.final_url }}/assets/img/pdf.svg" alt="PDF">
+                                                                    </a>
+                                                                {% endif %}
+                                                            </p>
                                                             {% if paper.authors %}
-                                                                <br>
-                                                                <i>{{ paper.authors }}</i>
-                                                                <br>
+                                                                <p class="paper-authors"><i>{{ paper.authors }}</i></p>
                                                             {% endif %}
                                                         {% endfor %}
                                                 {% endif %}
@@ -120,12 +124,16 @@ permalink: /program/
                                     {% elsif event.papers %}
                                         <p class="event-chair"><b>Chair</b>: {{ event.chair }}</p>
                                         {% for paper in event.papers %}
+                                        <p class="paper-title">
                                             <b>{{ paper.title }}</b>
-                                            <!-- TODO: add paper PDF -->
+                                                {% if paper.pdf %}
+                                                    <a href="{{ site.final_url }}/{{ paper.pdf }}.pdf" target="_blank">
+                                                        <img src="{{ site.final_url }}/assets/img/pdf.svg" alt="PDF">
+                                                    </a>
+                                                {% endif %}
+                                            </p>
                                             {% if paper.authors %}
-                                                <br>
-                                                <i>{{ paper.authors }}</i>
-                                                <br>
+                                                <p class="paper-authors"><i>{{ paper.authors }}</i></p>
                                             {% endif %}
                                         {% endfor %}
                                     {% endif %}
