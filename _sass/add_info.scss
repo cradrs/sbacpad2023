@@ -1,0 +1,40 @@
+#additional_information {
+
+    h1 {
+        font-weight: 900;
+    }
+
+    table {
+
+        #header th {
+            top: 0;
+            font-weight: 600;
+            position: sticky;
+            white-space: nowrap;
+            background-color: #000000;
+            border: 2px solid #000000;
+            color: white;
+        }
+
+        #header td {
+            top: 0;
+            font-weight: 600;
+            position: sticky;
+            white-space: nowrap;
+            background-color: #000000;
+            color: white;
+        }
+
+        td:nth-child(3n+1) {
+            border-left: 2px solid #000000;
+        }
+
+        td:nth-child(3n) {
+            border-right: 2px solid #000000;
+        }
+
+        tr:last-child {
+            border-bottom: 2px solid #000000;
+        }
+    }
+}
