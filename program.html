@@ -62,7 +62,9 @@ permalink: /program/
                             <div id="{{ event.id }}" class="row">
                                 <div class="col-md-2">
                                     <b>{{ timeslot.time }}</b>
-                                    <p>Room: {{ event.room }}</p>
+                                    {% if event.room %}
+                                        <p>Room: {{ event.room }}</p>
+                                    {% endif %}
                                 </div>
                                 <div class="col-md-10">
                                     <h4>

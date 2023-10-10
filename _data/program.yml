@@ -421,7 +421,6 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "TBD"
         description: ""
       - name: "Lunch"
         id: "lunch-2"
@@ -430,7 +429,6 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "TBD"
         description: ""
       - name: "Lunch"
         id: "lunch-3"
@@ -439,7 +437,6 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "TBD"
         description: ""
       - name: "Lunch"
         id: "lunch-4"
@@ -448,7 +445,6 @@ timeslots:
         rowspan: 1
         colspan: 2
         portuguese: false
-        room: "TBD"
         description: ""
   # - time: "12:30"
   # - time: "13:00"
