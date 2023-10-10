@@ -5,7 +5,7 @@ bio:
     is Solutions Director and HPC/AI Leader for Latin America. He developed his studies in Exact Sciences, Humanities and highlighted entrepreneurship. 33 years of experience in technology providers for the development of Scientific and High Performance Computing. Has experience in projects of high complexity, performance and efficiency class TOP500.
 
 # Talk
-keynote_date: "Thursday, October 19th — 03:30 pm"
+keynote_date: "Thursday, October 19th — 15:30"
 keynote_room: "TBD"
 keynote_title: Lenovo Neptune - learn about disruptive liquid cooling solutions for servers.
 keynote_abstract:
