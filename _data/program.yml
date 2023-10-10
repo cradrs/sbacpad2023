@@ -64,8 +64,14 @@ timeslots:
         colspan: 1
         portuguese: false
         room: "TBD"
-        description: "The workshop aims at facilitating knowledge sharing, networking, and collaboration among participants in the field of HPC and Deep Learning. The workshop will also provide a platform for researchers and practitioners to showcase their latest research and discuss potential applications of HPC and deep learning in industry and governments. We hope that the workshop will inspire new ideas, collaborations, and research directions in the intersection of HPC and DL."
         url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
+        subevents:
+          - name: "Opening Session"
+            timeslot: "09:00 - 09:15"
+          - name: "Developing Efficient Scientific Gateways for Supercomputer Environments Supported by Deep Learning Models"
+            timeslot: "09:15 - 10:30"
+            speaker: "Prof. Carla Osthoff (LNCC)"
+            description: "The scientific gateway BioinfoPortal for bioinformatics applications is hosted in the National Laboratory for Scientific Computing (LNCC) and is coupled to the Santos Dumont (SDumont) supercomputer environment. BioinfoPortal offers a catalog of bioinformatics computational software that benefits from the parallel and distributed architecture offered by LNCC. Task submissions consume SDumont nodes shared by other supercomputer users; then, it is required to set the best configuration, defined by the best choice of the number of threads/nodes, to be allocated for every task submission. This talk presents research analysis using Deep Neural Networks to estimate the computational time required to execute bioinformatics software in several scenarios using a pre-configured number of nodes and threads. We aim to demonstrate the computational behavior of software in Bioinfoportal and which computational scenario can be chosen to execute software in SDumont efficiently. Results support that the neural networks can predict the most representative variable and identify the configuration with the lowest computational time. This way, BioinforPortal consuming time can lead to an efficient and green gateway, increasing Santos Dumont Supercomputing execution job throughput and decreasing job execution queue waiting time."
       - name: "WAMCA"
         id: "wamca-1"
         type: "wamca"
@@ -327,8 +333,16 @@ timeslots:
         colspan: 1
         portuguese: false
         room: "TBD"
-        description: "The workshop aims at facilitating knowledge sharing, networking, and collaboration among participants in the field of HPC and Deep Learning. The workshop will also provide a platform for researchers and practitioners to showcase their latest research and discuss potential applications of HPC and deep learning in industry and governments. We hope that the workshop will inspire new ideas, collaborations, and research directions in the intersection of HPC and DL."
         url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
+        subevents:
+          - name: "Paper Session 1"
+            timeslot: "11:00 - 12:00"
+            chair: "TBD"
+            papers:
+              - title: "Assessing the performance of an architecture-aware optimization tool for neural networks"
+                authors: "Raúl Marichal, Ernesto Dufrechou, Pablo Ezzatti"
+              - title: "An Exploratory Study of Deep Learning for Predicting Computational Tasks Behavior in HPC Systems"
+                authors: "Alexandre Henrique Lopes Porto, Micaella Coelho, Kary Ocaña, Carla Osthoff, Francieli Boito, Douglas O. Cardoso"
       - name: "WAMCA"
         id: "wamca-2"
         type: "wamca"
@@ -448,8 +462,18 @@ timeslots:
         colspan: 1
         portuguese: false
         room: "TBD"
-        description: "The workshop aims at facilitating knowledge sharing, networking, and collaboration among participants in the field of HPC and Deep Learning. The workshop will also provide a platform for researchers and practitioners to showcase their latest research and discuss potential applications of HPC and deep learning in industry and governments. We hope that the workshop will inspire new ideas, collaborations, and research directions in the intersection of HPC and DL."
         url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
+        subevents:
+          - name: "Paper Session 2"
+            timeslot: "13:30 - 15:00"
+            chair: "TBD"
+            papers:
+              - title: "PINNProv: Provenance for Physics-informed Neural Networks"
+                authors: "Lyncoln S. de Oliveira, Liliane Kunstmann, Débora Pina, Daniel de Oliveira, Marta Mattoso"
+              - title: "Exploring Federated Learning to Trace Depression in Social Media with Language Models"
+                authors: "Arthur Vasconcelos, Lúcia Drummond, Rafaela Brum, Aline Paes"
+              - title: "Computing seismic attributes with deep-learning models"
+                authors: "Nícolas Hecker, Otávio O. Napoli, Carlos A. Astudillo, João Paulo Navarro, Alan Souza, Daniel Miranda, Leandro A. Villas, Edson Borin"
       - name: "WCC"
         detailed_name: "WCC"
         id: "wcc-1"
@@ -705,8 +729,13 @@ timeslots:
         colspan: 1
         portuguese: false
         room: "TBD"
-        description: "The workshop aims at facilitating knowledge sharing, networking, and collaboration among participants in the field of HPC and Deep Learning. The workshop will also provide a platform for researchers and practitioners to showcase their latest research and discuss potential applications of HPC and deep learning in industry and governments. We hope that the workshop will inspire new ideas, collaborations, and research directions in the intersection of HPC and DL."
         url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
+        subevents:
+          - name: "Panel: Towards developing HPC through ML and ML through HPC - the Chicken Egg dilemma"
+            timeslot: "15:30 - 17:00"
+            description: "Machine Learning (ML) area have evolved in the last years due to the development of High Performance Computing (HPC). On the other hand, we also have seen many works for evolving HPC through ML. In this context, we could ask: If the community needs HPC to make huge ML-based models more effective, but this same community also needs ML to empower HPC, which area starts this run? Are they exclusive or can we consider both initiatives? This panel aims to discuss this chicken-egg dilemma."
+            panelists: "Profa. Lucia Drummond (UFF), Prof. Antônio Tadeu Azevedo Gomes (LNCC), Profa. Mariza Ferro (UFF), Dr. Fabio Alves de Oliveira (NVidia)"
+            moderator: "Profa. Flavia Bernardini (UFF)"
       - name: "WCC"
         detailed_name: "WCC"
         id: "wcc-2"

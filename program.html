@@ -87,6 +87,11 @@ permalink: /program/
                                     </h4>
                                     {% if event.speaker %}
                                         <p class="event-speaker"><b>Speaker</b>: {{ event.speaker }}</p>
+                                    {% elsif event.authors %}
+                                        <p class="event-authors"><b>Authors</b>: {{ event.authors }}</p>
+                                    {% elsif event.panelists %}
+                                        <p class="event-panelists"><b>Panelists</b>: {{ event.panelists }}</p>
+                                        <p class="event-moderator"><b>Moderator</b>: {{ event.moderator }}</p>
                                     {% endif %}
                                     {% if event.description %}
                                         <p>{{ event.description }}</p>
@@ -101,6 +106,9 @@ permalink: /program/
                                                     <p class="subevent-speaker"><b>Speaker</b>: {{ subevent.speaker }}</p>
                                                 {% elsif subevent.authors %}
                                                     <p class="subevent-authors"><b>Authors</b>: {{ subevent.authors }}</p>
+                                                {% elsif subevent.panelists %}
+                                                    <p class="subevent-panelists"><b>Panelists</b>: {{ subevent.panelists }}</p>
+                                                    <p class="subevent-moderator"><b>Moderator</b>: {{ subevent.moderator }}</p>
                                                 {% endif %}
                                                 {% if subevent.description %}
                                                     <p>{{ subevent.description }}</p>

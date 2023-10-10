@@ -195,16 +195,21 @@ table.program {
     }
 
     .paper-title,
+    .event-panelists,
+    .subevent-panelists,
     .subevent-timeslot {
         margin: 0;
     }
 
+    .event-authors,
     .event-chair,
+    .event-moderator,
     .event-speaker,
     .paper-authors,
     .subevent-name,
     .subevent-authors,
     .subevent-chair,
+    .subevent-moderator,
     .subevent-speaker {
         margin-bottom: 0.25rem;
     }
