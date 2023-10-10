@@ -13,7 +13,7 @@ permalink: /industrial_talks/
     <div class="tab-content">
       {% assign talks = site.industrial_talks %}
       {% for talk in talks %}
-      <div id="{{ talk.id }}" class="keynote-talk">
+      <div id="{{ talk._id }}" class="keynote-talk">
         <h3 class="keynote-title">{{ talk.keynote_title }}</h3>
 
         <div class="keynote-info">

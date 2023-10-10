@@ -856,7 +856,8 @@ timeslots:
         portuguese: false
         room: "TBD"
         description: "Discover Lenovo's HPC solutions, #1 in supplying supercomputers in the Top500. Be surprised by Lenovo Neptune, liquid server cooling technology that guarantees better performance, savings and enables companies and organizations to achieve their ESG objectives."
-        url: ""
+        speaker: "Joaquim Merino (Lenovo)"
+        url: "https://cradrs.github.io/sbacpad2023/industrial_talks/#1"
       - name: ""
         type: "space"
         rowspan: 11
@@ -955,7 +956,8 @@ timeslots:
         room: "TBD"
         description: "In the last TOP500, Brazil appears with 9 computers on the list. There are currently several investments in machines being prepared, including a call for 100 million reais for machines. The Panel will discuss upcoming investments in supercomputing centers and the country's needs in this area."
         url: "https://cradrs.github.io/sbacpad2023/panel/"
-        panelists: "Dr. Luiz Monnerat, Pedro Leite da Silva Dias, Antônio Tadeu A. Gomes, Philippe Olivier Alexandre Navaux (Moderator)"
+        panelists: "Dr. Luiz Monnerat, Pedro Leite da Silva Dias, Antônio Tadeu A. Gomes"
+        moderator: "Philippe Olivier Alexandre Navaux"
   - time: "18:00"
     events:
       - name: "Keynote - Philippe Navaux (Honorary Researcher SBAC-PAD 2022)"
