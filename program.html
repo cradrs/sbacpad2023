@@ -85,34 +85,49 @@ permalink: /program/
                                             <img src="{{ site.final_url }}/assets/img/brazil.png" alt="Event in Portuguese">
                                         {% endif %}
                                     </h4>
-                                    
-                                    {% if event.type == "sbacpad-main" %}
-                                        {% assign topic = event.name | split: '| ' %}
-                                        {% assign session = site.data.technical_sessions.sbacpad | where:"title",topic[1] | first %}
-                                        <p>
-                                            <b>Chair</b>: {{ session.chair }}
-                                        </p>
-                                        {% for paper in session.papers %}
-                                            <b>{{ paper.title }}</b>
-                                            <p>{{ paper.authors }}</p>
-                                        {% endfor %}
-                                    {% elsif event.type == "wcc" %}
-                                        {% assign id = event.id | split: '-' %}
-                                        {% assign session = site.data.technical_sessions.wcc | where:"id",id[1] | first %}
-                                        <p>
-                                            <b>Chair</b>: {{ session.chair }}
-                                        </p>
-                                        {% for paper in session.papers %}
-                                            <b>{{ paper.title }}</b>
-                                            <p>{{ paper.authors }}</p>
-                                        {% endfor %}
-                                    {% elsif event.type == "panel" %}
-                                        <p>
-                                            <b>Panelists</b>: {{ event.panelists }}
-                                        </p>
+                                    {% if event.speaker %}
+                                        <p class="event-speaker"><b>Speaker</b>: {{ event.speaker }}</p>
+                                    {% endif %}
+                                    {% if event.description %}
                                         <p>{{ event.description }}</p>
-                                    {% else %}
-                                        <p>{{ event.description }}</p>
+                                    {% elsif event.subevents %}
+                                        {% for subevent in event.subevents %}
+                                            <div class="subevent">
+                                                <p class="subevent-timeslot"><i>{{ subevent.timeslot }}</i></p>
+                                                <h5 class="subevent-name">{{ subevent.name }}</h5>
+                                                {% if subevent.chair %}
+                                                    <p class="subevent-chair"><b>Chair</b>: {{ subevent.chair }}</p>
+                                                {% elsif subevent.speaker %}
+                                                    <p class="subevent-speaker"><b>Speaker</b>: {{ subevent.speaker }}</p>
+                                                {% elsif subevent.authors %}
+                                                    <p class="subevent-authors"><b>Authors</b>: {{ subevent.authors }}</p>
+                                                {% endif %}
+                                                {% if subevent.description %}
+                                                    <p>{{ subevent.description }}</p>
+                                                {% elsif subevent.papers %}
+                                                        {% for paper in subevent.papers %}
+                                                            <b>{{ paper.title }}</b>
+                                                            <!-- TODO: add paper PDF -->
+                                                            {% if paper.authors %}
+                                                                <br>
+                                                                <i>{{ paper.authors }}</i>
+                                                                <br>
+                                                            {% endif %}
+                                                        {% endfor %}
+                                                {% endif %}
+                                            </div>
+                                        {% endfor %}
+                                    {% elsif event.papers %}
+                                        <p class="event-chair"><b>Chair</b>: {{ event.chair }}</p>
+                                        {% for paper in event.papers %}
+                                            <b>{{ paper.title }}</b>
+                                            <!-- TODO: add paper PDF -->
+                                            {% if paper.authors %}
+                                                <br>
+                                                <i>{{ paper.authors }}</i>
+                                                <br>
+                                            {% endif %}
+                                        {% endfor %}
                                     {% endif %}
                                 </div>
                             </div>
