@@ -112,6 +112,9 @@ permalink: /program/
                                                     <p class="subevent-panelists"><b>Panelists</b>: {{ subevent.panelists }}</p>
                                                     <p class="subevent-moderator"><b>Moderator</b>: {{ subevent.moderator }}</p>
                                                 {% endif %}
+                                                {% if subevent.room %}
+                                                    <p class="subevent-room"><b>Room</b>: {{ subevent.room }}</p>
+                                                {% endif %}
                                                 {% if subevent.description %}
                                                     <p>{{ subevent.description }}</p>
                                                 {% elsif subevent.papers %}

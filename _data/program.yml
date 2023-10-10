@@ -63,7 +63,7 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: false
-        room: "TBD"
+        room: "Auditorium"
         url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
         subevents:
           - name: "Opening Session"
@@ -79,7 +79,7 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: false
-        room: "TBD"
+        room: "501"
         description: "Since the advent of the multi-core concept, significant advances have been made on many of the related aspects. Multi-core has become a natural element in the HPC ecosystem, and its pervasiveness within the landscape of common computing devices has made it a standard. Therefore, hardware and software concerns related to multi-core are good targets for computer science investigations, with a high potential for a genuine contribution. Beside the plethora of applications for which more powerful solutions are still expected, efficient implementation techniques for many-core chip processors are of keen interest. WAMCA is aiming at providing an opportunity to address all aforementioned technical challenges and more, including reports on specific case studies. This workshop is an opportunity for application designers and computer architects to discuss new techniques and emerging applications as well as their implications on current and next-generation many-core architectures."
         url: "https://www.cri.ensmp.fr/conf/wamca2023/"
       - name: "WSCAD Tutorials (1, 2, and 3)"
@@ -89,20 +89,22 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: true
-        room: "TBD"
         url: ""
         subevents:
           - name: "Processamento e Análise de Big Data e Aplicação de Algoritmos de Machine Learning através da utilização da Plataforma HPCC Systems"
             timeslot: "09:00 - 10:30"
             authors: "Mauro Marques (LexisNexis Risk Solutions), Alysson Oliveira (LexisNexis Risk Solutions)"
+            room: "502"
             description: "Ao longo do minicurso, os participantes terão a oportunidade de conhecer os conceitos essenciais de processamento e análise de volumes massivos de dados (Big Data) e o processo de desenvolvimento de um serviço de consulta fazendo uso da plataforma opensource composta por um Cluster Computacional de Alto Desempenho (HPCC Systems) e, também, a utilização de algoritmos de Aprendizado de Máquina, bem como terão a possibilidade de aplicar os conhecimentos adquiridos em um ambiente de treinamento disponibilizado em sala de aula."
           - name: "Getting up and Running with the OpenMP Cluster Programming Model"
             timeslot: "09:00 - 10:30"
             authors: "Emilio Francesquini (Universidade Federal do ABC), Herve Yviquel (UNICAMP) Marcio Pereira (UNICAMP), Sandro Rigo (UNICAMP), Guido Araujo (UNICAMP)"
+            room: "514"
             description: "The authors will present the new OpenMP Cluster (OMPC) distributed programming model in this tutorial. The OMPC runtime allows the programmer to annotate their code using OpenMP target offloading directives and run the application in a distributed environment seamlessly using a task-based programming model. OMPC is responsible for scheduling tasks to available nodes, transferring input/output data between nodes, and triggering remote execution all the while handling fault tolerance. The runtime leverages the LLVM infrastructure and is implemented using the well-known MPI library."
           - name: "Além do Básico: Otimizando Aplicações Paralelas em Arquiteturas Modernas"
             timeslot: "09:00 - 10:30"
             authors: "Arthur Lorenzon (UFRGS)"
+            room: "515"
             description: "Este minicurso ensina as ferramentas e técnicas fundamentais para otimizar o desempenho e consumo de energia de aplicações escritas em linguagens C/C++, explorando a combinação de diferentes tipos de processadores, como CPUs e GPUs. O minicurso não exige nenhum conhecimento prévio em interfaces de programação paralela, mas requer alguns conhecimentos básicos em C/C++, sistemas operacionais e arquitetura de computadores."
       - name: "SBAC-PAD 1"
         detailed_name: "SBAC-PAD 1 | Best Papers I"
@@ -112,7 +114,7 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: false
-        room: "TBD"
+        room: "Theather"
         url: ""
         chair: "Jay Lofstead (Sandia National Laboratories, USA)"
         papers:
@@ -133,7 +135,7 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: true
-        room: "TBD"
+        room: "Auditorium"
         url: ""
         chair: "Arthur Lorenzon (UFRGS)"
         papers:
@@ -157,7 +159,7 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: true
-        room: "TBD"
+        room: "501"
         url: ""
         chair: "Guilherme Galante (Unioeste)"
         papers:
@@ -181,7 +183,7 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: false
-        room: "TBD"
+        room: "Theather"
         url: ""
         chair: "Vinod Rebello (University of Campinas, Brazil)"
         papers:
@@ -202,7 +204,7 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: true
-        room: "TBD"
+        room: "Auditorium"
         url: ""
         chair: "Wellington Martins (UFG)"
         papers:
@@ -226,7 +228,7 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: true
-        room: "TBD"
+        room: "501"
         url: ""
         chair: "Alba Melo (UnB) e Rodrigo Righi (Unisinos)"
         papers:
@@ -244,7 +246,7 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: false
-        room: "TBD"
+        room: "Theather"
         url: ""
         chair: "TBD"
         papers:
@@ -264,7 +266,7 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: true
-        room: "TBD"
+        room: "Auditorium"
         url: ""
         chair: "TBD"
         papers:
@@ -332,7 +334,7 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: false
-        room: "TBD"
+        room: "Auditorium"
         url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
         subevents:
           - name: "Paper Session 1"
@@ -350,7 +352,7 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: false
-        room: "TBD"
+        room: "501"
         description: "Since the advent of the multi-core concept, significant advances have been made on many of the related aspects. Multi-core has become a natural element in the HPC ecosystem, and its pervasiveness within the landscape of common computing devices has made it a standard. Therefore, hardware and software concerns related to multi-core are good targets for computer science investigations, with a high potential for a genuine contribution. Beside the plethora of applications for which more powerful solutions are still expected, efficient implementation techniques for many-core chip processors are of keen interest. WAMCA is aiming at providing an opportunity to address all aforementioned technical challenges and more, including reports on specific case studies. This workshop is an opportunity for application designers and computer architects to discuss new techniques and emerging applications as well as their implications on current and next-generation many-core architectures."
         url: "https://www.cri.ensmp.fr/conf/wamca2023/"
       - name: "WSCAD Tutorials (1, 2, and 3)"
@@ -360,20 +362,22 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: true
-        room: "TBD"
         url: ""
         subevents:
           - name: "Processamento e Análise de Big Data e Aplicação de Algoritmos de Machine Learning através da utilização da Plataforma HPCC Systems"
             timeslot: "11:00 - 12:00"
             authors: "Mauro Marques (LexisNexis Risk Solutions), Alysson Oliveira (LexisNexis Risk Solutions)"
+            room: "502"
             description: "Ao longo do minicurso, os participantes terão a oportunidade de conhecer os conceitos essenciais de processamento e análise de volumes massivos de dados (Big Data) e o processo de desenvolvimento de um serviço de consulta fazendo uso da plataforma opensource composta por um Cluster Computacional de Alto Desempenho (HPCC Systems) e, também, a utilização de algoritmos de Aprendizado de Máquina, bem como terão a possibilidade de aplicar os conhecimentos adquiridos em um ambiente de treinamento disponibilizado em sala de aula."
           - name: "Getting up and Running with the OpenMP Cluster Programming Model"
             timeslot: "11:00 - 12:00"
             authors: "Emilio Francesquini (Universidade Federal do ABC), Herve Yviquel (UNICAMP) Marcio Pereira (UNICAMP), Sandro Rigo (UNICAMP), Guido Araujo (UNICAMP)"
+            room: "514"
             description: "The authors will present the new OpenMP Cluster (OMPC) distributed programming model in this tutorial. The OMPC runtime allows the programmer to annotate their code using OpenMP target offloading directives and run the application in a distributed environment seamlessly using a task-based programming model. OMPC is responsible for scheduling tasks to available nodes, transferring input/output data between nodes, and triggering remote execution all the while handling fault tolerance. The runtime leverages the LLVM infrastructure and is implemented using the well-known MPI library."
           - name: "Além do Básico: Otimizando Aplicações Paralelas em Arquiteturas Modernas"
             timeslot: "11:00 - 12:00"
             authors: "Arthur Lorenzon (UFRGS)"
+            room: "515"
             description: "Este minicurso ensina as ferramentas e técnicas fundamentais para otimizar o desempenho e consumo de energia de aplicações escritas em linguagens C/C++, explorando a combinação de diferentes tipos de processadores, como CPUs e GPUs. O minicurso não exige nenhum conhecimento prévio em interfaces de programação paralela, mas requer alguns conhecimentos básicos em C/C++, sistemas operacionais e arquitetura de computadores."
       - name: "Keynote - Ivona Brandic"
         id: "keynote-ivona-brandic"
@@ -383,7 +387,7 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "TBD"
+        room: "Theather"
         description: "Real life applications can be executed on devices that range in size from smartphones to warehouse size data centers. Meanwhile, architectures are becoming heterogeneous including various accelerators and even non von Neumann computers into the computational continuum. In this talk we discuss challenges when benchmarking different types of applications on a hybrid computational continuum. First, we present the methods for decomposition and execution of HPC applications on hybrid Classic/Quantum systems. Second, we discuss the benefits but also problems and challenges when executing applications of hybrid systems. Third, we revisit the current state of the art testbeds for the execution and benchmarking of hybrid classic/quantum."
         url: "https://cradrs.github.io/sbacpad2023/keynotes/#1"
         speaker: "Ivona Brandic"
@@ -395,7 +399,7 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "TBD"
+        room: "Theather"
         description: "The first exascale computer, called Frontier, has been delivered to Oak Ridge National Laboratory this past year. This unique scientific instrument is the culmination of more than a decade of concerted effort. I will relate a bit of the history of hybrid-node computing at the Oak Ridge Leadership Computing Facility (OLCF) and how Frontier represents the latest iteration of that approach. Some details of Frontier’s architecture will be discussed, including an overview of the new AMD GPUs that provide the bulk of the computational power for Frontier. Finally, we will take a look at some problems that will benefit from the increased capability at exascale and I will convey some lesson learned from trying to get the applications attacking these problems running on this machine."
         url: "https://cradrs.github.io/sbacpad2023/keynotes/#3"
         speaker: "Bronson Messer"
@@ -407,7 +411,7 @@ timeslots:
         rowspan: 1
         colspan: 2
         portuguese: false
-        room: "TBD"
+        room: "Theather"
         description: "Biological sequence comparison is an important problem in Bioinformatics and its goal is to define how similar the sequences are, producing a score, and highlighting their similarities, producing an alignment. There are many ways to compare biological sequences and all of them require high performance computing solutions, when the optimal solution is needed. In this talk, we will deal with three types of sequence comparison. First, we discuss pairwise sequence comparison, which is often solved with dynamic programming using variants of the Smith-Waterman algorithm, producing the optimal solution with time complexity O(n^2), where n is the length of the sequences. We present our MASA tools, which can be used in CPU or GPU to pairwise compare long DNA sequences. The last version of MASA for GPUs (MASA-CUDAlign-MultiBP) attained the best performance in the literature in 2021. Then, we examine the structural RNA alignment problem, that is also solved with dynamic programming, using the Sankoff algorithm, with time complexity O(n^6). We present our CUDA-Sankoff tool and show that it has very good speedups. Next, we discuss the multiple sequence alignment (MSA) problem, which is proven NP-Complete. We present our PA-Star CPU-based tool, which executes a variant of the A-Star algorithm to compute the optimal MSA. We show that PA-Star is able to compare multiple sequences in reduced time, when compared to the literature. At the end of the talk, we will do a covid-19 case study, showing how our three tools are used to compare SARS-CoV-2 sequences."
         url: "https://cradrs.github.io/sbacpad2023/keynotes/#2"
         speaker: "Alba Cristina Magalhaes Alves de Melo"
@@ -457,7 +461,7 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: false
-        room: "TBD"
+        room: "Auditorium"
         url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
         subevents:
           - name: "Paper Session 2"
@@ -478,7 +482,7 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: false
-        room: "TBD"
+        room: "501"
         url: "https://www.inf.ufrgs.br/gppd/wcc/2023/"
         subevents:
           - name: "Opening Session"
@@ -502,20 +506,22 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: true
-        room: "TBD"
         url: ""
         subevents:
           - name: "Are you Root? Reproducible Experiments in User Space"
             timeslot: "13:30 - 15:00"
             authors: "Vinicius Garcia Pinto (UFRGS), Lucas Nesi (UFRGS), Lucas Mello Schnorr (UFRGS)"
+            room: "502"
             description: "Plataformas computacionais para processamento de alto desempenho usualmente são compartilhadas por usuários com demandas variadas. Com frequência aplicações legadas ou aquelas que possuem requisitos e dependências muito específicas sobrecarregam os administradores do sistema ou simplesmente tem sua execução inviabilizada. Uma solução passa a ser configurar, compilar e instalar a aplicação e as respectivas dependências inteiramente em espaço de usuário. Entretanto, tal tarefa é custosa e propensa a erros, o que motiva a adoção de soluções automatizadas. Neste minicurso, propomos a apresentação de duas soluções que permitem a instalação de pacotes inteiramente em espaço de usuário de maneira reprodutível e compartilhável."
           - name: "Abordagem Gamificada para Introdução em Arquitetura de Hardware Evolutivo"
             timeslot: "13:30 - 15:00"
             authors: "Bernardo Cunha (PUC Minas), Carlos Augusto Martins (PUC Minas)"
+            room: "514"
             description: "Este minicurso consiste em 3 partes, de aproximadamente 50 minutos. Inicialmente, haverá exposição dos conceitos básicos para compreensão do tema, utilizando abordagem gamificada. Na segunda parte, os participantes colocarão estas novas informações em prática, \"hackeando\" o sistema evolutivo, experimentando variações nos parâmetros de entrada e de configuração. Por último, será escolhida a melhor abordagem a ser implementada em um próximo encontro (virtual), é demonstrado como o sistema selecionado pode ser implementado utilizando um dispositivo de computação reconfigurável (FPGA)."
           - name: "Armazenamento - Melhores Práticas - Construindo Sistemas de Armazenamento com a Performance Adequada"
             timeslot: "13:30 - 15:00"
             authors: "Guilherme Friol"
+            room: "515"
             description: "Este minicurso abordará as principais formas de conexões existentes, tais como SATA, SCSI, SAS, iSCSI, Fibre Channel, entre outras. Os participantes poderão compreender as vantagens e desvantagens de cada uma dessas opções, bem como entender a importância da escolha correta na hora de definir a solução de armazenamento adequada para cada situação. Serão discutidos os diversos tipos de dispositivos de armazenamento existentes no mercado, tais como unidade de disco rígido (HDD) , unidades de disco sólido (SSD), unidades de fita (tape drive), cartões de memória, entre outros. Os participantes poderão entender as características de cada um desses dispositivos, bem como saber qual a melhor opção."
       - name: "SBAC-PAD 2"
         detailed_name: "SBAC-PAD 2 | Architecture"
@@ -525,7 +531,7 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: false
-        room: "TBD"
+        room: "Theather"
         url: ""
         chair: "Krishna Kavi (University of North Texas, USA)"
         papers:
@@ -546,7 +552,7 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: true
-        room: "TBD"
+        room: "Auditorium"
         url: ""
         chair: "Márcio Castro (UFSC)"
         papers:
@@ -570,7 +576,7 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: true
-        room: "TBD"
+        room: "501"
         url: ""
         chair: "Arthur Lorenzon (UFRGS)"
         papers:
@@ -597,7 +603,7 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: false
-        room: "TBD"
+        room: "Theather"
         url: ""
         chair: "TBD"
         papers:
@@ -618,7 +624,7 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: true
-        room: "TBD"
+        room: "Auditorium"
         url: ""
         chair: "TBD"
         papers:
@@ -645,7 +651,7 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: true
-        room: "TBD"
+        room: "501"
         url: ""
         chair: "Alba Melo (UnB) e Rodrigo Righi (Unisinos)"
         papers:
@@ -663,7 +669,7 @@ timeslots:
         rowspan: 1
         colspan: 2
         portuguese: false
-        room: "TBD"
+        room: "Theather"
         url: ""
         chair: "TBD"
         papers:
@@ -683,7 +689,7 @@ timeslots:
         rowspan: 2
         colspan: 2
         portuguese: false
-        room: "TBD"
+        room: "Theather"
         description: ""
         url: ""
   - time: "15:00"
@@ -724,7 +730,7 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: false
-        room: "TBD"
+        room: "Auditorium"
         url: "https://discovery.ic.unicamp.br/workshops/hpcdl23/"
         subevents:
           - name: "Panel: Towards developing HPC through ML and ML through HPC - the Chicken Egg dilemma"
@@ -740,7 +746,7 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: false
-        room: "TBD"
+        room: "501"
         url: "https://www.inf.ufrgs.br/gppd/wcc/2023/"
         subevents:
           - name: "Technical Session 2"
@@ -764,20 +770,22 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: true
-        room: "TBD"
         url: ""
         subevents:
           - name: "Are you Root? Reproducible Experiments in User Space"
             timeslot: "15:30 - 17:00"
             authors: "Vinicius Garcia Pinto (UFRGS), Lucas Nesi (UFRGS), Lucas Mello Schnorr (UFRGS)"
+            room: "502"
             description: "Plataformas computacionais para processamento de alto desempenho usualmente são compartilhadas por usuários com demandas variadas. Com frequência aplicações legadas ou aquelas que possuem requisitos e dependências muito específicas sobrecarregam os administradores do sistema ou simplesmente tem sua execução inviabilizada. Uma solução passa a ser configurar, compilar e instalar a aplicação e as respectivas dependências inteiramente em espaço de usuário. Entretanto, tal tarefa é custosa e propensa a erros, o que motiva a adoção de soluções automatizadas. Neste minicurso, propomos a apresentação de duas soluções que permitem a instalação de pacotes inteiramente em espaço de usuário de maneira reprodutível e compartilhável."
           - name: "Abordagem Gamificada para Introdução em Arquitetura de Hardware Evolutivo"
             timeslot: "15:30 - 17:00"
             authors: "Bernardo Cunha (PUC Minas), Carlos Augusto Martins (PUC Minas)"
+            room: "514"
             description: "Este minicurso consiste em 3 partes, de aproximadamente 50 minutos. Inicialmente, haverá exposição dos conceitos básicos para compreensão do tema, utilizando abordagem gamificada. Na segunda parte, os participantes colocarão estas novas informações em prática, \"hackeando\" o sistema evolutivo, experimentando variações nos parâmetros de entrada e de configuração. Por último, será escolhida a melhor abordagem a ser implementada em um próximo encontro (virtual), é demonstrado como o sistema selecionado pode ser implementado utilizando um dispositivo de computação reconfigurável (FPGA)."
           - name: "Armazenamento - Melhores Práticas - Construindo Sistemas de Armazenamento com a Performance Adequada"
             timeslot: "15:30 - 17:00"
             authors: "Guilherme Friol"
+            room: "515"
             description: "Este minicurso abordará as principais formas de conexões existentes, tais como SATA, SCSI, SAS, iSCSI, Fibre Channel, entre outras. Os participantes poderão compreender as vantagens e desvantagens de cada uma dessas opções, bem como entender a importância da escolha correta na hora de definir a solução de armazenamento adequada para cada situação. Serão discutidos os diversos tipos de dispositivos de armazenamento existentes no mercado, tais como unidade de disco rígido (HDD) , unidades de disco sólido (SSD), unidades de fita (tape drive), cartões de memória, entre outros. Os participantes poderão entender as características de cada um desses dispositivos, bem como saber qual a melhor opção."
       - name: "SBAC-PAD 3"
         detailed_name: "SBAC-PAD 3 | Distributed Systems"
@@ -787,7 +795,7 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: false
-        room: "TBD"
+        room: "Theather"
         url: ""
         chair: "TBD"
         papers:
@@ -808,7 +816,7 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: true
-        room: "TBD"
+        room: "Auditorium"
         url: ""
         chair: "Antonio C. S. Beck Filho (UFRGS)"
         papers:
@@ -832,7 +840,7 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: true
-        room: "TBD"
+        room: "501"
         url: ""
         chair: "Carlos Augusto Martins (PUC Minas) e Ricardo Menotti (UFSCar)"
         papers:
@@ -854,7 +862,7 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "TBD"
+        room: "Theather"
         description: "Discover Lenovo's HPC solutions, #1 in supplying supercomputers in the Top500. Be surprised by Lenovo Neptune, liquid server cooling technology that guarantees better performance, savings and enables companies and organizations to achieve their ESG objectives."
         speaker: "Joaquim Merino (Lenovo)"
         url: "https://cradrs.github.io/sbacpad2023/industrial_talks/#1"
@@ -874,7 +882,7 @@ timeslots:
         rowspan: 3
         colspan: 1
         portuguese: false
-        room: "TBD"
+        room: "Theather"
         url: ""
         chair: "TBD"
         papers:
@@ -895,7 +903,7 @@ timeslots:
         rowspan: 3
         colspan: 1
         portuguese: true
-        room: "TBD"
+        room: "Auditorium"
         url: ""
         chair: "TBD"
         papers:
@@ -918,7 +926,7 @@ timeslots:
         rowspan: 3
         colspan: 1
         portuguese: true
-        room: "TBD"
+        room: "501"
         description: ""
         url: ""
   - time: "17:00"
@@ -930,7 +938,7 @@ timeslots:
         rowspan: 2
         colspan: 3
         portuguese: false
-        room: "TBD"
+        room: "Theather"
         description: ""
         url: ""
       - name: "Industrial Talk 1 (Dell)"
@@ -940,7 +948,7 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "TBD"
+        room: "Theather"
         description: ""
         url: ""
   - time: "17:30"
@@ -953,7 +961,7 @@ timeslots:
         rowspan: 2
         colspan: 3
         portuguese: true
-        room: "TBD"
+        room: "Theather"
         description: "In the last TOP500, Brazil appears with 9 computers on the list. There are currently several investments in machines being prepared, including a call for 100 million reais for machines. The Panel will discuss upcoming investments in supercomputing centers and the country's needs in this area."
         url: "https://cradrs.github.io/sbacpad2023/panel/"
         panelists: "Dr. Luiz Monnerat, Pedro Leite da Silva Dias, Antônio Tadeu A. Gomes"
@@ -967,7 +975,7 @@ timeslots:
         rowspan: 2
         colspan: 3
         portuguese: false
-        room: "TBD"
+        room: "Theather"
         description: ""
         url: ""
         speaker: "Philippe Navaux"
@@ -991,7 +999,7 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "TBD"
+        room: "Museum"
         description: ""
         url: ""
       - name: "Dinner"
@@ -1001,7 +1009,7 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "TBD"
+        room: "Veleiros do Sul"
         description: ""
         url: ""
   # - time: "19:30"
