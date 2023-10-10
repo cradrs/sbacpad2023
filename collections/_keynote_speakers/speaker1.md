@@ -9,7 +9,7 @@ bio:
 
 # Talk
 keynote_date: "Wednesday, October 18th — 11:00"
-keynote_room: "TBD"
+keynote_room: "Theather"
 keynote_title: Benchmarking of Hybrid Computational Continuum
 keynote_abstract:
     Real life applications can be executed on devices that range in size from smartphones to warehouse size data centers. Meanwhile, architectures are becoming heterogeneous including various accelerators and even non von Neumann computers into the computational continuum. In this talk we discuss challenges when benchmarking different types of applications on a hybrid computational continuum. First, we present the methods for decomposition and execution of HPC applications on hybrid Classic/Quantum systems. Second, we discuss the benefits but also problems and challenges when executing applications of hybrid systems. Third, we revisit the current state of the art testbeds for the execution and benchmarking of hybrid classic/quantum.

@@ -865,7 +865,7 @@ timeslots:
         room: "Theather"
         description: "Discover Lenovo's HPC solutions, #1 in supplying supercomputers in the Top500. Be surprised by Lenovo Neptune, liquid server cooling technology that guarantees better performance, savings and enables companies and organizations to achieve their ESG objectives."
         speaker: "Joaquim Merino (Lenovo)"
-        url: "https://cradrs.github.io/sbacpad2023/industrial_talks/#1"
+        url: "https://cradrs.github.io/sbacpad2023/industrial_talks/#2"
       - name: ""
         type: "space"
         rowspan: 11
@@ -942,6 +942,7 @@ timeslots:
         description: ""
         url: ""
       - name: "Industrial Talk 1 (Dell)"
+        detailed_name: "High Performance Computing Solutions with Dell technologies"
         id: "industrial-talk-1"
         type: "sbacpad"
         day: "day2"
@@ -950,7 +951,8 @@ timeslots:
         portuguese: false
         room: "Theather"
         description: ""
-        url: ""
+        url: "https://cradrs.github.io/sbacpad2023/industrial_talks/#1"
+        speaker: "Rogério Chola (Dell)"
   - time: "17:30"
     events:
       - name: "Panel: HPC Investments in Brazil"
