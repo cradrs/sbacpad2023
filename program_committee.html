@@ -4,52 +4,54 @@ title: "Program Committee"
 permalink: /program_committee/
 ---
 
-<div class="container-fluid" id="committees">
-    {% assign committee = site.data.committee.program_committee %}
-    <h1 class="p-2 text-center">{{ committee.name }}</h1>
-    {% for subcommittee in committee.subcommittees %}
+<section id="light-card">
+    <div id="cfp" class="p-2 container col-sm-12 col-lg-8 text-justify">
+        <h1 class="p-4 text-center">Program Committee</h1>
+        {% assign committee = site.data.committee.program_committee %}
+        {% for subcommittee in committee.subcommittees %}
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <h3>{{ subcommittee.name }}</h3>
+                    <ul>
+                        {% for member in subcommittee.members %}
+                            {% if member.name %}
+                                <li class="lead">{{ member.name }} ({{ member.institution }})</li>
+                            {% else %}
+                                <li class="lead">TBD</li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        {% endfor %}
         <div class="row">
             <div class="col-md-10 offset-md-1">
-                <h4>{{ subcommittee.name }}</h4>
+                <h3>Track Chairs</h3>
                 <ul>
-                    {% for member in subcommittee.members %}
-                        {% if member.name %}
-                            <li>{{ member.name }} ({{ member.institution }})</li>
-                        {% else %}
-                            <li>TBD</li>
-                        {% endif %}
+                    {% for program in site.data.committee.program_committee.program_committee_members %}
+                    {% if program.chair == null %}
+                    {% continue %}
+                    {% endif %}
+                    <li class="lead"><strong>{{ program.track }}</strong>: {{program.chair.name}} {% if program.chair.institution != "" %}({{program.chair.institution}}){% endif %}</li>
                     {% endfor %}
                 </ul>
             </div>
         </div>
-    {% endfor %}
-    <div class="row">
-        <div class="col-md-10 offset-md-1">
-            <h4>Track Chairs</h4>
-            <ul>
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <h3>Program Committee Members</h3>
                 {% for program in site.data.committee.program_committee.program_committee_members %}
-                {% if program.chair == null %}
-                {% continue %}
-                {% endif %}
-                <li><strong>{{ program.track }}</strong>: {{program.chair.name}} {% if program.chair.institution != "" %}({{program.chair.institution}}){% endif %}</li>
+                    <h4>{{ program.track }}</h4>
+                    {% if program.chair %}
+                    <p class="lead"><b>Chair</b>: {{program.chair.name}} {% if program.chair.institution != "" %}({{program.chair.institution}}){% endif %}</p>
+                    {% endif %}
+                    <ul>
+                        {% for member in program.members %}
+                            <li class="lead">{{ member.name }} {% if member.institution%}({{ member.institution }}){% endif %}</li>
+                        {% endfor %}
+                    </ul>
                 {% endfor %}
-            </ul>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-10 offset-md-1">
-            <h4>Program Committee Members</h4>
-            {% for program in site.data.committee.program_committee.program_committee_members %}
-                <h5>{{ program.track }}</h5>
-                {% if program.chair %}
-                <p><b>Chair</b>: {{program.chair.name}} {% if program.chair.institution != "" %}({{program.chair.institution}}){% endif %}</p>
-                {% endif %}
-                <ul>
-                    {% for member in program.members %}
-                        <li>{{ member.name }} {% if member.institution%}({{ member.institution }}){% endif %}</li>
-                    {% endfor %}
-                </ul>
-            {% endfor %}
-        </div>
-    </div>
-</div>
+</section>

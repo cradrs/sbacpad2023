@@ -31,8 +31,11 @@
   font-weight: $lead-font-weight;
 }
 
-li.lead {
-  @include font-size($font-size-base);
+li.lead,
+.speaker-bio,
+.panel-panelist,
+.panel-moderator {
+  @include font-size(1.1rem);
 }
 
 // Type display classes

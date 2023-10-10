@@ -4,23 +4,25 @@ title: "Organizing Committee"
 permalink: /organizing_committee/
 ---
 
-<div class="container-fluid" id="committees">
-    {% assign committee = site.data.committee.organizing_committee %}
-    <h1 class="p-2 text-center">{{ committee.name }}</h1>
-    {% for subcommittee in committee.subcommittees %}
-        <div class="row">
-            <div class="col-md-10 offset-md-1">
-                <h4>{{ subcommittee.name }}</h4>
-                <ul>
-                    {% for member in subcommittee.members %}
-                        {% if member.name %}
-                            <li>{{ member.name }} ({{ member.institution }})</li>
-                        {% else %}
-                            <li>TBD</li>
-                        {% endif %}
-                    {% endfor %}
-                </ul>
+<section id="light-card">
+    <div id="cfp" class="p-2 container col-sm-12 col-lg-8 text-justify">
+        <h1 class="p-4 text-center">Organizing Committee</h1>
+        {% assign committee = site.data.committee.organizing_committee %}
+        {% for subcommittee in committee.subcommittees %}
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <h3>{{ subcommittee.name }}</h3>
+                    <ul>
+                        {% for member in subcommittee.members %}
+                            {% if member.name %}
+                                <li class="lead">{{ member.name }} ({{ member.institution }})</li>
+                            {% else %}
+                                <li class="lead">TBD</li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
             </div>
-        </div>
-    {% endfor %}
-</div>
+        {% endfor %}
+    </div>
+</section>

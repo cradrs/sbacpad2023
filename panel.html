@@ -6,23 +6,20 @@ permalink: /panel/
 
 <section id="light-card">
   <div class="p-2 container col-sm-12 col-lg-8 text-justify">
-    <h2 class="p-4 text-center">Panel: Brazil HPC Investment needs for the coming years</h2>
-    <p class="text-center"><b>Wednesday, Oct 18 (17:30 - 18:30)</b></p>
+    <h1 class="p-4 text-center">Panel: Brazil HPC Investment needs for the coming years</h1>
+    <p class="lead text-center"><b>Wednesday, Oct 18 (17:30 - 18:30)</b></p>
     <div class="tab-content">
-      <p>
+      <p class="lead">
         In the last TOP500, Brazil appears with 9 computers on the list. There are currently several investments in machines being prepared, including a call for 100 million reais for machines. The Panel will discuss upcoming investments in supercomputing centers and the country's needs in this area.
       </p>
-      <h4 class="text-center">Panelists</h4>
+      <h3 class="text-center">Panelists</h3>
       {% for panelist in site.data.panel.panelists %}
-        <h5>{{ panelist.name }}</h5>
-        <p>{{ panelist.bio }}</p>
+        <p class="lead panel-panelist"><b>{{ panelist.name }}</b> {{ panelist.bio }}</p>
       {% endfor %}
-      <h4 class="text-center">Moderator</h4>
+      <h3 class="text-center">Moderator</h3>
       {% for moderator in site.data.panel.moderators %}
-        <h5>{{ moderator.name }}</h5>
-        <p>{{ moderator.bio }}</p>
+        <p class="lead panel-moderator"><b>{{ moderator.name }}</b> {{ moderator.bio }}</p>
       {% endfor %}
     </div>
   </div>
-  <br><br>
 </section>
