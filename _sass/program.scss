@@ -189,4 +189,21 @@ table.program {
             padding: 1rem 0;
         }        
     }
+
+    .subevent {
+        margin-bottom: 1rem;
+    }
+
+    .subevent-timeslot {
+        margin: 0;
+    }
+
+    .event-chair,
+    .event-speaker,
+    .subevent-name,
+    .subevent-authors,
+    .subevent-chair,
+    .subevent-speaker {
+        margin-bottom: 0.25rem;
+    }
 }

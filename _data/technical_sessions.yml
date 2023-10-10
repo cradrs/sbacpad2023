@@ -85,29 +85,3 @@ sbacpad:
         authors: "Daniel Medeiros, Jacob Wahlgren, Gabin Schieffer and Ivy Peng"
       - title: "WCSim: A Cloud Computing Simulator with Support for Bag of Tasks Workflows"
         authors: "Maicon Santos, Gabriel Grabher, Matheus Kovaleski, Cláudio Geyer, and Gerson Cavalheiro"
-
-wcc:
-  - id: 1
-    title: "Technical Session 1"
-    timeslot: "Tuesday, Oct 17 (14:20 - 15:00)"
-    chair: "TBD"
-    papers:
-      - title: "Harnessing Cloud Computing for Geophysical Exploration"
-        authors: "Rodrigo C. Machado (UFRGS), Cristiano A. Kunas (UFRGS), Arthur F. Lorenzon (UFRGS), Philippe O. A. Navaux (UFRGS)"
-      - title: "Exploring the Serverless First Strategy in Cloud Application Development"
-        authors: "Adriano Prado Cavalheiro (UNIPAMPA), Claudio Schepke (UNIPAMPA)"
-  - id: 2
-    title: "Technical Session 2"
-    timeslot: "Tuesday, Oct 17 (15:00 - 17:00)"
-    chair: "TBD"
-    papers:
-      - title: "A Preliminary Review of Function as a Service Platform Running with AWS Spot Instances"
-        authors: "Luciana Marques (USP), Alfredo Goldman (USP)"
-      - title: "Evaluation Model and Performance Analysis of NIC Aggregations in Containerized Private Clouds"
-        authors: "Anderson Mattheus Maliszewski (UFRGS), Dalvan Griebler (PUCRS), Eduardo Roloff (UFRGS), Rodrigo Righi (UNISINOS), Philippe O. A. Navaux (UFRGS)"
-      - title: "A Performance Comparison of HPC Workloads on Traditional and Cloud-based HPC Clusters"
-        authors: "Vanderlei Munhoz (UFSC), Antoine Bonfils (Polytech Grenoble), Márcio Castro (UFSC), Odorico Mendizabal (UFSC)"
-      - title: "Optimizing Microservices Performance and Resource Utilization through Containerized Grouping: An Experimental Study"
-        authors: "Fernando Buzato (USP), Alfredo Goldman (USP)"
-      - title: "Conceptual and comparative analysis of application metrics in microservices"
-        authors: "Lucas Eduardo Pulcinelli (USP), Diego Pedroso (USP), Sarita Bruschi (USP)"
