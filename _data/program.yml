@@ -80,8 +80,24 @@ timeslots:
         colspan: 1
         portuguese: false
         room: "501"
-        description: "Since the advent of the multi-core concept, significant advances have been made on many of the related aspects. Multi-core has become a natural element in the HPC ecosystem, and its pervasiveness within the landscape of common computing devices has made it a standard. Therefore, hardware and software concerns related to multi-core are good targets for computer science investigations, with a high potential for a genuine contribution. Beside the plethora of applications for which more powerful solutions are still expected, efficient implementation techniques for many-core chip processors are of keen interest. WAMCA is aiming at providing an opportunity to address all aforementioned technical challenges and more, including reports on specific case studies. This workshop is an opportunity for application designers and computer architects to discuss new techniques and emerging applications as well as their implications on current and next-generation many-core architectures."
         url: "https://www.cri.ensmp.fr/conf/wamca2023/"
+        subevents:
+          - name: "Session 1 - Compilation and Performance"
+            timeslot: "09:00 - 09:50"
+            chair: "TBD"
+            papers:
+              - title: "DASS: Dynamic Adaptive Sub-Target Specialization"
+                authors: "Tyler Gobran, João Paulo Labegalini de Carvalho, Jose Nelson Amaral, Quinn Pham, Kit Barton and Nemanja Ivanovic"
+              - title: "Analyzing C++ Stream Parallelism in Shared-Memory when Porting to Flink and Storm"
+                authors: "Renato Barreto Hoffmann Filho, Leonardo Gibrowski Faé, Isabel Manssour and Dalvan Griebler"
+          - name: "Session 2 - Shared Memory Management"
+            timeslot: "09:50 - 10:40"
+            chair: "TBD"
+            papers:
+              - title: "A Source-to-source NUMA Profiling"
+                authors: "Leticia S.F. Machado, Claude Tadonki and Hermes Senger"
+              - title: "Energy Consumption Analysis of Instruction Cache Prefetching Methods"
+                authors: "Morteza Baradaran, Ali Ansari, Mohammad Sadrosadati and Hamid Sarbazi-Azad"
       - name: "WSCAD Tutorials (1, 2, and 3)"
         id: "wscad-tutorials-1"
         type: "wscad-tutorial"
@@ -353,8 +369,16 @@ timeslots:
         colspan: 1
         portuguese: false
         room: "501"
-        description: "Since the advent of the multi-core concept, significant advances have been made on many of the related aspects. Multi-core has become a natural element in the HPC ecosystem, and its pervasiveness within the landscape of common computing devices has made it a standard. Therefore, hardware and software concerns related to multi-core are good targets for computer science investigations, with a high potential for a genuine contribution. Beside the plethora of applications for which more powerful solutions are still expected, efficient implementation techniques for many-core chip processors are of keen interest. WAMCA is aiming at providing an opportunity to address all aforementioned technical challenges and more, including reports on specific case studies. This workshop is an opportunity for application designers and computer architects to discuss new techniques and emerging applications as well as their implications on current and next-generation many-core architectures."
         url: "https://www.cri.ensmp.fr/conf/wamca2023/"
+        subevents:
+          - name: "Session 3 - Accelerators and Checkpointing"
+            timeslot: "11:00 - 11:40"
+            chair: "TBD"
+            papers:
+              - title: "Multi-GPU accelerating strategies of Ant Colony Optimization algorithms using Rank Based and Strong Elitist versions"
+                authors: "Andres Avila, Mariela Isabel González Flores and Juan Aedo"
+              - title: "Distributed Checkpointing in Dataflow with Static Scheduling"
+                authors: "Tiago A. O. Alves"
       - name: "WSCAD Tutorials (1, 2, and 3)"
         id: "wscad-tutorials-2"
         type: "wscad-tutorial"
