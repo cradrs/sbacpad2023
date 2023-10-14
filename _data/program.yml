@@ -130,7 +130,7 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: false
-        room: "Theather"
+        room: "Theater"
         url: ""
         chair: "Jay Lofstead (Sandia National Laboratories, USA)"
         papers:
@@ -199,9 +199,9 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: false
-        room: "Theather"
+        room: "Theater"
         url: ""
-        chair: "Vinod Rebello (University of Campinas, Brazil)"
+        chair: "Vinod Rebello (Universidade Federal Fluminense, Brazil)"
         papers:
           - title: "Exploiting the Potential of Flexible Processing Units"
             authors: "Mateo Vazquez, Muhammad Waqar Azhar and Pedro Trancoso"
@@ -262,7 +262,7 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: false
-        room: "Theather"
+        room: "Theater"
         url: ""
         chair: "TBD"
         papers:
@@ -284,7 +284,7 @@ timeslots:
         portuguese: true
         room: "Auditorium"
         url: ""
-        chair: "TBD"
+        chair: "Ricardo Ferreira (UFV)"
         papers:
           - title: "Structured platform-aware programming"
             authors: "Francisco Carvalho-Junior (UFC), Julio Mendes (Arpeggeo Technologies), Allberson Oliveira (Unilab), Tiago Carneiro (IMEC, Belgium), Claro Sales (UFC), Pedro Sales (UFC)"
@@ -411,7 +411,7 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "Theather"
+        room: "Theater"
         description: "Real life applications can be executed on devices that range in size from smartphones to warehouse size data centers. Meanwhile, architectures are becoming heterogeneous including various accelerators and even non von Neumann computers into the computational continuum. In this talk we discuss challenges when benchmarking different types of applications on a hybrid computational continuum. First, we present the methods for decomposition and execution of HPC applications on hybrid Classic/Quantum systems. Second, we discuss the benefits but also problems and challenges when executing applications of hybrid systems. Third, we revisit the current state of the art testbeds for the execution and benchmarking of hybrid classic/quantum."
         url: "https://cradrs.github.io/sbacpad2023/keynotes/#1"
         speaker: "Ivona Brandic"
@@ -423,7 +423,7 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "Theather"
+        room: "Theater"
         description: "The first exascale computer, called Frontier, has been delivered to Oak Ridge National Laboratory this past year. This unique scientific instrument is the culmination of more than a decade of concerted effort. I will relate a bit of the history of hybrid-node computing at the Oak Ridge Leadership Computing Facility (OLCF) and how Frontier represents the latest iteration of that approach. Some details of Frontier’s architecture will be discussed, including an overview of the new AMD GPUs that provide the bulk of the computational power for Frontier. Finally, we will take a look at some problems that will benefit from the increased capability at exascale and I will convey some lesson learned from trying to get the applications attacking these problems running on this machine."
         url: "https://cradrs.github.io/sbacpad2023/keynotes/#3"
         speaker: "Bronson Messer"
@@ -435,7 +435,7 @@ timeslots:
         rowspan: 1
         colspan: 2
         portuguese: false
-        room: "Theather"
+        room: "Theater"
         description: "Biological sequence comparison is an important problem in Bioinformatics and its goal is to define how similar the sequences are, producing a score, and highlighting their similarities, producing an alignment. There are many ways to compare biological sequences and all of them require high performance computing solutions, when the optimal solution is needed. In this talk, we will deal with three types of sequence comparison. First, we discuss pairwise sequence comparison, which is often solved with dynamic programming using variants of the Smith-Waterman algorithm, producing the optimal solution with time complexity O(n^2), where n is the length of the sequences. We present our MASA tools, which can be used in CPU or GPU to pairwise compare long DNA sequences. The last version of MASA for GPUs (MASA-CUDAlign-MultiBP) attained the best performance in the literature in 2021. Then, we examine the structural RNA alignment problem, that is also solved with dynamic programming, using the Sankoff algorithm, with time complexity O(n^6). We present our CUDA-Sankoff tool and show that it has very good speedups. Next, we discuss the multiple sequence alignment (MSA) problem, which is proven NP-Complete. We present our PA-Star CPU-based tool, which executes a variant of the A-Star algorithm to compute the optimal MSA. We show that PA-Star is able to compare multiple sequences in reduced time, when compared to the literature. At the end of the talk, we will do a covid-19 case study, showing how our three tools are used to compare SARS-CoV-2 sequences."
         url: "https://cradrs.github.io/sbacpad2023/keynotes/#2"
         speaker: "Alba Cristina Magalhaes Alves de Melo"
@@ -555,7 +555,7 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: false
-        room: "Theather"
+        room: "Theater"
         url: ""
         chair: "Krishna Kavi (University of North Texas, USA)"
         papers:
@@ -627,9 +627,9 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: false
-        room: "Theather"
+        room: "Theater"
         url: ""
-        chair: "TBD"
+        chair: "Edson Borin (UNICAMP)"
         papers:
           - title: "Performance Tuning for GPU-Embedded Systems: Machine-Learning-based and Analytical Model-driven Tuning Methodologies"
             authors: "Adrián Perez Diéguez and Margarita Amor López"
@@ -650,7 +650,7 @@ timeslots:
         portuguese: true
         room: "Auditorium"
         url: ""
-        chair: "TBD"
+        chair: "Eduardo Camilo Inacio (UniSenai)"
         papers:
           - title: "Functionalities as a Service - An Approach to Conciliate Interoperability and Data Reduction in E-Health"
             authors: "João Pedro da Costa (UFJF), Mario Dantas (UFJF), José Maria David (UFJF), Fernando Silva (UFJF)"
@@ -693,7 +693,7 @@ timeslots:
         rowspan: 1
         colspan: 2
         portuguese: false
-        room: "Theather"
+        room: "Theater"
         url: ""
         chair: "TBD"
         papers:
@@ -713,7 +713,7 @@ timeslots:
         rowspan: 2
         colspan: 2
         portuguese: false
-        room: "Theather"
+        room: "Theater"
         description: ""
         url: ""
   - time: "15:00"
@@ -819,9 +819,9 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: false
-        room: "Theather"
+        room: "Theater"
         url: ""
-        chair: "TBD"
+        chair: "Viktor Prasanna (University of Southern California, USA)"
         papers:
           - title: "Improving Fault Tolerance in Blockchain Sharding using One-to-Many Block-to-Shard Mapping"
             authors: "Tirathraj Ramburn and Dhrubajyoti Goswami"
@@ -886,7 +886,7 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "Theather"
+        room: "Theater"
         description: "Discover Lenovo's HPC solutions, #1 in supplying supercomputers in the Top500. Be surprised by Lenovo Neptune, liquid server cooling technology that guarantees better performance, savings and enables companies and organizations to achieve their ESG objectives."
         speaker: "Joaquim Merino (Lenovo)"
         url: "https://cradrs.github.io/sbacpad2023/industrial_talks/#2"
@@ -906,7 +906,7 @@ timeslots:
         rowspan: 3
         colspan: 1
         portuguese: false
-        room: "Theather"
+        room: "Theater"
         url: ""
         chair: "TBD"
         papers:
@@ -929,7 +929,7 @@ timeslots:
         portuguese: true
         room: "Auditorium"
         url: ""
-        chair: "TBD"
+        chair: "Matheus Souza (PUC Minas)"
         papers:
           - title: "KNN paralelo em GPU para grandes volumes de dados com agregação de consultas"
             authors: "Michel Brasil Cordeiro (UFPR), Wagner Zola (UFPR)"
@@ -962,7 +962,7 @@ timeslots:
         rowspan: 2
         colspan: 3
         portuguese: false
-        room: "Theather"
+        room: "Theater"
         description: ""
         url: ""
       - name: "Industrial Talk 1 (Dell)"
@@ -973,7 +973,7 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "Theather"
+        room: "Theater"
         description: ""
         url: "https://cradrs.github.io/sbacpad2023/industrial_talks/#1"
         speaker: "Rogério Chola (Dell)"
@@ -987,7 +987,7 @@ timeslots:
         rowspan: 2
         colspan: 3
         portuguese: true
-        room: "Theather"
+        room: "Theater"
         description: "In the last TOP500, Brazil appears with 9 computers on the list. There are currently several investments in machines being prepared, including a call for 100 million reais for machines. The Panel will discuss upcoming investments in supercomputing centers and the country's needs in this area."
         url: "https://cradrs.github.io/sbacpad2023/panel/"
         panelists: "Dr. Luiz Monnerat, Pedro Leite da Silva Dias, Antônio Tadeu A. Gomes"
@@ -1001,7 +1001,7 @@ timeslots:
         rowspan: 2
         colspan: 3
         portuguese: false
-        room: "Theather"
+        room: "Theater"
         description: ""
         url: ""
         speaker: "Philippe Navaux"
