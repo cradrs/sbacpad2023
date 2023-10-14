@@ -141,7 +141,7 @@ timeslots:
           - title: "Improved Computation of Database Operators via Vector Processing Near-Data"
             authors: "Sairo Santos, Tiago Rodrigo Kepe and Marco Antonio Zanata Alves"
             pdf: "pdfs/sbacpad/s1p1"
-          - title: "Decoupling Buffers Management from Routing in Low-diameter Networks"
+          - title: "Analysing Mechanisms for Virtual Channel Management in Low-Diameter Networks"
             authors: "Alejandro Cano Cos, Cristóbal Camarero Coterillo, Carmen Martínez Fernández and Ramón Beivide Palacio"
             pdf: "pdfs/sbacpad/s1p2"
           - title: "Dynasor: A Dynamic Memory Layout for Accelerating Sparse MTTKRP for Tensor Decomposition on Multi-core CPU"
