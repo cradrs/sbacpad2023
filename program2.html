@@ -1,0 +1,165 @@
+---
+layout: default
+title: "Program"
+permalink: /program2/
+---
+
+<section id="program">
+    <br><br>
+    <h1 class="text-center">Program</h1>
+    <br>
+    <h2 class="text-center">Program Overview</h2>
+    <br>
+    <section id="program_overview">
+        <div class="container-fluid table-responsive px-5">
+            <table class="table program">
+                <thead>
+                    <tr>
+                        {% for date in site.data.program.dates %}
+                            <th scope="col" class="text-center" colspan="{{ date.colspan }}">{{ date.date }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for slot in site.data.program.timeslots %}
+                        <tr>
+                            <td>
+                                {{ slot.time }}
+                            </td>
+                            {% for event in slot.events %}
+                                <td class="program-slot {{ event.type }}" rowspan="{{ event.rowspan }}" colspan="{{ event.colspan }}">
+                                    <a href="#{{ event.id }}">
+                                        {{ event.name }}
+                                    </a>
+                                    {% if event.portuguese == true %}
+                                        <img src="{{ site.final_url }}/assets/img/brazil.png" alt="Event in Portuguese">
+                                    {% endif %}
+                                </td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <br>
+    <h2 class="text-center">Program Details</h2>
+    <br>
+    <section id="program_details">
+        <div class="container-fluid">
+            <br>
+            <div>
+                {% for date in site.data.program.dates %}
+                    {% if forloop.index == 1 %}
+                        {% continue %}
+                    {% endif %}
+                    <h3 class="text-center">{{ date.date }}</h3>
+                    <hr>
+                    <div class="tab-content">
+                    {% for timeslot in site.data.program.timeslots %}
+                        {% assign events = timeslot.events | where:"day",date.id %}
+                        {% for event in events %}
+                            <div id="{{ event.id }}" class="row">
+                                <div class="col-md-2">
+                                    <b>{{ timeslot.time }}</b>
+                                    {% if event.room %}
+                                        <p>Room: {{ event.room }}</p>
+                                    {% endif %}
+                                </div>
+                                <div class="col-md-10">
+                                    <h4>
+                                        {% if event.url and event.url != "" %}
+                                            <a href="{{ event.url }}" target="_blank">
+                                                {% if event.detailed_name %}
+                                                    {{ event.detailed_name }}
+                                                {% else %}
+                                                    {{ event.name }}
+                                                {% endif %}
+                                            </a>
+                                        {% else %}
+                                            {% if event.detailed_name %}
+                                                {{ event.detailed_name }}
+                                            {% else %}
+                                                {{ event.name }}
+                                            {% endif %}
+                                        {% endif %}
+                                        {% if event.portuguese == true %}
+                                            <img src="{{ site.final_url }}/assets/img/brazil.png" alt="Event in Portuguese">
+                                        {% endif %}
+                                    </h4>
+                                    {% if event.speaker %}
+                                        <p class="event-speaker"><b>Speaker</b>: {{ event.speaker }}</p>
+                                    {% elsif event.authors %}
+                                        <p class="event-authors"><b>Authors</b>: {{ event.authors }}</p>
+                                    {% elsif event.panelists %}
+                                        <p class="event-panelists"><b>Panelists</b>: {{ event.panelists }}</p>
+                                        <p class="event-moderator"><b>Moderator</b>: {{ event.moderator }}</p>
+                                    {% endif %}
+                                    {% if event.description %}
+                                        <p>{{ event.description }}</p>
+                                    {% elsif event.subevents %}
+                                        {% for subevent in event.subevents %}
+                                            <div class="subevent">
+                                                <p class="subevent-timeslot"><i>{{ subevent.timeslot }}</i></p>
+                                                <h5 class="subevent-name">{{ subevent.name }}</h5>
+                                                {% if subevent.chair %}
+                                                    <p class="subevent-chair"><b>Chair</b>: {{ subevent.chair }}</p>
+                                                {% elsif subevent.speaker %}
+                                                    <p class="subevent-speaker"><b>Speaker</b>: {{ subevent.speaker }}</p>
+                                                {% elsif subevent.authors %}
+                                                    <p class="subevent-authors"><b>Authors</b>: {{ subevent.authors }}</p>
+                                                {% elsif subevent.panelists %}
+                                                    <p class="subevent-panelists"><b>Panelists</b>: {{ subevent.panelists }}</p>
+                                                    <p class="subevent-moderator"><b>Moderator</b>: {{ subevent.moderator }}</p>
+                                                {% endif %}
+                                                {% if subevent.room %}
+                                                    <p class="subevent-room"><b>Room</b>: {{ subevent.room }}</p>
+                                                {% endif %}
+                                                {% if subevent.description %}
+                                                    <p>{{ subevent.description }}</p>
+                                                {% elsif subevent.papers %}
+                                                        {% for paper in subevent.papers %}
+                                                            <p class="paper-title">
+                                                                <b>{{ paper.title }}</b>
+                                                                {% if paper.pdf %}
+                                                                    <a href="{{ site.final_url }}/{{ paper.pdf }}.pdf" target="_blank">
+                                                                        <img src="{{ site.final_url }}/assets/img/pdf.svg" alt="PDF">
+                                                                    </a>
+                                                                {% endif %}
+                                                            </p>
+                                                            {% if paper.authors %}
+                                                                <p class="paper-authors"><i>{{ paper.authors }}</i></p>
+                                                            {% endif %}
+                                                        {% endfor %}
+                                                {% endif %}
+                                            </div>
+                                        {% endfor %}
+                                    {% elsif event.papers %}
+                                        <p class="event-chair"><b>Chair</b>: {{ event.chair }}</p>
+                                        {% for paper in event.papers %}
+                                        <p class="paper-title">
+                                            <b>{{ paper.title }}</b>
+                                                {% if paper.pdf %}
+                                                    <a href="{{ site.final_url }}/{{ paper.pdf }}.pdf" target="_blank">
+                                                        <img src="{{ site.final_url }}/assets/img/pdf.svg" alt="PDF">
+                                                    </a>
+                                                {% endif %}
+                                            </p>
+                                            {% if paper.authors %}
+                                                <p class="paper-authors"><i>{{ paper.authors }}</i></p>
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <hr>
+                        {% endfor %}
+                    {% endfor %}
+                    </div>
+                    <br><br>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <br><br>
+</section>
