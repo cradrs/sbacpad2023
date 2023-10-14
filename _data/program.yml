@@ -23,7 +23,7 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "TBD"
+        room: "Foyer"
         description: ""
       - name: "Registration"
         id: "registration-2"
@@ -32,7 +32,7 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "TBD"
+        room: "Foyer"
         description: ""
       - name: "Registration"
         id: "registration-3"
@@ -41,7 +41,7 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "TBD"
+        room: "Foyer"
         description: ""
       - name: "Registration"
         id: "registration-4"
@@ -50,7 +50,7 @@ timeslots:
         rowspan: 1
         colspan: 2
         portuguese: false
-        room: "TBD"
+        room: "Foyer"
         description: ""
   # - time: "08:30"
   #   events:
@@ -264,7 +264,7 @@ timeslots:
         portuguese: false
         room: "Theater"
         url: ""
-        chair: "TBD"
+        chair: "J. Nelson Amaral (University of Alberta, Canada)"
         papers:
           - title: "Reverse Time Migration with Lossy and Lossless Wavefield Compression"
             authors: "Carlos Henrique dos Santos Barbosa and Alvaro Luiz Gayoso de Azeredo Coutinho"
@@ -312,7 +312,7 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "TBD"
+        room: "Foyer"
         description: ""
       - name: "Coffee-break"
         id: "coffee-break-morning-2"
@@ -321,7 +321,7 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "TBD"
+        room: "Foyer"
         description: ""
       - name: "Coffee-break"
         id: "coffee-break-morning-3"
@@ -330,7 +330,7 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "TBD"
+        room: "Foyer"
         description: ""
       - name: "Coffee-break"
         id: "coffee-break-morning-4"
@@ -339,7 +339,7 @@ timeslots:
         rowspan: 1
         colspan: 2
         portuguese: false
-        room: "TBD"
+        room: "Foyer"
         description: ""
   - time: "11:00"
     events:
@@ -695,7 +695,7 @@ timeslots:
         portuguese: false
         room: "Theater"
         url: ""
-        chair: "TBD"
+        chair: "Lucas Mello Schnorr (Federal University of Rio Grande do Sul, Brazil)"
         papers:
           - title: "Kub: Elastic HPC Workloads on Containerized Environments"
             authors: "Daniel Medeiros, Jacob Wahlgren, Gabin Schieffer and Ivy Peng"
@@ -725,7 +725,7 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "TBD"
+        room: "Foyer"
         description: ""
       - name: "Coffee-break"
         id: "coffee-break-afternoon-2"
@@ -734,7 +734,7 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "TBD"
+        room: "Foyer"
         description: ""
       - name: "Coffee-break"
         id: "coffee-break-afternoon-3"
@@ -743,7 +743,7 @@ timeslots:
         rowspan: 1
         colspan: 3
         portuguese: false
-        room: "TBD"
+        room: "Foyer"
         description: ""
   - time: "15:30"
     events:
@@ -908,7 +908,7 @@ timeslots:
         portuguese: false
         room: "Theater"
         url: ""
-        chair: "TBD"
+        chair: "Jay Lofstead (Sandia National Laboratories, USA)"
         papers:
           - title: "Toward Open Repository of Performance Portability of Applications, Benchmarks and Models"
             authors: "Ami Marowka"
