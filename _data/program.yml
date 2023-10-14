@@ -84,7 +84,7 @@ timeslots:
         subevents:
           - name: "Session 1 - Compilation and Performance"
             timeslot: "09:00 - 09:50"
-            chair: "TBD"
+            chair: "Claude Tadonki (MINES ParisTech - PSL)"
             papers:
               - title: "DASS: Dynamic Adaptive Sub-Target Specialization"
                 authors: "Tyler Gobran, João Paulo Labegalini de Carvalho, Jose Nelson Amaral, Quinn Pham, Kit Barton and Nemanja Ivanovic"
@@ -92,7 +92,7 @@ timeslots:
                 authors: "Renato Barreto Hoffmann Filho, Leonardo Gibrowski Faé, Isabel Manssour and Dalvan Griebler"
           - name: "Session 2 - Shared Memory Management"
             timeslot: "09:50 - 10:40"
-            chair: "TBD"
+            chair: "Claude Tadonki (MINES ParisTech - PSL)"
             papers:
               - title: "A Source-to-source NUMA Profiling"
                 authors: "Leticia S.F. Machado, Claude Tadonki and Hermes Senger"
@@ -355,7 +355,7 @@ timeslots:
         subevents:
           - name: "Paper Session 1"
             timeslot: "11:00 - 12:00"
-            chair: "TBD"
+            chair: "Flavia Bernardini (UFF) / Edson Borin (UNICAMP)"
             papers:
               - title: "Assessing the performance of an architecture-aware optimization tool for neural networks"
                 authors: "Raúl Marichal, Ernesto Dufrechou, Pablo Ezzatti"
@@ -373,7 +373,7 @@ timeslots:
         subevents:
           - name: "Session 3 - Accelerators and Checkpointing"
             timeslot: "11:00 - 11:40"
-            chair: "TBD"
+            chair: "Claude Tadonki (MINES ParisTech - PSL)"
             papers:
               - title: "Multi-GPU accelerating strategies of Ant Colony Optimization algorithms using Rank Based and Strong Elitist versions"
                 authors: "Andres Avila, Mariela Isabel González Flores and Juan Aedo"
@@ -490,7 +490,7 @@ timeslots:
         subevents:
           - name: "Paper Session 2"
             timeslot: "13:30 - 15:00"
-            chair: "TBD"
+            chair: "Flavia Bernardini (UFF) / Edson Borin (UNICAMP)"
             papers:
               - title: "PINNProv: Provenance for Physics-informed Neural Networks"
                 authors: "Lyncoln S. de Oliveira, Liliane Kunstmann, Débora Pina, Daniel de Oliveira, Marta Mattoso"
@@ -517,7 +517,7 @@ timeslots:
             description: "In the ever-evolving landscape of cloud computing and high-performance applications, this talk delves into the critical juncture of HPC and cloud, with special emphasis on key challenges such as Power Consumption, Speed and Energy of Data Movement, Fault Tolerance, and Billion-Way Parallelism. This keynote explores the intersection of cloud computing and high-performance computing from a programmability perspective, shedding light on how they can harmonise to propel us into the next era of sustainability. The discussion will delve into the challenges and opportunities that arise when pushing the boundaries of programmability and performance in the cloud, particularly in the context of Power, Data Movement, Fault Tolerance, and Billion-Way Parallelism. It will address strategies for optimising resources to meet the demanding requirements of high-performance applications, including those in fields such as scientific research and data-intensive workloads, emphasising the importance of programmability, sustainability, energy efficiency, and cost-effectiveness."
           - name: "Technical Session 1"
             timeslot: "14:20 - 15:00"
-            chair: "TBD"
+            chair: "Márcio Castro (UFSC) / Philippe O. A. Navaux (UFRGS)"
             papers:
               - title: "Harnessing Cloud Computing for Geophysical Exploration"
                 authors: "Rodrigo C. Machado (UFRGS), Cristiano A. Kunas (UFRGS), Arthur F. Lorenzon (UFRGS), Philippe O. A. Navaux (UFRGS)"
@@ -775,7 +775,7 @@ timeslots:
         subevents:
           - name: "Technical Session 2"
             timeslot: "15:30 - 17:00"
-            chair: "TBD"
+            chair: "Márcio Castro (UFSC) / Philippe O. A. Navaux (UFRGS)"
             papers:
               - title: "A Preliminary Review of Function as a Service Platform Running with AWS Spot Instances"
                 authors: "Luciana Marques (USP), Alfredo Goldman (USP)"
