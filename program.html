@@ -63,7 +63,7 @@ permalink: /program/
                                 <div class="col-md-2">
                                     <b>{{ timeslot.time }}</b>
                                     {% if event.room %}
-                                        <p>Room: {{ event.room }}</p>
+                                        <p><b>{{ event.room }}</b></p>
                                     {% endif %}
                                 </div>
                                 <div class="col-md-10">
@@ -113,7 +113,7 @@ permalink: /program/
                                                     <p class="subevent-moderator"><b>Moderator</b>: {{ subevent.moderator }}</p>
                                                 {% endif %}
                                                 {% if subevent.room %}
-                                                    <p class="subevent-room"><b>Room</b>: {{ subevent.room }}</p>
+                                                    <p class="subevent-room"><b>{{ subevent.room }}</b></p>
                                                 {% endif %}
                                                 {% if subevent.description %}
                                                     <p>{{ subevent.description }}</p>

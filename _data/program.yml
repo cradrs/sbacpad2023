@@ -79,7 +79,7 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: false
-        room: "501"
+        room: "Room 501"
         url: "https://www.cri.ensmp.fr/conf/wamca2023/"
         subevents:
           - name: "Session 1 - Compilation and Performance"
@@ -114,17 +114,17 @@ timeslots:
           - name: "Processamento e Análise de Big Data e Aplicação de Algoritmos de Machine Learning através da utilização da Plataforma HPCC Systems"
             timeslot: "09:00 - 10:30"
             authors: "Mauro Marques (LexisNexis Risk Solutions), Alysson Oliveira (LexisNexis Risk Solutions)"
-            room: "502"
+            room: "Room 502"
             description: "Ao longo do minicurso, os participantes terão a oportunidade de conhecer os conceitos essenciais de processamento e análise de volumes massivos de dados (Big Data) e o processo de desenvolvimento de um serviço de consulta fazendo uso da plataforma opensource composta por um Cluster Computacional de Alto Desempenho (HPCC Systems) e, também, a utilização de algoritmos de Aprendizado de Máquina, bem como terão a possibilidade de aplicar os conhecimentos adquiridos em um ambiente de treinamento disponibilizado em sala de aula."
           - name: "Getting up and Running with the OpenMP Cluster Programming Model"
             timeslot: "09:00 - 10:30"
             authors: "Emilio Francesquini (Universidade Federal do ABC), Herve Yviquel (UNICAMP) Marcio Pereira (UNICAMP), Sandro Rigo (UNICAMP), Guido Araujo (UNICAMP)"
-            room: "514"
+            room: "Room 514"
             description: "The authors will present the new OpenMP Cluster (OMPC) distributed programming model in this tutorial. The OMPC runtime allows the programmer to annotate their code using OpenMP target offloading directives and run the application in a distributed environment seamlessly using a task-based programming model. OMPC is responsible for scheduling tasks to available nodes, transferring input/output data between nodes, and triggering remote execution all the while handling fault tolerance. The runtime leverages the LLVM infrastructure and is implemented using the well-known MPI library."
           - name: "Além do Básico: Otimizando Aplicações Paralelas em Arquiteturas Modernas"
             timeslot: "09:00 - 10:30"
             authors: "Arthur Lorenzon (UFRGS)"
-            room: "515"
+            room: "Room 515"
             description: "Este minicurso ensina as ferramentas e técnicas fundamentais para otimizar o desempenho e consumo de energia de aplicações escritas em linguagens C/C++, explorando a combinação de diferentes tipos de processadores, como CPUs e GPUs. O minicurso não exige nenhum conhecimento prévio em interfaces de programação paralela, mas requer alguns conhecimentos básicos em C/C++, sistemas operacionais e arquitetura de computadores."
       - name: "SBAC-PAD 1"
         detailed_name: "SBAC-PAD 1 | Best Papers I"
@@ -179,7 +179,7 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: true
-        room: "501"
+        room: "Room 501"
         url: ""
         chair: "Guilherme Galante (Unioeste)"
         papers:
@@ -248,7 +248,7 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: true
-        room: "501"
+        room: "Room 501"
         url: ""
         chair: "Alba Melo (UnB) e Rodrigo Righi (Unisinos)"
         papers:
@@ -374,7 +374,7 @@ timeslots:
         rowspan: 1
         colspan: 1
         portuguese: false
-        room: "501"
+        room: "Room 501"
         url: "https://www.cri.ensmp.fr/conf/wamca2023/"
         subevents:
           - name: "Session 3 - Accelerators and Checkpointing"
@@ -399,17 +399,17 @@ timeslots:
           - name: "Processamento e Análise de Big Data e Aplicação de Algoritmos de Machine Learning através da utilização da Plataforma HPCC Systems"
             timeslot: "11:00 - 12:00"
             authors: "Mauro Marques (LexisNexis Risk Solutions), Alysson Oliveira (LexisNexis Risk Solutions)"
-            room: "502"
+            room: "Room 502"
             description: "Ao longo do minicurso, os participantes terão a oportunidade de conhecer os conceitos essenciais de processamento e análise de volumes massivos de dados (Big Data) e o processo de desenvolvimento de um serviço de consulta fazendo uso da plataforma opensource composta por um Cluster Computacional de Alto Desempenho (HPCC Systems) e, também, a utilização de algoritmos de Aprendizado de Máquina, bem como terão a possibilidade de aplicar os conhecimentos adquiridos em um ambiente de treinamento disponibilizado em sala de aula."
           - name: "Getting up and Running with the OpenMP Cluster Programming Model"
             timeslot: "11:00 - 12:00"
             authors: "Emilio Francesquini (Universidade Federal do ABC), Herve Yviquel (UNICAMP) Marcio Pereira (UNICAMP), Sandro Rigo (UNICAMP), Guido Araujo (UNICAMP)"
-            room: "514"
+            room: "Room 514"
             description: "The authors will present the new OpenMP Cluster (OMPC) distributed programming model in this tutorial. The OMPC runtime allows the programmer to annotate their code using OpenMP target offloading directives and run the application in a distributed environment seamlessly using a task-based programming model. OMPC is responsible for scheduling tasks to available nodes, transferring input/output data between nodes, and triggering remote execution all the while handling fault tolerance. The runtime leverages the LLVM infrastructure and is implemented using the well-known MPI library."
           - name: "Além do Básico: Otimizando Aplicações Paralelas em Arquiteturas Modernas"
             timeslot: "11:00 - 12:00"
             authors: "Arthur Lorenzon (UFRGS)"
-            room: "515"
+            room: "Room 515"
             description: "Este minicurso ensina as ferramentas e técnicas fundamentais para otimizar o desempenho e consumo de energia de aplicações escritas em linguagens C/C++, explorando a combinação de diferentes tipos de processadores, como CPUs e GPUs. O minicurso não exige nenhum conhecimento prévio em interfaces de programação paralela, mas requer alguns conhecimentos básicos em C/C++, sistemas operacionais e arquitetura de computadores."
       - name: "Keynote - Ivona Brandic"
         id: "keynote-ivona-brandic"
@@ -517,7 +517,7 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: false
-        room: "501"
+        room: "Room 501"
         url: "https://www.inf.ufrgs.br/gppd/wcc/2023/"
         subevents:
           - name: "Opening Session"
@@ -548,17 +548,17 @@ timeslots:
           - name: "Are you Root? Reproducible Experiments in User Space"
             timeslot: "13:30 - 15:00"
             authors: "Vinicius Garcia Pinto (UFRGS), Lucas Nesi (UFRGS), Lucas Mello Schnorr (UFRGS)"
-            room: "502"
+            room: "Room 502"
             description: "Plataformas computacionais para processamento de alto desempenho usualmente são compartilhadas por usuários com demandas variadas. Com frequência aplicações legadas ou aquelas que possuem requisitos e dependências muito específicas sobrecarregam os administradores do sistema ou simplesmente tem sua execução inviabilizada. Uma solução passa a ser configurar, compilar e instalar a aplicação e as respectivas dependências inteiramente em espaço de usuário. Entretanto, tal tarefa é custosa e propensa a erros, o que motiva a adoção de soluções automatizadas. Neste minicurso, propomos a apresentação de duas soluções que permitem a instalação de pacotes inteiramente em espaço de usuário de maneira reprodutível e compartilhável."
           - name: "Abordagem Gamificada para Introdução em Arquitetura de Hardware Evolutivo"
             timeslot: "13:30 - 15:00"
             authors: "Bernardo Cunha (PUC Minas), Carlos Augusto Martins (PUC Minas)"
-            room: "514"
+            room: "Room 514"
             description: "Este minicurso consiste em 3 partes, de aproximadamente 50 minutos. Inicialmente, haverá exposição dos conceitos básicos para compreensão do tema, utilizando abordagem gamificada. Na segunda parte, os participantes colocarão estas novas informações em prática, \"hackeando\" o sistema evolutivo, experimentando variações nos parâmetros de entrada e de configuração. Por último, será escolhida a melhor abordagem a ser implementada em um próximo encontro (virtual), é demonstrado como o sistema selecionado pode ser implementado utilizando um dispositivo de computação reconfigurável (FPGA)."
           - name: "Armazenamento - Melhores Práticas - Construindo Sistemas de Armazenamento com a Performance Adequada"
             timeslot: "13:30 - 15:00"
             authors: "Guilherme Friol"
-            room: "515"
+            room: "Room 515"
             description: "Este minicurso abordará as principais formas de conexões existentes, tais como SATA, SCSI, SAS, iSCSI, Fibre Channel, entre outras. Os participantes poderão compreender as vantagens e desvantagens de cada uma dessas opções, bem como entender a importância da escolha correta na hora de definir a solução de armazenamento adequada para cada situação. Serão discutidos os diversos tipos de dispositivos de armazenamento existentes no mercado, tais como unidade de disco rígido (HDD) , unidades de disco sólido (SSD), unidades de fita (tape drive), cartões de memória, entre outros. Os participantes poderão entender as características de cada um desses dispositivos, bem como saber qual a melhor opção."
       - name: "SBAC-PAD 2"
         detailed_name: "SBAC-PAD 2 | Architecture"
@@ -613,7 +613,7 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: true
-        room: "501"
+        room: "Room 501"
         url: ""
         chair: "Arthur Lorenzon (UFRGS)"
         papers:
@@ -688,7 +688,7 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: true
-        room: "501"
+        room: "Room 501"
         url: ""
         chair: "Alba Melo (UnB) e Rodrigo Righi (Unisinos)"
         papers:
@@ -783,7 +783,7 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: false
-        room: "501"
+        room: "Room 501"
         url: "https://www.inf.ufrgs.br/gppd/wcc/2023/"
         subevents:
           - name: "Technical Session 2"
@@ -817,17 +817,17 @@ timeslots:
           - name: "Are you Root? Reproducible Experiments in User Space"
             timeslot: "15:30 - 17:00"
             authors: "Vinicius Garcia Pinto (UFRGS), Lucas Nesi (UFRGS), Lucas Mello Schnorr (UFRGS)"
-            room: "502"
+            room: "Room 502"
             description: "Plataformas computacionais para processamento de alto desempenho usualmente são compartilhadas por usuários com demandas variadas. Com frequência aplicações legadas ou aquelas que possuem requisitos e dependências muito específicas sobrecarregam os administradores do sistema ou simplesmente tem sua execução inviabilizada. Uma solução passa a ser configurar, compilar e instalar a aplicação e as respectivas dependências inteiramente em espaço de usuário. Entretanto, tal tarefa é custosa e propensa a erros, o que motiva a adoção de soluções automatizadas. Neste minicurso, propomos a apresentação de duas soluções que permitem a instalação de pacotes inteiramente em espaço de usuário de maneira reprodutível e compartilhável."
           - name: "Abordagem Gamificada para Introdução em Arquitetura de Hardware Evolutivo"
             timeslot: "15:30 - 17:00"
             authors: "Bernardo Cunha (PUC Minas), Carlos Augusto Martins (PUC Minas)"
-            room: "514"
+            room: "Room 514"
             description: "Este minicurso consiste em 3 partes, de aproximadamente 50 minutos. Inicialmente, haverá exposição dos conceitos básicos para compreensão do tema, utilizando abordagem gamificada. Na segunda parte, os participantes colocarão estas novas informações em prática, \"hackeando\" o sistema evolutivo, experimentando variações nos parâmetros de entrada e de configuração. Por último, será escolhida a melhor abordagem a ser implementada em um próximo encontro (virtual), é demonstrado como o sistema selecionado pode ser implementado utilizando um dispositivo de computação reconfigurável (FPGA)."
           - name: "Armazenamento - Melhores Práticas - Construindo Sistemas de Armazenamento com a Performance Adequada"
             timeslot: "15:30 - 17:00"
             authors: "Guilherme Friol"
-            room: "515"
+            room: "Room 515"
             description: "Este minicurso abordará as principais formas de conexões existentes, tais como SATA, SCSI, SAS, iSCSI, Fibre Channel, entre outras. Os participantes poderão compreender as vantagens e desvantagens de cada uma dessas opções, bem como entender a importância da escolha correta na hora de definir a solução de armazenamento adequada para cada situação. Serão discutidos os diversos tipos de dispositivos de armazenamento existentes no mercado, tais como unidade de disco rígido (HDD) , unidades de disco sólido (SSD), unidades de fita (tape drive), cartões de memória, entre outros. Os participantes poderão entender as características de cada um desses dispositivos, bem como saber qual a melhor opção."
       - name: "SBAC-PAD 3"
         detailed_name: "SBAC-PAD 3 | Distributed Systems"
@@ -882,7 +882,7 @@ timeslots:
         rowspan: 2
         colspan: 1
         portuguese: true
-        room: "501"
+        room: "Room 501"
         url: ""
         chair: "Carlos Augusto Martins (PUC Minas) e Ricardo Menotti (UFSCar)"
         papers:
@@ -971,7 +971,7 @@ timeslots:
         rowspan: 3
         colspan: 1
         portuguese: true
-        room: "501"
+        room: "Room 501"
         description: ""
         url: ""
   - time: "17:00"
