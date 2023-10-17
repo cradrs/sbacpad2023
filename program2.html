@@ -101,7 +101,14 @@ permalink: /program2/
                                         {% for subevent in event.subevents %}
                                             <div class="subevent">
                                                 <p class="subevent-timeslot"><i>{{ subevent.timeslot }}</i></p>
-                                                <h5 class="subevent-name">{{ subevent.name }}</h5>
+                                                <h5 class="subevent-name">
+                                                    {{ subevent.name }}
+                                                    {% if subevent.pdf %}
+                                                        <a href="{{ site.final_url }}/{{ subevent.pdf }}.pdf" target="_blank">
+                                                            <img src="{{ site.final_url }}/assets/img/pdf.svg" alt="PDF">
+                                                        </a>
+                                                    {% endif %}
+                                                </h5>
                                                 {% if subevent.chair %}
                                                     <p class="subevent-chair"><b>Chair</b>: {{ subevent.chair }}</p>
                                                 {% elsif subevent.speaker %}
