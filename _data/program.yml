@@ -283,6 +283,7 @@ timeslots:
             authors: "Efthyvoulos Drousiotis, Alessandro Varsi, Paul Spirakis, and Simon Maskell"
             pdf: "pdfs/sbacpad/s7p3"
       - name: "WSCAD 7"
+        detailed_name: "WSCAD 7 | Programação e Gerenciamento de Recursos"
         id: "wscad-7"
         type: "wscad-main"
         day: "day4"
