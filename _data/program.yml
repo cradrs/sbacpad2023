@@ -1025,7 +1025,8 @@ timeslots:
         moderator: "Philippe Olivier Alexandre Navaux"
   - time: "18:00"
     events:
-      - name: "Keynote - Philippe Navaux (Honorary Researcher SBAC-PAD 2022)"
+      - name: "Philippe O. A. Navaux - Academic Trajectory"
+        detailed_name: "Philippe O. A. Navaux - Academic Trajectory (Honorary Researcher SBAC-PAD 2022)"
         id: "keynote-philippe-navaux"
         type: "honorary"
         day: "day1"
@@ -1033,9 +1034,9 @@ timeslots:
         colspan: 3
         portuguese: false
         room: "Theater"
-        description: ""
+        description: "Those who received the CEACPAD award are invited to present their trajectory. We will present an overview of the main points of my career as a researcher and educator with more than 100 master's and PhD students and more than 400 published papers. From the first steps in electronic engineering projects in physical labs to current works on projects with hospitals and oil and gas companies."
         url: ""
-        speaker: "Philippe Navaux"
+        speaker: "Philippe O. A. Navaux - 2021 CEACPAD Award on HPC"
       - name: ""
         type: "space"
         rowspan: 2
