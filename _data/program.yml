@@ -1013,7 +1013,7 @@ timeslots:
         description: ""
         url: "https://cradrs.github.io/sbacpad2023/industrial_talks/#1"
         speaker: "Rogério Chola (Dell)"
-        chair: "Arthur Lorenzon"
+        chair: "Dalvan Griebler"
   - time: "17:30"
     events:
       - name: "Panel: HPC Investments in Brazil"
