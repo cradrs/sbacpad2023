@@ -460,7 +460,7 @@ timeslots:
   # - time: "11:30"
   - time: "12:00"
     events:
-      - name: "Lunch"
+      - name: "Lunch (Not included)"
         id: "lunch-1"
         type: "meal"
         day: "day1"
@@ -468,7 +468,7 @@ timeslots:
         colspan: 3
         portuguese: false
         description: ""
-      - name: "Lunch"
+      - name: "Lunch (Not included)"
         id: "lunch-2"
         type: "meal"
         day: "day2"
@@ -476,7 +476,7 @@ timeslots:
         colspan: 3
         portuguese: false
         description: ""
-      - name: "Lunch"
+      - name: "Lunch (Not included)"
         id: "lunch-3"
         type: "meal"
         day: "day3"
@@ -484,7 +484,7 @@ timeslots:
         colspan: 3
         portuguese: false
         description: ""
-      - name: "Lunch"
+      - name: "Lunch (Not included)"
         id: "lunch-4"
         type: "meal"
         day: "day4"
