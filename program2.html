@@ -89,6 +89,9 @@ permalink: /program2/
                                     </h4>
                                     {% if event.speaker %}
                                         <p class="event-speaker"><b>Speaker</b>: {{ event.speaker }}</p>
+                                        {% if event.chair %}
+                                            <p class="event-speaker"><b>Chair</b>: {{ event.chair }}</p>
+                                        {% endif %}
                                     {% elsif event.authors %}
                                         <p class="event-authors"><b>Authors</b>: {{ event.authors }}</p>
                                     {% elsif event.panelists %}
