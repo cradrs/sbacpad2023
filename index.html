@@ -4,31 +4,15 @@ title: "Home"
 ---
 
 <div class="container-fluid">
-    <!-- <div class="row" id="news">
-        <div class="col-md-10 offset-md-1">
+    <div class="row" id="conference-video">
+        <div class="col-md d-flex justify-content-center">
             <section>
-                <h1>Latest News</h1>
-
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col">Date</th>
-                            <th scope="col">News</th>
-                        </tr>
-                    </thead>
-                    {% assign news = site.news | reverse %}
-                    <tbody>
-                        {% for news_record in news %}
-                        <tr>
-                            <td>{{ news_record.date | date_to_long_string }}</td>
-                            <td>{{ news_record.text }}</td>
-                        </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
+                <video class="w-100" controls autoplay loop muted>
+                    <source src="{{ site.final_url }}/assets/video/SBACPAD2023.mp4" type="video/mp4" />
+                </video>
             </section>
         </div>
-    </div> -->
+    </div>
     <div class="row" id="about_the_conference">
         <div class="col-md-10 offset-md-1">
             <section>
