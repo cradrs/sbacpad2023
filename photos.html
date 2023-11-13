@@ -2,12 +2,6 @@
 layout: default
 title: "Photos"
 permalink: /photos/
-carousels:
-  - images: 
-    - image: ../assets/img/closing.jpg
-    - image: ../assets/img/closing2.jpg
-    - image: ../assets/img/dinner.jpg
-    - image: ../assets/img/staff.jpg
 ---
 
 <section id="light-card">
@@ -15,9 +9,31 @@ carousels:
     <h1 class="p-4 text-center">Photos</h1>
     <div class="tab-content">
       <p class="lead">
-        Here are some photos from the event.
+        Here are some photos of the event.
       </p>
-      {% include carousel.html height="50" unit="%" number="1" %}
+      <div id="carouselExampleControls" class="carousel slide" data-bs-interval="10000" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          {% for image in site.data.gallery.images %}
+          <div class="carousel-item {% if forloop.first %}active{% endif %}">
+            <img class="d-block w-100" src="{{site.final_url}}/{{ image.image }}" alt="{{ image.alt }}">
+            {% if image.caption %}
+            <div class="carousel-caption d-none d-md-block">
+              <h5>{{  image.caption }}</h5>
+              <p>{{ image.subcaption }}</p>
+            </div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
   </div>
 </section>
